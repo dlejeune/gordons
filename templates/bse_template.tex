@@ -1,0 +1,111 @@
+\documentclass[10pt]{article}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[margin=0.75in]{geometry}
+
+\usepackage[acronym]{glossaries}
+
+\usepackage[final]{pdfpages}
+
+\usepackage{setspace}
+
+\usepackage{hyperref}
+
+\usepackage{xstring}
+\usepackage{filecontents}
+
+\usepackage[%
+style=authoryear-comp,%
+maxcitenames=2, %
+maxbibnames=8, %
+mergedate=compact, %
+uniquename=false, %
+giveninits=true,%
+url=false,%
+doi=false,%
+isbn=false%
+]{biblatex}
+
+
+\usepackage{xpatch}
+
+
+\usepackage{booktabs}
+
+\usepackage{amsmath}
+
+\usepackage{array}
+
+
+\usepackage{listings}
+\usepackage[breakable]{tcolorbox}
+\tcbuselibrary{listings}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{fancyvrb}
+\usepackage{calc}
+\usepackage{enumitem}
+
+
+% \definecolor{codegray}{gray}{0.9}
+% \newcommand{\code}[1]{\colorbox{codegray}{\texttt{#1}}}
+\newcommand{\code}[1]{\texttt{#1}}
+
+%\setstretch{1.1}
+
+\usepackage{caption}
+
+
+\setlength{\parindent}{0pt}
+\usepackage{xcolor}
+\usepackage{layouts}
+\usepackage[ddmmyyyy,hhmmss]{datetime}
+
+
+\hypersetup{
+	pdftitle="Troop Report",
+	pdfauthor="Daniel Le Jeune"
+}
+
+\definecolor{grey}{HTML}{969696}
+
+
+\newcommand{\newtitle}[1]{\begin{center}{\Huge\bfseries #1 }\\ \vspace{5mm}\end{center}}
+\newcommand{\newsubtitle}[1]{\begin{center}{\color{grey}\Large\bfseries #1 }\\ \vspace{5mm}\end{center}}
+
+
+
+\usepackage{fontspec}
+
+
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Verdana}
+
+\begin{document}
+	
+	\newtitle{Gordons Shield}
+
+	\BLOCK{for base in bases}
+		\setcounter{section}{\VAR{base.base_id-1}}
+	\section{Test | \VAR{base.start_time} | \VAR{base.end_time}}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+	\BLOCK{for judge in base.judges}
+		\item \VAR{judge.name}
+	\BLOCK{endfor}
+	\end{itemize}
+
+	\BLOCK{endfor}
+
+
+
+
+\end{document}

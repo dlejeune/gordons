@@ -1,0 +1,260 @@
+[
+    {
+        "judge_id": 1,
+        "name": "Aaron Filmalter",
+        "competence": 2,
+        "bases": []
+    },
+    {
+        "judge_id": 2,
+        "name": "Abubakr Marcus",
+        "competence": 4,
+        "bases": []
+    },
+    {
+        "judge_id": 3,
+        "name": "Alys Willson-Heaton",
+        "competence": 3,
+        "bases": []
+    },
+    {
+        "judge_id": 4,
+        "name": "Ashley Minshall",
+        "competence": 3,
+        "bases": []
+    },
+    {
+        "judge_id": 5,
+        "name": "Asmaa Marcus",
+        "competence": 4,
+        "bases": []
+    },
+    {
+        "judge_id": 6,
+        "name": "Caleb Sebastian Serafin",
+        "competence": 2,
+        "bases": []
+    },
+    {
+        "judge_id": 7,
+        "name": "Capucine Wiroth",
+        "competence": 3,
+        "bases": []
+    },
+    {
+        "judge_id": 8,
+        "name": "Carmielah Achmat",
+        "competence": 2,
+        "bases": []
+    },
+    {
+        "judge_id": 9,
+        "name": "Carol Wannenburgh",
+        "competence": 3,
+        "bases": []
+    },
+    {
+        "judge_id": 10,
+        "name": "Christian John Beerwinkel",
+        "competence": 4,
+        "bases": []
+    },
+    {
+        "judge_id": 11,
+        "name": "Christopher Hapgood-Strickland",
+        "competence": 5,
+        "bases": []
+    },
+    {
+        "judge_id": 12,
+        "name": "Connor Johan Venter",
+        "competence": 4,
+        "bases": []
+    },
+    {
+        "judge_id": 13,
+        "name": "Conrad Thomas",
+        "competence": 1,
+        "bases": []
+    },
+    {
+        "judge_id": 14,
+        "name": "Daniel Skriker",
+        "competence": 1,
+        "bases": []
+    },
+    {
+        "judge_id": 15,
+        "name": "David Bosch",
+        "competence": 1,
+        "bases": []
+    },
+    {
+        "judge_id": 16,
+        "name": "David Knight",
+        "competence": 1,
+        "bases": []
+    },
+    {
+        "judge_id": 17,
+        "name": "Deen Storkey",
+        "competence": 3,
+        "bases": []
+    },
+    {
+        "judge_id": 18,
+        "name": "Dylan Cloete",
+        "competence": 1,
+        "bases": []
+    },
+    {
+        "judge_id": 19,
+        "name": "Emile Du Plooi",
+        "competence": 3,
+        "bases": []
+    },
+    {
+        "judge_id": 20,
+        "name": "Emily Gammon",
+        "competence": 1,
+        "bases": []
+    },
+    {
+        "judge_id": 21,
+        "name": "Gavin Hapgood-Strickland",
+        "competence": 2,
+        "bases": []
+    },
+    {
+        "judge_id": 22,
+        "name": "Heike Hellstrom",
+        "competence": 5,
+        "bases": []
+    },
+    {
+        "judge_id": 23,
+        "name": "James Stewart",
+        "competence": 1,
+        "bases": []
+    },
+    {
+        "judge_id": 24,
+        "name": "Jemma Gill",
+        "competence": 5,
+        "bases": []
+    },
+    {
+        "judge_id": 25,
+        "name": "Josie Adlard",
+        "competence": 5,
+        "bases": []
+    },
+    {
+        "judge_id": 26,
+        "name": "Junior Kathe",
+        "competence": 3,
+        "bases": []
+    },
+    {
+        "judge_id": 27,
+        "name": "Kaylee Fittock",
+        "competence": 5,
+        "bases": []
+    },
+    {
+        "judge_id": 28,
+        "name": "Matthew Mc Allister",
+        "competence": 4,
+        "bases": []
+    },
+    {
+        "judge_id": 29,
+        "name": "Melissa Rijs",
+        "competence": 1,
+        "bases": []
+    },
+    {
+        "judge_id": 30,
+        "name": "Neil Botha",
+        "competence": 3,
+        "bases": []
+    },
+    {
+        "judge_id": 31,
+        "name": "Nicholas MacDonald",
+        "competence": 2,
+        "bases": []
+    },
+    {
+        "judge_id": 32,
+        "name": "Orsella Schneeberger",
+        "competence": 5,
+        "bases": []
+    },
+    {
+        "judge_id": 33,
+        "name": "Petra Botes",
+        "competence": 3,
+        "bases": []
+    },
+    {
+        "judge_id": 34,
+        "name": "Rebecca Dix-Peek",
+        "competence": 4,
+        "bases": []
+    },
+    {
+        "judge_id": 35,
+        "name": "Robbie Schreiber",
+        "competence": 2,
+        "bases": []
+    },
+    {
+        "judge_id": 36,
+        "name": "Robin Hermanus",
+        "competence": 4,
+        "bases": []
+    },
+    {
+        "judge_id": 37,
+        "name": "Rosh\u00ef\u00bf\u00bd Applegate",
+        "competence": 4,
+        "bases": []
+    },
+    {
+        "judge_id": 38,
+        "name": "Sai Ehrhardt",
+        "competence": 4,
+        "bases": []
+    },
+    {
+        "judge_id": 39,
+        "name": "Sean Wilbraham",
+        "competence": 1,
+        "bases": []
+    },
+    {
+        "judge_id": 40,
+        "name": "Simon Grantham",
+        "competence": 1,
+        "bases": []
+    },
+    {
+        "judge_id": 41,
+        "name": "Simon Shoosmith",
+        "competence": 4,
+        "bases": []
+    },
+    {
+        "judge_id": 42,
+        "name": "Tikana May",
+        "competence": 3,
+        "bases": []
+    },
+    {
+        "judge_id": 43,
+        "name": "Tracey le Roux",
+        "competence": 4,
+        "bases": []
+    }
+]

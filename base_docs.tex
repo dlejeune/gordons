@@ -1,0 +1,986 @@
+\documentclass[10pt]{article}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[margin=0.75in]{geometry}
+
+\usepackage[acronym]{glossaries}
+
+\usepackage[final]{pdfpages}
+
+\usepackage{setspace}
+
+\usepackage{hyperref}
+
+\usepackage{xstring}
+\usepackage{filecontents}
+
+\usepackage[%
+style=authoryear-comp,%
+maxcitenames=2, %
+maxbibnames=8, %
+mergedate=compact, %
+uniquename=false, %
+giveninits=true,%
+url=false,%
+doi=false,%
+isbn=false%
+]{biblatex}
+
+
+\usepackage{xpatch}
+
+
+\usepackage{booktabs}
+
+\usepackage{amsmath}
+
+\usepackage{array}
+
+
+\usepackage{listings}
+\usepackage[breakable]{tcolorbox}
+\tcbuselibrary{listings}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{fancyvrb}
+\usepackage{calc}
+\usepackage{enumitem}
+
+
+% \definecolor{codegray}{gray}{0.9}
+% \newcommand{\code}[1]{\colorbox{codegray}{\texttt{#1}}}
+\newcommand{\code}[1]{\texttt{#1}}
+
+%\setstretch{1.1}
+
+\usepackage{caption}
+
+
+\setlength{\parindent}{0pt}
+\usepackage{xcolor}
+\usepackage{layouts}
+\usepackage[ddmmyyyy,hhmmss]{datetime}
+
+
+\hypersetup{
+	pdftitle="Troop Report",
+	pdfauthor="Daniel Le Jeune"
+}
+
+\definecolor{grey}{HTML}{969696}
+
+
+\newcommand{\newtitle}[1]{\begin{center}{\Huge\bfseries #1 }\\ \vspace{5mm}\end{center}}
+\newcommand{\newsubtitle}[1]{\begin{center}{\color{grey}\Large\bfseries #1 }\\ \vspace{5mm}\end{center}}
+
+
+
+\usepackage{fontspec}
+
+
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Verdana}
+
+\begin{document}
+	
+	\newtitle{Gordons Shield}
+
+			\setcounter{section}{2}
+	\section{Test | 2023-09-16 12:00:00 | 2023-09-16 13:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Melissa Rijs
+			\item Caleb Sebastian Serafin
+			\item Capucine Wiroth
+			\item Asmaa Marcus
+			\item Orsella Schneeberger
+			\item David Bosch
+		\end{itemize}
+
+			\setcounter{section}{3}
+	\section{Test | 2023-09-16 13:00:00 | 2023-09-16 14:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Melissa Rijs
+			\item Robbie Schreiber
+			\item Alys Willson-Heaton
+			\item Robin Hermanus
+			\item Heike Hellstrom
+			\item David Knight
+		\end{itemize}
+
+			\setcounter{section}{4}
+	\section{Test | 2023-09-16 14:00:00 | 2023-09-16 15:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Conrad Thomas
+			\item Caleb Sebastian Serafin
+			\item Carol Wannenburgh
+			\item Sai Ehrhardt
+			\item Kaylee Fittock
+			\item Melissa Rijs
+		\end{itemize}
+
+			\setcounter{section}{5}
+	\section{Test | 2023-09-16 14:00:00 | 2023-09-16 15:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item David Bosch
+			\item Gavin Hapgood-Strickland
+			\item Deen Storkey
+			\item Abubakr Marcus
+			\item Christopher Hapgood-Strickland
+			\item Sean Wilbraham
+		\end{itemize}
+
+			\setcounter{section}{6}
+	\section{Test | 2023-09-16 14:00:00 | 2023-09-16 15:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Simon Grantham
+			\item Carmielah Achmat
+			\item Alys Willson-Heaton
+			\item Rebecca Dix-Peek
+			\item Jemma Gill
+			\item Dylan Cloete
+		\end{itemize}
+
+			\setcounter{section}{7}
+	\section{Test | 2023-09-16 14:30:00 | 2023-09-16 15:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item James Stewart
+			\item Robbie Schreiber
+			\item Capucine Wiroth
+			\item Connor Johan Venter
+			\item Heike Hellstrom
+			\item David Knight
+		\end{itemize}
+
+			\setcounter{section}{8}
+	\section{Test | 2023-09-16 14:30:00 | 2023-09-16 15:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Emily Gammon
+			\item Aaron Filmalter
+			\item Neil Botha
+			\item Tracey le Roux
+			\item Josie Adlard
+			\item Daniel Skriker
+			\item Nicholas MacDonald
+			\item Emile Du Plooi
+		\end{itemize}
+
+			\setcounter{section}{9}
+	\section{Test | 2023-09-16 15:00:00 | 2023-09-16 16:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Sean Wilbraham
+			\item Gavin Hapgood-Strickland
+			\item Ashley Minshall
+			\item Robin Hermanus
+			\item Christopher Hapgood-Strickland
+			\item David Bosch
+			\item Carmielah Achmat
+			\item Tikana May
+		\end{itemize}
+
+			\setcounter{section}{10}
+	\section{Test | 2023-09-16 15:00:00 | 2023-09-16 16:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Conrad Thomas
+			\item Caleb Sebastian Serafin
+			\item Carol Wannenburgh
+			\item Asmaa Marcus
+			\item Jemma Gill
+			\item Melissa Rijs
+			\item Alys Willson-Heaton
+			\item Rosh� Applegate
+			\item Kaylee Fittock
+			\item Dylan Cloete
+		\end{itemize}
+
+			\setcounter{section}{11}
+	\section{Test | 2023-09-16 15:30:00 | 2023-09-16 16:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item David Knight
+			\item Nicholas MacDonald
+			\item Capucine Wiroth
+			\item Rebecca Dix-Peek
+			\item Orsella Schneeberger
+			\item Emily Gammon
+			\item Aaron Filmalter
+			\item Emile Du Plooi
+			\item Matthew Mc Allister
+			\item Josie Adlard
+		\end{itemize}
+
+			\setcounter{section}{12}
+	\section{Test | 2023-09-16 15:30:00 | 2023-09-16 16:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Simon Grantham
+			\item Robbie Schreiber
+			\item Neil Botha
+			\item Sai Ehrhardt
+			\item Heike Hellstrom
+			\item James Stewart
+		\end{itemize}
+
+			\setcounter{section}{13}
+	\section{Test | 2023-09-16 16:00:00 | 2023-09-16 17:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Conrad Thomas
+			\item Caleb Sebastian Serafin
+			\item Petra Botes
+			\item Robin Hermanus
+			\item Kaylee Fittock
+			\item Sean Wilbraham
+			\item Carmielah Achmat
+			\item Junior Kathe
+		\end{itemize}
+
+			\setcounter{section}{14}
+	\section{Test | 2023-09-16 16:00:00 | 2023-09-16 17:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Daniel Skriker
+			\item Gavin Hapgood-Strickland
+			\item Carol Wannenburgh
+			\item Tracey le Roux
+			\item Christopher Hapgood-Strickland
+			\item David Bosch
+			\item Alys Willson-Heaton
+			\item Abubakr Marcus
+			\item Jemma Gill
+			\item Melissa Rijs
+		\end{itemize}
+
+			\setcounter{section}{15}
+	\section{Test | 2023-09-16 16:30:00 | 2023-09-16 17:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item James Stewart
+			\item Robbie Schreiber
+			\item Capucine Wiroth
+			\item Matthew Mc Allister
+			\item Heike Hellstrom
+			\item Emily Gammon
+		\end{itemize}
+
+			\setcounter{section}{16}
+	\section{Test | 2023-09-16 16:30:00 | 2023-09-16 17:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Simon Grantham
+			\item Aaron Filmalter
+			\item Emile Du Plooi
+			\item Rebecca Dix-Peek
+			\item Orsella Schneeberger
+			\item Dylan Cloete
+			\item Nicholas MacDonald
+			\item Tikana May
+			\item Asmaa Marcus
+			\item Josie Adlard
+		\end{itemize}
+
+			\setcounter{section}{17}
+	\section{Test | 2023-09-16 17:00:00 | 2023-09-16 18:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item David Bosch
+			\item Caleb Sebastian Serafin
+			\item Ashley Minshall
+			\item Tracey le Roux
+			\item Kaylee Fittock
+			\item David Knight
+		\end{itemize}
+
+			\setcounter{section}{18}
+	\section{Test | 2023-09-16 17:00:00 | 2023-09-16 18:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Daniel Skriker
+			\item Gavin Hapgood-Strickland
+			\item Deen Storkey
+			\item Christian John Beerwinkel
+			\item Jemma Gill
+			\item Sean Wilbraham
+			\item Carmielah Achmat
+			\item Alys Willson-Heaton
+		\end{itemize}
+
+			\setcounter{section}{19}
+	\section{Test | 2023-09-16 17:00:00 | 2023-09-16 18:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Melissa Rijs
+			\item Junior Kathe
+			\item Robin Hermanus
+			\item Christopher Hapgood-Strickland
+			\item Conrad Thomas
+			\item Neil Botha
+			\item Rosh� Applegate
+			\item Petra Botes
+			\item Sai Ehrhardt
+			\item Carol Wannenburgh
+		\end{itemize}
+
+			\setcounter{section}{20}
+	\section{Test | 2023-09-16 17:30:00 | 2023-09-16 18:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Simon Grantham
+			\item Nicholas MacDonald
+			\item Capucine Wiroth
+			\item Asmaa Marcus
+			\item Heike Hellstrom
+			\item James Stewart
+			\item Robbie Schreiber
+			\item Emile Du Plooi
+			\item Rebecca Dix-Peek
+			\item Josie Adlard
+		\end{itemize}
+
+			\setcounter{section}{21}
+	\section{Test | 2023-09-16 19:00:00 | 2023-09-16 20:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Simon Grantham
+			\item Carmielah Achmat
+			\item Petra Botes
+			\item Rosh� Applegate
+			\item Jemma Gill
+			\item Dylan Cloete
+			\item Gavin Hapgood-Strickland
+			\item Junior Kathe
+			\item Matthew Mc Allister
+			\item Heike Hellstrom
+			\item Conrad Thomas
+			\item Caleb Sebastian Serafin
+			\item Alys Willson-Heaton
+			\item Connor Johan Venter
+			\item Josie Adlard
+			\item Sean Wilbraham
+			\item Aaron Filmalter
+			\item Capucine Wiroth
+			\item Robin Hermanus
+			\item Orsella Schneeberger
+			\item David Bosch
+			\item Nicholas MacDonald
+			\item Emile Du Plooi
+			\item Rebecca Dix-Peek
+			\item Christopher Hapgood-Strickland
+			\item Melissa Rijs
+			\item Robbie Schreiber
+			\item Neil Botha
+			\item Asmaa Marcus
+			\item Kaylee Fittock
+			\item Emily Gammon
+			\item Tikana May
+			\item Tracey le Roux
+			\item Daniel Skriker
+			\item Deen Storkey
+			\item Sai Ehrhardt
+			\item David Knight
+			\item Ashley Minshall
+			\item Simon Shoosmith
+			\item James Stewart
+			\item Carol Wannenburgh
+			\item Christian John Beerwinkel
+		\end{itemize}
+
+			\setcounter{section}{22}
+	\section{Test | 2023-09-16 20:30:00 | 2023-09-16 22:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Emily Gammon
+			\item Aaron Filmalter
+			\item Alys Willson-Heaton
+			\item Asmaa Marcus
+			\item Christopher Hapgood-Strickland
+			\item David Bosch
+		\end{itemize}
+
+			\setcounter{section}{23}
+	\section{Test | 2023-09-16 20:30:00 | 2023-09-16 22:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Daniel Skriker
+			\item Nicholas MacDonald
+			\item Deen Storkey
+			\item Simon Shoosmith
+			\item Heike Hellstrom
+		\end{itemize}
+
+			\setcounter{section}{24}
+	\section{Test | 2023-09-16 20:30:00 | 2023-09-16 22:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item James Stewart
+			\item Caleb Sebastian Serafin
+			\item Carol Wannenburgh
+			\item Sai Ehrhardt
+			\item Josie Adlard
+			\item Sean Wilbraham
+			\item Gavin Hapgood-Strickland
+			\item Ashley Minshall
+		\end{itemize}
+
+			\setcounter{section}{25}
+	\section{Test | 2023-09-16 20:30:00 | 2023-09-16 22:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Melissa Rijs
+			\item Carmielah Achmat
+			\item Emile Du Plooi
+			\item Tracey le Roux
+			\item Kaylee Fittock
+			\item Conrad Thomas
+		\end{itemize}
+
+			\setcounter{section}{26}
+	\section{Test | 2023-09-16 23:00:00 | 2023-09-16 23:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item David Knight
+			\item Robbie Schreiber
+			\item Alys Willson-Heaton
+			\item Matthew Mc Allister
+			\item Heike Hellstrom
+			\item Dylan Cloete
+			\item Caleb Sebastian Serafin
+			\item Tikana May
+			\item Simon Shoosmith
+			\item Orsella Schneeberger
+			\item David Bosch
+			\item Nicholas MacDonald
+			\item Neil Botha
+			\item Tracey le Roux
+			\item Christopher Hapgood-Strickland
+			\item Conrad Thomas
+			\item Gavin Hapgood-Strickland
+			\item Carol Wannenburgh
+			\item Connor Johan Venter
+			\item Josie Adlard
+		\end{itemize}
+
+			\setcounter{section}{27}
+	\section{Test | 2023-09-16 23:00:00 | 2023-09-16 23:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item James Stewart
+			\item Carmielah Achmat
+			\item Ashley Minshall
+			\item Sai Ehrhardt
+			\item Kaylee Fittock
+			\item Sean Wilbraham
+			\item Aaron Filmalter
+			\item Deen Storkey
+			\item Robin Hermanus
+			\item Jemma Gill
+			\item Emily Gammon
+			\item Petra Botes
+			\item Rosh� Applegate
+			\item Simon Grantham
+			\item Emile Du Plooi
+			\item Abubakr Marcus
+			\item Daniel Skriker
+			\item Capucine Wiroth
+			\item Rebecca Dix-Peek
+			\item Melissa Rijs
+		\end{itemize}
+
+			\setcounter{section}{28}
+	\section{Test | 2023-09-17 08:00:00 | 2023-09-17 09:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Emily Gammon
+			\item Aaron Filmalter
+			\item Petra Botes
+			\item Robin Hermanus
+			\item Christopher Hapgood-Strickland
+			\item Sean Wilbraham
+			\item Carmielah Achmat
+			\item Carol Wannenburgh
+			\item Rebecca Dix-Peek
+			\item Kaylee Fittock
+		\end{itemize}
+
+			\setcounter{section}{29}
+	\section{Test | 2023-09-17 08:00:00 | 2023-09-17 09:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item David Knight
+			\item Gavin Hapgood-Strickland
+			\item Deen Storkey
+			\item Rosh� Applegate
+			\item Orsella Schneeberger
+			\item Daniel Skriker
+			\item Robbie Schreiber
+			\item Emile Du Plooi
+			\item Asmaa Marcus
+			\item Josie Adlard
+		\end{itemize}
+
+			\setcounter{section}{30}
+	\section{Test | 2023-09-17 08:00:00 | 2023-09-17 09:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Conrad Thomas
+			\item Caleb Sebastian Serafin
+			\item Alys Willson-Heaton
+			\item Abubakr Marcus
+			\item Jemma Gill
+			\item Simon Grantham
+			\item Nicholas MacDonald
+			\item Junior Kathe
+			\item Sai Ehrhardt
+			\item Heike Hellstrom
+		\end{itemize}
+
+			\setcounter{section}{31}
+	\section{Test | 2023-09-17 08:00:00 | 2023-09-17 09:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Dylan Cloete
+			\item Neil Botha
+			\item Matthew Mc Allister
+			\item James Stewart
+			\item Tikana May
+			\item Simon Shoosmith
+			\item David Bosch
+			\item Ashley Minshall
+			\item Tracey le Roux
+			\item Melissa Rijs
+		\end{itemize}
+
+			\setcounter{section}{32}
+	\section{Test | 2023-09-17 09:00:00 | 2023-09-17 10:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Simon Grantham
+			\item Aaron Filmalter
+			\item Deen Storkey
+			\item Tracey le Roux
+			\item Kaylee Fittock
+			\item Conrad Thomas
+		\end{itemize}
+
+			\setcounter{section}{33}
+	\section{Test | 2023-09-17 09:00:00 | 2023-09-17 10:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item James Stewart
+			\item Robbie Schreiber
+			\item Junior Kathe
+			\item Rebecca Dix-Peek
+			\item Heike Hellstrom
+			\item Emily Gammon
+		\end{itemize}
+
+			\setcounter{section}{34}
+	\section{Test | 2023-09-17 09:30:00 | 2023-09-17 10:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Melissa Rijs
+			\item Nicholas MacDonald
+			\item Ashley Minshall
+			\item Christian John Beerwinkel
+			\item Orsella Schneeberger
+			\item Daniel Skriker
+		\end{itemize}
+
+			\setcounter{section}{35}
+	\section{Test | 2023-09-17 09:30:00 | 2023-09-17 10:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Sean Wilbraham
+			\item Gavin Hapgood-Strickland
+			\item Carol Wannenburgh
+			\item Matthew Mc Allister
+			\item Christopher Hapgood-Strickland
+			\item David Bosch
+			\item Carmielah Achmat
+			\item Emile Du Plooi
+			\item Simon Shoosmith
+			\item Jemma Gill
+		\end{itemize}
+
+			\setcounter{section}{36}
+	\section{Test | 2023-09-17 10:00:00 | 2023-09-17 11:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Sean Wilbraham
+			\item Aaron Filmalter
+			\item Neil Botha
+			\item Sai Ehrhardt
+			\item Jemma Gill
+			\item Emily Gammon
+		\end{itemize}
+
+			\setcounter{section}{37}
+	\section{Test | 2023-09-17 10:00:00 | 2023-09-17 11:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Conrad Thomas
+			\item Robbie Schreiber
+			\item Deen Storkey
+			\item Tracey le Roux
+			\item Christopher Hapgood-Strickland
+			\item James Stewart
+		\end{itemize}
+
+			\setcounter{section}{38}
+	\section{Test | 2023-09-17 10:00:00 | 2023-09-17 10:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item David Knight
+			\item Gavin Hapgood-Strickland
+			\item Capucine Wiroth
+			\item Asmaa Marcus
+			\item Heike Hellstrom
+			\item Dylan Cloete
+			\item Carmielah Achmat
+			\item Tikana May
+			\item Connor Johan Venter
+			\item Josie Adlard
+		\end{itemize}
+
+			\setcounter{section}{39}
+	\section{Test | 2023-09-17 10:30:00 | 2023-09-17 11:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Daniel Skriker
+			\item Carmielah Achmat
+			\item Ashley Minshall
+			\item Robin Hermanus
+			\item Orsella Schneeberger
+			\item David Knight
+			\item Nicholas MacDonald
+			\item Tikana May
+			\item Abubakr Marcus
+			\item Josie Adlard
+		\end{itemize}
+
+			\setcounter{section}{40}
+	\section{Test | 2023-09-17 11:00:00 | 2023-09-17 12:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Conrad Thomas
+			\item Caleb Sebastian Serafin
+			\item Emile Du Plooi
+			\item Sai Ehrhardt
+			\item Jemma Gill
+			\item Sean Wilbraham
+		\end{itemize}
+
+			\setcounter{section}{41}
+	\section{Test | 2023-09-17 11:00:00 | 2023-09-17 12:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Daniel Skriker
+			\item Gavin Hapgood-Strickland
+			\item Alys Willson-Heaton
+			\item Connor Johan Venter
+			\item Christopher Hapgood-Strickland
+			\item Simon Grantham
+		\end{itemize}
+
+			\setcounter{section}{42}
+	\section{Test | 2023-09-17 11:00:00 | 2023-09-17 12:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Melissa Rijs
+			\item Nicholas MacDonald
+			\item Capucine Wiroth
+			\item Asmaa Marcus
+			\item Heike Hellstrom
+			\item James Stewart
+		\end{itemize}
+
+			\setcounter{section}{43}
+	\section{Test | 2023-09-17 11:00:00 | 2023-09-17 12:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item David Knight
+			\item Aaron Filmalter
+			\item Junior Kathe
+			\item Matthew Mc Allister
+			\item Orsella Schneeberger
+			\item David Bosch
+		\end{itemize}
+
+			\setcounter{section}{44}
+	\section{Test | 2023-09-17 11:00:00 | 2023-09-17 12:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Dylan Cloete
+			\item Robbie Schreiber
+			\item Neil Botha
+			\item Tracey le Roux
+			\item Kaylee Fittock
+			\item Emily Gammon
+		\end{itemize}
+
+			\setcounter{section}{45}
+	\section{Test | 2023-09-17 11:00:00 | 2023-09-17 12:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Carmielah Achmat
+			\item Ashley Minshall
+			\item Rebecca Dix-Peek
+			\item Josie Adlard
+			\item Deen Storkey
+			\item Rosh� Applegate
+		\end{itemize}
+
+			\setcounter{section}{46}
+	\section{Test | 2023-09-17 11:00:00 | 2023-09-17 12:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Carol Wannenburgh
+			\item Robin Hermanus
+			\item Tikana May
+			\item Christian John Beerwinkel
+			\item Petra Botes
+			\item Abubakr Marcus
+		\end{itemize}
+
+			\setcounter{section}{47}
+	\section{Test | 2023-09-17 13:00:00 | 2023-09-17 13:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Conrad Thomas
+			\item Nicholas MacDonald
+			\item Junior Kathe
+			\item Tracey le Roux
+			\item Kaylee Fittock
+			\item Emily Gammon
+			\item Gavin Hapgood-Strickland
+			\item Emile Du Plooi
+			\item Rebecca Dix-Peek
+			\item Jemma Gill
+		\end{itemize}
+
+			\setcounter{section}{48}
+	\section{Test | 2023-09-17 13:30:00 | 2023-09-17 14:00:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Simon Grantham
+			\item Carmielah Achmat
+			\item Carol Wannenburgh
+			\item Asmaa Marcus
+			\item Orsella Schneeberger
+			\item Melissa Rijs
+			\item Aaron Filmalter
+			\item Neil Botha
+			\item Matthew Mc Allister
+			\item Jemma Gill
+		\end{itemize}
+
+			\setcounter{section}{49}
+	\section{Test | 2023-09-17 14:30:00 | 2023-09-17 15:30:00}
+	This is an example description of a base. It is a very long description and it is very boring. It is so boring that I am going to stop writing it now.
+
+	\subsection*{Judges}
+	\begin{itemize}
+
+			\item Sean Wilbraham
+			\item Gavin Hapgood-Strickland
+			\item Junior Kathe
+			\item Rebecca Dix-Peek
+			\item Kaylee Fittock
+			\item David Knight
+			\item Robbie Schreiber
+			\item Deen Storkey
+			\item Tracey le Roux
+			\item Heike Hellstrom
+			\item Simon Grantham
+			\item Nicholas MacDonald
+			\item Neil Botha
+			\item Christian John Beerwinkel
+			\item Christopher Hapgood-Strickland
+			\item David Bosch
+			\item Caleb Sebastian Serafin
+			\item Carol Wannenburgh
+			\item Rosh� Applegate
+			\item Orsella Schneeberger
+			\item Melissa Rijs
+			\item Aaron Filmalter
+			\item Emile Du Plooi
+			\item Abubakr Marcus
+			\item Jemma Gill
+			\item Dylan Cloete
+			\item Carmielah Achmat
+			\item Capucine Wiroth
+			\item Asmaa Marcus
+			\item Josie Adlard
+			\item Emily Gammon
+			\item Tikana May
+			\item Connor Johan Venter
+			\item Daniel Skriker
+			\item Ashley Minshall
+			\item Matthew Mc Allister
+			\item Conrad Thomas
+			\item Alys Willson-Heaton
+			\item Sai Ehrhardt
+			\item James Stewart
+			\item Petra Botes
+			\item Robin Hermanus
+		\end{itemize}
+
+	
+
+
+
+\end{document}

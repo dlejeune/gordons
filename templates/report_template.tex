@@ -1,0 +1,211 @@
+\documentclass[10pt]{article}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[margin=0.75in]{geometry}
+
+\usepackage[acronym]{glossaries}
+
+\usepackage[final]{pdfpages}
+
+\usepackage{setspace}
+
+\usepackage{hyperref}
+
+\usepackage{xstring}
+\usepackage{filecontents}
+
+\usepackage[%
+style=authoryear-comp,%
+maxcitenames=2, %
+maxbibnames=8, %
+mergedate=compact, %
+uniquename=false, %
+giveninits=true,%
+url=false,%
+doi=false,%
+isbn=false%
+]{biblatex}
+
+
+\usepackage{xpatch}
+
+
+\usepackage{booktabs}
+
+\usepackage{amsmath}
+
+\usepackage{array}
+
+
+\usepackage{listings}
+\usepackage[breakable]{tcolorbox}
+\tcbuselibrary{listings}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{fancyvrb}
+\usepackage{calc}
+\usepackage{enumitem}
+
+
+% \definecolor{codegray}{gray}{0.9}
+% \newcommand{\code}[1]{\colorbox{codegray}{\texttt{#1}}}
+\newcommand{\code}[1]{\texttt{#1}}
+
+%\setstretch{1.1}
+
+\usepackage{caption}
+
+
+\setlength{\parindent}{0pt}
+\usepackage{xcolor}
+\usepackage{layouts}
+\usepackage[ddmmyyyy,hhmmss]{datetime}
+
+
+\hypersetup{
+	pdftitle="Troop Report",
+	pdfauthor="Daniel Le Jeune"
+}
+
+\definecolor{grey}{HTML}{969696}
+
+
+\newcommand{\newtitle}[1]{\begin{center}{\Huge\bfseries #1 }\\ \vspace{5mm}\end{center}}
+\newcommand{\newsubtitle}[1]{\begin{center}{\color{grey}\Large\bfseries #1 }\\ \vspace{5mm}\end{center}}
+
+
+
+\usepackage{fontspec}
+
+
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Verdana}
+
+\begin{document}
+
+\newtitle{Troop Report}
+\newsubtitle{\VAR{from_date} - \VAR{to_date}}
+
+\section{Numbers}
+There are currently \VAR{demographics.tables.total} invested scouts in the troop. \\
+
+\begin{multicols}{2}
+
+\renewcommand{\arraystretch}{1.3}
+
+\begin{tabular}{p{4cm}p{2cm}}
+	\textbf{Age} & \textbf{Number}\\ \toprule
+	\BLOCK{for row in demographics.tables.age_split }
+	\VAR{row} & \VAR{demographics.tables.age_split[row]} \\ \midrule
+	\BLOCK{endfor}
+\end{tabular}
+
+\columnbreak
+\vfill
+\renewcommand{\arraystretch}{1.3}
+
+\begin{tabular}{p{4cm}p{2cm}}
+	\textbf{Age} & \textbf{Number}\\ \toprule
+	\BLOCK{for row in demographics.tables.gender_split}
+	\VAR{row} & \VAR{demographics.tables.gender_split[row]} \\ \midrule
+	\BLOCK{endfor}
+\end{tabular}
+
+\end{multicols}	
+
+\section{Badges}
+Over the course of the reporting period, we awarded \VAR{badges.tables.total_badges} badges. \\
+
+\subsection{Badge Types}
+
+\renewcommand{\arraystretch}{1.3}
+
+\begin{center}
+	\begin{tabular}{p{5cm}p{2cm}p{2cm}}
+	\textbf{Type} & \textbf{Report} & \textbf{Year}\\ \toprule
+	\BLOCK{for row in badges.tables.report_badge_types}
+	\VAR{row} & \VAR{badges.tables.report_badge_types[row]} & \VAR{badges.tables.yearly_badges_types[row]} \\ \midrule
+	\BLOCK{endfor}
+\end{tabular}
+\end{center}
+
+\subsection{All Badges}
+\renewcommand{\arraystretch}{1.3}
+
+\begin{center}
+	\begin{longtable}{p{7cm}p{2cm}}
+	\textbf{Badge} & \textbf{Number}\\ \toprule
+	\BLOCK{for row in badges.tables.badge_names_awarded}
+	\VAR{sanitize(row)} & \VAR{badges.tables.badge_names_awarded[row]} \\ \midrule
+	\BLOCK{endfor}
+\end{longtable}
+\end{center}
+
+\subsection{Scouts awarded}
+
+\begin{center}
+\renewcommand{\arraystretch}{1.3}	
+\begin{longtable}{p{7cm}p{2cm}}
+	\textbf{Scout} & \textbf{Number}\\ \toprule
+	\BLOCK{for row in badges.tables.people_badges}
+	\VAR{row} & \VAR{badges.tables.people_badges[row]} \\ \midrule
+	\BLOCK{endfor}
+\end{longtable}
+
+\end{center}
+
+\section{Events}
+
+During the reporting period we held \VAR{events.tables.averages.reportly_num} events. On average each event had \VAR{events.tables.averages.reportly_attendance} scouts attending. \\
+
+\subsection{Event Attendance}
+
+\begin{center}
+	\renewcommand{\arraystretch}{1.3}	
+	\begin{longtable}{p{7cm}p{2cm}}
+		\textbf{Scout} & \textbf{Number}\\ \toprule
+		\BLOCK{for row in events.tables.event_attendance}
+		\VAR{row} & \VAR{events.tables.event_attendance[row]} \\ \midrule
+		\BLOCK{endfor}
+	\end{longtable}
+	
+\end{center}
+
+\section{Advancement}
+
+Over the course of this reporting period, \VAR{advancement.report_total_tasks} tasks were signed off, with a yearly total of \VAR{advancement.year_total_tasks}. \\
+
+\subsection{Breakdown By Theme}
+
+\begin{center}
+	\renewcommand{\arraystretch}{1.3}	
+	\begin{tabular}{p{7cm}p{4cm}p{4cm}}
+		\textbf{Theme} & \textbf{Number this report} & \textbf{Number this year}\\ \toprule
+		\BLOCK{for row in advancement.task_by_theme.year}
+		\VAR{row} & \VAR{advancement.task_by_theme.report[row]} & \VAR{advancement.task_by_theme.year[row]} \\ \midrule
+		\BLOCK{endfor}
+	\end{tabular}
+	
+\end{center}
+
+
+\subsection{Breakdown By Level}
+
+\begin{center}
+	\renewcommand{\arraystretch}{1.3}	
+	\begin{tabular}{p{7cm}p{4cm}p{4cm}}
+		\textbf{Level} & \textbf{Number this report} & \textbf{Number this year}\\ \toprule
+		\BLOCK{for row in advancement.task_by_level.year}
+		\VAR{row} & \VAR{advancement.task_by_level.report[row]} & \VAR{advancement.task_by_level.year[row]} \\ \midrule
+		\BLOCK{endfor}
+	\end{tabular}
+	
+\end{center}
+
+
+\end{document}
