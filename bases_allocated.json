@@ -4,8 +4,8 @@
         "start_time": "2023-09-16 00:00:00",
         "end_time": "2023-09-16 00:00:00",
         "base_name": "Entry on Time",
-        "base_description": NaN,
-        "base_location": NaN,
+        "base_description": "Just a placeholder base for teams' entry on time.",
+        "base_location": "None",
         "base_type": "Admin",
         "marks": 5,
         "num_judges": 6,
@@ -16,7 +16,9 @@
             5,
             32,
             15
-        ]
+        ],
+        "equipment": [],
+        "documents": []
     },
     {
         "base_id": 2,
@@ -35,6 +37,78 @@
             36,
             22,
             16
+        ],
+        "equipment": [
+            {
+                "name": "Consent Forms",
+                "amount": 8.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Team Register",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Table",
+                "amount": 4.0,
+                "e_type": "Staff",
+                "have": true,
+                "notes": NaN
+            },
+            {
+                "name": "Chairs",
+                "amount": 8.0,
+                "e_type": "Staff",
+                "have": true,
+                "notes": NaN
+            },
+            {
+                "name": "Document Tray",
+                "amount": 3.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": [
+            {
+                "name": "Team Checklist",
+                "base_id": 2.0,
+                "amount": 7.0,
+                "is_printed": false,
+                "size": "A4",
+                "colour": false,
+                "laminated": false,
+                "double_sided": false,
+                "notes": NaN
+            },
+            {
+                "name": "Medical Issue Sheet",
+                "base_id": 2.0,
+                "amount": 7.0,
+                "is_printed": false,
+                "size": "A4",
+                "colour": false,
+                "laminated": false,
+                "double_sided": false,
+                "notes": NaN
+            },
+            {
+                "name": "Marksheet",
+                "base_id": 2.0,
+                "amount": 7.0,
+                "is_printed": false,
+                "size": "A4",
+                "colour": false,
+                "laminated": false,
+                "double_sided": false,
+                "notes": NaN
+            }
         ]
     },
     {
@@ -54,6 +128,20 @@
             38,
             27,
             29
+        ],
+        "equipment": [],
+        "documents": [
+            {
+                "name": "Marksheet",
+                "base_id": 3.0,
+                "amount": 7.0,
+                "is_printed": false,
+                "size": "A4",
+                "colour": false,
+                "laminated": false,
+                "double_sided": false,
+                "notes": NaN
+            }
         ]
     },
     {
@@ -73,7 +161,9 @@
             2,
             11,
             39
-        ]
+        ],
+        "equipment": [],
+        "documents": []
     },
     {
         "base_id": 5,
@@ -92,7 +182,38 @@
             34,
             24,
             13
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Plastic Water Bottle, 2L",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Cotton Wool",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Things to make a water filter with",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Bin",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": true,
+                "notes": "For Rubbish"
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 6,
@@ -111,7 +232,38 @@
             12,
             27,
             16
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Pen",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Notepad",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Ruler",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Clipboard",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 7,
@@ -130,7 +282,38 @@
             43,
             25,
             14
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Clipboard",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Compass",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Pen",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Notepad",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 8,
@@ -151,7 +334,31 @@
             18,
             31,
             9
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Bench and Table",
+                "amount": 4.0,
+                "e_type": "Staff",
+                "have": true,
+                "notes": NaN
+            },
+            {
+                "name": "Thick long rope",
+                "amount": 4.0,
+                "e_type": "Staff",
+                "have": true,
+                "notes": NaN
+            },
+            {
+                "name": "Staves",
+                "amount": 2.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 9,
@@ -172,7 +379,24 @@
             39,
             35,
             17
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Notepad",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Pen",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 10,
@@ -195,7 +419,31 @@
             37,
             32,
             16
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "First Aid Kit",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Splints",
+                "amount": 2.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Large box of lego",
+                "amount": 1.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": "Should probably be sorted into colours?"
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 11,
@@ -218,7 +466,9 @@
             7,
             12,
             25
-        ]
+        ],
+        "equipment": [],
+        "documents": []
     },
     {
         "base_id": 12,
@@ -237,7 +487,9 @@
             38,
             22,
             23
-        ]
+        ],
+        "equipment": [],
+        "documents": []
     },
     {
         "base_id": 13,
@@ -258,7 +510,38 @@
             15,
             8,
             4
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Flint and Steel",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Fire Drums",
+                "amount": 6.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Fire Beaters",
+                "amount": 4.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Fire Extinguisher",
+                "amount": 1.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 14,
@@ -281,7 +564,59 @@
             41,
             24,
             16
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "First Aid Kit",
+                "amount": 1.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Warning Flags",
+                "amount": 4.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Pellet Guns",
+                "amount": 6.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Pellets",
+                "amount": 500.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Table",
+                "amount": 3.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Rope, 10m",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Measuring tape ",
+                "amount": 1.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 15,
@@ -300,7 +635,9 @@
             34,
             25,
             23
-        ]
+        ],
+        "equipment": [],
+        "documents": []
     },
     {
         "base_id": 16,
@@ -323,7 +660,17 @@
             30,
             36,
             11
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "First Aid Kit",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 17,
@@ -342,7 +689,24 @@
             2,
             27,
             20
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Pen",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Notepad",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 18,
@@ -363,7 +727,31 @@
             16,
             21,
             17
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Whipping Twine Roll",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Rope Scraps",
+                "amount": 50.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Scissors",
+                "amount": 4.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 19,
@@ -386,7 +774,59 @@
             26,
             41,
             9
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Ruler",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Compass",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Protractor",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Pencil",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Eraser",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Clipboard",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Table",
+                "amount": 4.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 20,
@@ -409,7 +849,17 @@
             30,
             12,
             22
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Table",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 21,
@@ -464,7 +914,17 @@
             39,
             17,
             2
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Mess Kit",
+                "amount": 1.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 22,
@@ -483,7 +943,38 @@
             28,
             24,
             16
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Pen",
+                "amount": 2.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Notepad",
+                "amount": 2.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Clipboard",
+                "amount": 2.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Sempaphor Flags",
+                "amount": 20.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 23,
@@ -501,7 +992,45 @@
             17,
             38,
             25
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Staves, 2m",
+                "amount": 12.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Rope, 5m",
+                "amount": 6.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Rope, 3m",
+                "amount": 25.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Pegs",
+                "amount": 25.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Mallets",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 24,
@@ -522,7 +1051,38 @@
             18,
             1,
             30
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Pen",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Notepad",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Clipboard",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Compass",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 25,
@@ -541,7 +1101,45 @@
             2,
             27,
             15
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Rope",
+                "amount": 8.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "First Aid Kit",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Towel",
+                "amount": 2.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Swimming costume",
+                "amount": 2.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Blankets",
+                "amount": 4.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 26,
@@ -564,7 +1162,24 @@
             30,
             28,
             11
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Table",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Chairs",
+                "amount": 6.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 27,
@@ -587,7 +1202,24 @@
             4,
             38,
             27
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Table",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Chairs",
+                "amount": 6.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 28,
@@ -610,7 +1242,9 @@
             4,
             37,
             32
-        ]
+        ],
+        "equipment": [],
+        "documents": []
     },
     {
         "base_id": 29,
@@ -633,7 +1267,9 @@
             9,
             28,
             27
-        ]
+        ],
+        "equipment": [],
+        "documents": []
     },
     {
         "base_id": 30,
@@ -656,7 +1292,9 @@
             26,
             12,
             24
-        ]
+        ],
+        "equipment": [],
+        "documents": []
     },
     {
         "base_id": 31,
@@ -679,7 +1317,9 @@
             7,
             10,
             15
-        ]
+        ],
+        "equipment": [],
+        "documents": []
     },
     {
         "base_id": 32,
@@ -698,7 +1338,17 @@
             37,
             32,
             39
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "First Aid Kit",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 33,
@@ -717,7 +1367,17 @@
             38,
             25,
             16
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "First Aid Kit",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 34,
@@ -736,7 +1396,24 @@
             5,
             11,
             29
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Written Script",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Props",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 35,
@@ -759,7 +1436,24 @@
             4,
             36,
             27
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Table",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Chairs",
+                "amount": 6.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 36,
@@ -778,7 +1472,17 @@
             28,
             24,
             23
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Rope, 4m",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 37,
@@ -797,7 +1501,38 @@
             43,
             22,
             39
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Rope, 4m",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Stave, 1.5m",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Cylindrical Object",
+                "amount": 5.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Bench",
+                "amount": 5.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 38,
@@ -820,7 +1555,24 @@
             17,
             36,
             27
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Table",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Chairs",
+                "amount": 6.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 39,
@@ -843,7 +1595,9 @@
             3,
             2,
             25
-        ]
+        ],
+        "equipment": [],
+        "documents": []
     },
     {
         "base_id": 40,
@@ -862,7 +1616,9 @@
             2,
             22,
             39
-        ]
+        ],
+        "equipment": [],
+        "documents": []
     },
     {
         "base_id": 41,
@@ -881,7 +1637,9 @@
             10,
             24,
             20
-        ]
+        ],
+        "equipment": [],
+        "documents": []
     },
     {
         "base_id": 42,
@@ -900,7 +1658,9 @@
             43,
             27,
             15
-        ]
+        ],
+        "equipment": [],
+        "documents": []
     },
     {
         "base_id": 43,
@@ -919,7 +1679,9 @@
             34,
             25,
             13
-        ]
+        ],
+        "equipment": [],
+        "documents": []
     },
     {
         "base_id": 44,
@@ -938,7 +1700,9 @@
             36,
             11,
             29
-        ]
+        ],
+        "equipment": [],
+        "documents": []
     },
     {
         "base_id": 45,
@@ -957,7 +1721,9 @@
             32,
             3,
             5
-        ]
+        ],
+        "equipment": [],
+        "documents": []
     },
     {
         "base_id": 46,
@@ -976,7 +1742,9 @@
             41,
             26,
             12
-        ]
+        ],
+        "equipment": [],
+        "documents": []
     },
     {
         "base_id": 47,
@@ -999,7 +1767,24 @@
             26,
             37,
             22
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Table",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Chairs",
+                "amount": 6.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 48,
@@ -1022,7 +1807,24 @@
             3,
             34,
             25
-        ]
+        ],
+        "equipment": [
+            {
+                "name": "Table",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Chairs",
+                "amount": 6.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
     },
     {
         "base_id": 49,
@@ -1077,6 +1879,8 @@
             39,
             26,
             36
-        ]
+        ],
+        "equipment": [],
+        "documents": []
     }
 ]

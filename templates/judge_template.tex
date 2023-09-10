@@ -13,7 +13,6 @@
 \usepackage{hyperref}
 
 \usepackage{xstring}
-\usepackage{fontawesome5}
 \usepackage{filecontents}
 
 \usepackage[%
@@ -51,14 +50,7 @@ isbn=false%
 \usepackage{fancyvrb}
 \usepackage{calc}
 \usepackage{enumitem}
-\usepackage{fancyhdr}
 
-
-\pagestyle{fancy}
-\fancyhf{}
-\lfoot{}
-\rfoot{}
-\cfoot{\includegraphics[width=\linewidth]{rope.png}}
 
 % \definecolor{codegray}{gray}{0.9}
 % \newcommand{\code}[1]{\colorbox{codegray}{\texttt{#1}}}
@@ -95,50 +87,39 @@ isbn=false%
 \setmainfont{Verdana}
 
 \begin{document}
-	
-	\newtitle{Gordons Shield}
 
 
-	\BLOCK{for base in bases}
-	\begin{minipage}{\linewidth}
-		\setcounter{section}{\VAR{base.base_id-1}}
-	\section{\VAR{base.base_name} }
-	\subsection*{\VAR{base.base_location} | \VAR{base.start_time.strftime("%A %H:%M")} - \VAR{base.end_time.strftime("%H:%M")}}
 
-	\VAR{base.base_description}
+	\BLOCK{for judge in judges}
+	\newtitle{\VAR{judge.name}}
+	\newsubtitle{ID: \VAR{judge.judge_id}}
 
-	\begin{multicols}{2}
-	\subsection*{\faUsers \: Judges}
-	\begin{itemize}
-	\BLOCK{for judge in base.judges}
-		\item \VAR{judge.name}
-	\BLOCK{endfor}
-	\end{itemize}
-	\columnbreak
-	\subsection*{\faWrench \: Equipment}
-	\BLOCK{if base.get_equipment("Staff").__len__() > 0}
+    \BLOCK{for base in judge.bases}
+        \section*{
+        \VAR{base.start_time.strftime("%A %H:%M")}
+        -
+        \VAR{base.end_time.strftime("%H:%M") }
+        |
+         \VAR{base.base_name}}
+        \subsection*{\VAR{base.base_location}}
+        \VAR{base.base_description}\\
 
-        \begin{itemize}
-        \BLOCK{for equip in base.get_equipment("Staff")}
-            \item \VAR{equip.amount}$\times$ \: \VAR{equip.name}
-        \BLOCK{endfor}
-        \end{itemize}
-        \BLOCK{endif}
-        \vfill\null
-        \subsection*{\faFile \: Docs}
-     \BLOCK{if base.get_documents().__len__() > 0}
+        \subsection*{Other Judges}
+        \BLOCK{if base.get_other_judges(judge).__len__() <= 12}
 
-        \begin{itemize}
-        \BLOCK{for doc in base.get_documents()}
-            \item \VAR{doc.amount}$\times$ \: \VAR{doc.name}
-        \BLOCK{endfor}
-        \end{itemize}
-        \BLOCK{endif}
-	\end{multicols}
+            \begin{itemize}
+            \BLOCK{for judge in base.get_other_judges(judge)}
+                \item \VAR{judge.name}
+            \BLOCK{endfor}
+            \end{itemize}
+            \BLOCK{else}
+            All
+            \BLOCK{endif}
 
 
-	\vspace{1cm}
-	\end{minipage}
+    \BLOCK{endfor}
+
+	\clearpage
 
 	\BLOCK{endfor}
 

@@ -1,6 +1,6 @@
 import subprocess
 
-from main import Base, Judge
+from main import Base, Judge, Competition, load_full_schedule_from_json
 import typer
 import json
 from jinja2 import Template
@@ -47,6 +47,28 @@ def generate_base_docs(bases):
     subprocess.run(["xelatex", "base_docs.tex", "--output-directory", "tmp/"], shell=True)
 
 
+def generate_judge_docs(judges):
+    latex_jinja_env = jinja2.Environment(
+        block_start_string='\BLOCK{',
+        block_end_string='}',
+        variable_start_string='\VAR{',
+        variable_end_string='}',
+        comment_start_string='\#{',
+        comment_end_string='}',
+        line_statement_prefix='%%',
+        line_comment_prefix='%#',
+        trim_blocks=True,
+        autoescape=False,
+        loader=jinja2.FileSystemLoader("templates/")
+    )
+
+    template = latex_jinja_env.get_template('judge_template.tex')
+    latex_jinja_env.globals.update(sanitize=latex_sanitize)
+
+    with open("judge_docs.tex", "w") as fh:
+        fh.write(template.render(judges=judges))
+
+    subprocess.run(["xelatex", "judge_docs.tex", "--output-directory", "tmp/"], shell=True)
 
 def load_bases(file):
     with open(file) as fh:
@@ -75,7 +97,11 @@ def load_bases(file):
 
 
 def main():
-    generate_base_docs(load_bases("bases.json"))
+
+    comp = load_full_schedule_from_json("bases_allocated.json", "judges_allocated.json")
+    generate_base_docs(comp.bases)
+
+    # generate_judge_docs(comp.judges)
     pass
 
 

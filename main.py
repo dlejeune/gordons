@@ -10,6 +10,45 @@ import numpy as np
 
 random.seed(42)
 
+class Document:
+    def __init__(self, name, base_id, amount, is_printed, size, colour, laminated, double_sided, notes):
+        self.name = name
+        self.base_id = base_id
+        self.amount = amount
+        self.is_printed = is_printed
+        self.size = size
+        self.colour = colour
+        self.laminated = laminated
+        self.double_sided = double_sided
+        self.notes = notes
+
+
+    def as_dict(self):
+        return {"name": self.name,
+                "base_id": self.base_id,
+                "amount": self.amount,
+                "is_printed": self.is_printed,
+                "size": self.size,
+                "colour": self.colour,
+                "laminated": self.laminated,
+                "double_sided": self.double_sided,
+                "notes": self.notes}
+class Equipment:
+    def __init__(self, name, amount, e_type, have, notes):
+        self.name = name
+        self.amount = amount
+        self.e_type = e_type
+        self.have = have
+        self.notes = notes
+
+    def as_dict(self):
+        return {"name": self.name,
+                "amount": self.amount,
+                "e_type": self.e_type,
+                "have": self.have,
+                "notes": self.notes}
+
+
 class Competition:
 
     def __init__(self, bases=[], judges=[]):
@@ -21,7 +60,6 @@ class Competition:
 
     def set_judges(self, judges):
         self.judges = judges
-
 
     def get_base(self, id):
         for base in self.bases:
@@ -41,6 +79,21 @@ class Competition:
     def add_judge(self, judge):
         self.judges.append(judge)
 
+    def assign_equipment_to_bases(self, equipment_file):
+        equip = pd.read_csv(equipment_file)
+
+        for i, row in equip.iterrows():
+            base = self.get_base(row["Base ID"])
+            if base is not None:
+                base.equipment.append(Equipment(row["Item"], row["Quantity"], row["Type"], row["Have"], row["Notes"]))
+
+    def assign_documents_to_bases(self, documents_file):
+        docs = pd.read_csv(documents_file)
+
+        for i, row in docs.iterrows():
+            base = self.get_base(row["Base ID"])
+            if base is not None:
+                base.documents.append(Document(row["Item"], row["Base ID"], row["Quantity"], row["Printed"], row["Size"], row["Colour"], row["Laminated"], row["Double Sided"], row["Notes"]))
     def bases_to_json(self, output_file):
         base_output = []
 
@@ -64,7 +117,7 @@ class Base:
                  start_time, end_time, num_judges, base_name="", base_description = "", base_location="", base_type="", marks=""):
         self.base_id = base_id
         self.base_name = base_name
-        self.start_time = start_time
+        self.start_time: datetime = start_time
         self.base_description = base_description
         self.base_location = base_location
         self.base_type = base_type
@@ -73,11 +126,30 @@ class Base:
         self.required_judges = num_judges
         self.judges = []
         self.equipment = []
+        self.documents = []
 
 
     def convert_all_times(self):
         self.start_time = datetime.strptime(self.start_time, "%Y-%m-%d %H:%M:%S")
         self.end_time = datetime.strptime(self.end_time, "%Y-%m-%d %H:%M:%S")
+
+    def get_other_judges(self, judge):
+        return_judges = []
+
+        for base_judge in self.judges:
+            if judge.judge_id != base_judge.judge_id:
+                return_judges.append(base_judge)
+
+        return return_judges
+
+    def get_equipment(self, e_type="ALL"):
+        if e_type == "ALL":
+            return self.equipment
+        else:
+            return [e for e in self.equipment if e.e_type == e_type]
+
+    def get_documents(self):
+        return self.documents
 
     def is_full(self):
         return len(self.judges) == self.required_judges
@@ -97,7 +169,10 @@ class Base:
 
 
                 "num_judges": self.required_judges,
-                "judges": [judge.judge_id for judge in self.judges]}
+                "judges": [judge.judge_id for judge in self.judges],
+                "equipment": [e.as_dict() for e in self.equipment],
+                "documents": [d.as_dict() for d in self.documents]
+                }
 
 
     def toJSON(self):
@@ -111,6 +186,8 @@ class Base:
     def add_judge(self, judge):
         self.judges.append(judge)
 
+    def add_document(self, document):
+        self.documents.append(document)
     def __repr__(self):
         return f"Base {self.base_id} from {self.start_time} to {self.end_time}"
 
@@ -119,17 +196,30 @@ class Base:
         return cls(**data)
 
 class Judge:
+    day1 = datetime(2023, 9, 16)
+    day2 = datetime(2023, 9, 17)
     def __init__(self, judge_id, name, competence):
         self.judge_id = judge_id
         self.name = name
         self.competence = competence
-        self.bases = []
+        self.bases: list[Base] = []
 
     def is_judge_busy_at_time(self, time):
         for base in self.bases:
             if base.start_time <= time < base.end_time:
                 return True
         return False
+
+    def get_day_bases(self, day):
+        return_bases = []
+        for base in self.bases:
+            if day == 1 and base.start_time.date() == self.day1:
+                return_bases.append(base)
+            elif day == 2 and  base.start_time.date() == self.day2:
+                return_bases.append(base)
+
+        return return_bases
+
 
 
     def as_dict(self):
@@ -290,8 +380,6 @@ def judges_to_json(judges, output_file):
 
 def load_full_schedule_from_json(base_file, judge_file):
 
-
-
     base_json = json.load(open(base_file))
     judge_json = json.load(open(judge_file))
 
@@ -314,8 +402,19 @@ def load_full_schedule_from_json(base_file, judge_file):
                           base["base_type"],
                           base["marks"])
 
+        for equipment in base["equipment"]:
+            temp_base.equipment.append(Equipment(**equipment))
+
+        for document in base["documents"]:
+            temp_base.documents.append(Document(**document))
+
         for judge_id in base["judges"]:
-            temp_base.add_judge(gordons.get_judge(judge_id))
+            temp_judge = gordons.get_judge(judge_id)
+            temp_base.add_judge(temp_judge)
+            temp_judge.bases.append(temp_base)
+
+
+
 
         gordons.add_base(temp_base)
 
@@ -352,11 +451,16 @@ def main():
     # judges = load_judges("judges.csv")
     # judges_to_json(judges, "judges.json")
 
-    gordons = load_full_schedule_from_json("bases.json", "judges.json")
+    gordons = load_full_schedule_from_json("bases_allocated.json", "judges_allocated.json")
 
-    gordons.set_bases(assign_judges_to_bases(gordons.judges, gordons.bases)[0])
+    # gordons.set_bases(assign_judges_to_bases(gordons.judges, gordons.bases)[0])
+
+    # gordons.assign_equipment_to_bases("equipment.csv")
+
+    gordons.assign_documents_to_bases("documents.csv")
 
     gordons.bases_to_json("bases_allocated.json")
+
     gordons.judges_to_json("judges_allocated.json")
 
 if __name__ == "__main__":
