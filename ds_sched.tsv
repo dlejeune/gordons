@@ -1,0 +1,55 @@
+day	start_time	end_time	event_id	test_id	name	description	location	judges	scouts	print_staff_doc
+0	14:00	16:00	1	-1	Packing start			DL, HR, CC, JaW, TB, LS, TV		FALSE
+0	16:00	16:40	2	-1	Driving to Camp			DL, HR, CC, JaW, TB, LS, TV		FALSE
+0	16:50	18:00	3	-1	Facilities setup 			DL, HR, CC, JaW, TB, LS, TV		FALSE
+0	17:30	18:00	4	-1	Dinner prep			DL, HR, CC, JaW, TB, LS, TV		TRUE
+0	18:00	18:40	5	-1	Dinner 			DL, HR, CC, JaW, TB, LS, TV		TRUE
+0	18:40	19:20	6	-1	Final facilities			DL, HR, CC, JaW, TB, LS, TV		TRUE
+0	19:20	20:00	7	-1	Doc Organisation and base layout			DL, HR, CC, JaW, TB, LS, TV		TRUE
+0	20:00	21:00	8	-1	Final organisation			DL, HR, CC, JaW, TB, LS, TV		TRUE
+0	21:00	22:00	9	-1	Staff chill time			DL, HR, CC, JaW, TB, LS, TV		TRUE
+0	23:00	06:00	10	-1	lightsout			DL, HR, CC, JaW, TB, LS, TV		TRUE
+1	06:00	07:30	11	-1	Wake up			DL, HR, CC, JaW, TB, LS, TV		TRUE
+1	07:30	08:00	12	-1	Breakfast prep and final prep			DL, HR, CC, JaW, TB, LS, TV		TRUE
+1	08:00	08:30	13	-1	breakfast and staff arrivals			/		TRUE
+1	08:50	09:20	14	-1	Staff briefing			/		TRUE
+1	09:20	09:50	15	-1	Final organisation			/		TRUE
+1	10:00	12:00	16	-1	Traffic control					TRUE
+1	10:00	11:00	17	-1	Gates open					TRUE
+1	10:20	11:20	18	-1	Regestration			MR, JaW, PB, OH, JC		TRUE
+1	11:20	12:00	19	-1	Lunch prep			HR, OS		TRUE
+1	11:30	11:50	20	-1	Opening Parade			/		TRUE
+1	12:00	12:10	21	-1	PL's Briefing			TV	PL's	TRUE
+1	12:00	12:30	22	-1	Staff Lunch			/		TRUE
+1	12:10	13:00	23	-1	Camp Dev and lunch				/	TRUE
+1	12:40	12:50	24	-1	STA 1 Hand in			HR		TRUE
+1	13:00	13:30	25	1	Triangulation	Scouts must demonstate triangulation. They should be given the map, compass, ruler, koki and should triangulate their location. Scouts must explain to you what they are doing while they do it so you can assess their method. if base the location doesn't suit a triangulation practical they should explain it.	Somewhere			TRUE
+1	13:00	13:30	26	2	Finding north without a compass	Scout must be asked to name and demonstrate two methods to find north without a compass.	Over The rainbow			TRUE
+1	13:00	13:30	27	3	First aid abbreviations	You should give the scout the name of the abbreviations SAMPLE, DOTS, PEARL. After that the scout must name what each letter stands for, if the scout gets atleast half right they get half of the points for correctness and full points if its fully correct.	In my house			TRUE
+1	13:00	13:30	28	4	clouds	Scout must identify which cloud on the sheet is a Cirrocumulus cloud, stratus and cumulonimbus. After this they must identify the names of three photos of clouds at your choosing.	who knows			TRUE
+1	13:00	13:30	29	5	Ground to air signals	Scout should answer each of the questions on the handout by identifying what each of the physically made signs represents and constucting which sign represents the phrase.	womp womp			TRUE
+1	13:00	13:30	30	6	campsite saftey	Scout must identify a hazard created in their campsites, equipment, pioneering, Fireplace and campsite location. and they must then explain how they should correct it		DL, JaW		TRUE
+1	13:30	14:00	31	7	snake venom	Scout must name three types of snake venom (Cytotoxic, Neurotoxic, Hemotoxic and myotoxic) and must then explain what each toxin they named does.		CC		TRUE
+1	13:30	14:00	32	8	water collection	In a survival situation how can you collect and purify water? With you you have a 1x1 sheet of plastic, a can, a plastic bottle and a paper towel. The scout must name and and demonstate 3 methods of how they can use these items to collect clean water in this survival situation				TRUE
+1	13:30	14:00	33	9	6 basic knots	Scout must tie as many of the 6 basic knots as possible				TRUE
+1	13:30	14:00	34	10	First aid splinting	Scout must demonstate how to splint a broken leg, look for if it is splinted from bone to bone or joint to joint. The comfort of the splint should also be assesed, is it comfortable to the patient or would it be sore to wear.				TRUE
+1	13:30	14:00	35	11	tripod lashings	Scout must tie a correct and stable tripod lashing.				TRUE
+1	13:30	14:00	36	12	woggle plating	Scout must demonstrate how to plate a woggle				TRUE
+1	13:30	14:00	37	13	Map reading	Scout must correctly identify what each of the eight map symbols on the handouts.				TRUE
+1	13:30	14:00	38	14	troop knowledge	Scout is given 15 seconds to name as many troops as they can from the western cape. A scout should be awarded one point for every troop named. for a maximum of 15 points				TRUE
+1	13:30	14:00	39	15	axes	Scout should be asked to identify 5 parts of an axe: Back, toe, head, eye, heel				TRUE
+1	13:30	14:00	40	16	Emergency numbers	Scout must give the numbers for three emergency services				TRUE
+1	14:00	14:20	41	-1	Staff brief			/		TRUE
+1	14:20	15:20	42	17	First aid					TRUE
+1	14:20	15:20	43	18	Knotting and pioneering					TRUE
+1	14:20	15:20	44	19	carries					TRUE
+1	14:20	15:20	45	20	Mapping					TRUE
+1	14:20	15:20	46	21	Kims game					TRUE
+1	14:30	15:00	47	-1	STA 1 marking					TRUE
+2	13:40	14:00	48	-1	Mark Check					TRUE
+2	14:00	16:00	49	-1	Traffic Control					TRUE
+2	14:00	14:30	50	-1	Point Totaling					TRUE
+2	14:40	15:00	51	-1	Closing Parade					TRUE
+2	15:00	16:00	52	-1	Staff Clean up					TRUE
+2	16:00	16:30	53	-1	Stafff thanks					TRUE
+2	16:30	17:30	54	-1	Driving					TRUE

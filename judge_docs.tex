@@ -1,0 +1,1609 @@
+\documentclass[10pt]{article}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[margin=0.75in]{geometry}
+
+\usepackage[acronym]{glossaries}
+
+\usepackage[final]{pdfpages}
+
+\usepackage{setspace}
+
+\usepackage{hyperref}
+
+\usepackage{xstring}
+\usepackage{filecontents}
+
+\usepackage[%
+style=authoryear-comp,%
+maxcitenames=2, %
+maxbibnames=8, %
+mergedate=compact, %
+uniquename=false, %
+giveninits=true,%
+url=false,%
+doi=false,%
+isbn=false%
+]{biblatex}
+
+
+\usepackage{xpatch}
+
+
+\usepackage{booktabs}
+
+\usepackage{amsmath}
+
+\usepackage{array}
+
+
+\usepackage{listings}
+\usepackage[breakable]{tcolorbox}
+\tcbuselibrary{listings}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{fancyvrb}
+\usepackage{calc}
+\usepackage{enumitem}
+
+
+% \definecolor{codegray}{gray}{0.9}
+% \newcommand{\code}[1]{\colorbox{codegray}{\texttt{#1}}}
+\newcommand{\code}[1]{\texttt{#1}}
+
+%\setstretch{1.1}
+
+\usepackage{caption}
+
+
+\setlength{\parindent}{0pt}
+\usepackage{xcolor}
+\usepackage{layouts}
+\usepackage[ddmmyyyy,hhmmss]{datetime}
+
+
+\hypersetup{
+	pdftitle="Judge Handout",
+	pdfauthor="Daniel Le Jeune"
+}
+
+\definecolor{grey}{HTML}{969696}
+
+
+\newcommand{\newtitle}[1]{\begin{center}{\Huge\bfseries #1 }\\ \vspace{5mm}\end{center}}
+\newcommand{\newsubtitle}[1]{\begin{center}{\color{grey}\Large\bfseries #1 }\\ \vspace{5mm}\end{center}}
+
+
+
+\usepackage{fontspec}
+
+
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Verdana}
+
+\begin{document}
+
+
+
+		\newtitle{Daniel Le Jeune}
+	\newsubtitle{DL}
+
+            \section*{Friday 17:30
+        -
+        18:00
+        |
+         Dinner prep}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 18:00
+        -
+        18:40
+        |
+         Dinner }
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 18:40
+        -
+        19:20
+        |
+         Final facilities}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 19:20
+        -
+        20:00
+        |
+         Doc Organisation and base layout}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 20:00
+        -
+        21:00
+        |
+         Final organisation}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 21:00
+        -
+        22:00
+        |
+         Staff chill time}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 23:00
+        -
+        06:00
+        |
+         lightsout}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Saturday 06:00
+        -
+        07:30
+        |
+         Wake up}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Saturday 07:30
+        -
+        08:00
+        |
+         Breakfast prep and final prep}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Saturday 13:00
+        -
+        13:30
+        |
+         campsite saftey}
+        
+                            Scout must identify a hazard created in their campsites, equipment, pioneering, Fireplace and campsite location. and they must then explain how they should correct it
+        
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item James Webb
+                        \end{itemize}
+        
+
+    
+	\clearpage
+
+		\newtitle{Caleb Serafin}
+	\newsubtitle{CS}
+
+    
+	\clearpage
+
+		\newtitle{David Knight}
+	\newsubtitle{DK}
+
+    
+	\clearpage
+
+		\newtitle{Jonathan Webb}
+	\newsubtitle{JoW}
+
+    
+	\clearpage
+
+		\newtitle{Susan Gammon}
+	\newsubtitle{SG}
+
+    
+	\clearpage
+
+		\newtitle{Aaron Filmalter}
+	\newsubtitle{AF}
+
+    
+	\clearpage
+
+		\newtitle{Sebastian Haug}
+	\newsubtitle{SH}
+
+    
+	\clearpage
+
+		\newtitle{Robbie Schriber}
+	\newsubtitle{RS}
+
+    
+	\clearpage
+
+		\newtitle{John Roux}
+	\newsubtitle{JR}
+
+    
+	\clearpage
+
+		\newtitle{Melissa Rijs}
+	\newsubtitle{MR}
+
+            \section*{Saturday 10:20
+        -
+        11:20
+        |
+         Regestration}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item James Webb
+                            \item Philip Brink
+                            \item Oiver Hewson
+                            \item Jude Conradie
+                        \end{itemize}
+        
+
+    
+	\clearpage
+
+		\newtitle{Olivia Steenkamp}
+	\newsubtitle{OS}
+
+            \section*{Saturday 11:20
+        -
+        12:00
+        |
+         Lunch prep}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Holly Raine
+                        \end{itemize}
+        
+
+    
+	\clearpage
+
+		\newtitle{Philip Brink}
+	\newsubtitle{PB}
+
+            \section*{Saturday 10:20
+        -
+        11:20
+        |
+         Regestration}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Melissa Rijs
+                            \item James Webb
+                            \item Oiver Hewson
+                            \item Jude Conradie
+                        \end{itemize}
+        
+
+    
+	\clearpage
+
+		\newtitle{Aidan Smith}
+	\newsubtitle{AS}
+
+    
+	\clearpage
+
+		\newtitle{Oiver Hewson}
+	\newsubtitle{OH}
+
+            \section*{Saturday 10:20
+        -
+        11:20
+        |
+         Regestration}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Melissa Rijs
+                            \item James Webb
+                            \item Philip Brink
+                            \item Jude Conradie
+                        \end{itemize}
+        
+
+    
+	\clearpage
+
+		\newtitle{Daniel Lugt}
+	\newsubtitle{DLu}
+
+    
+	\clearpage
+
+		\newtitle{Timothy van Zyl-Smit}
+	\newsubtitle{TV}
+
+            \section*{Friday 17:30
+        -
+        18:00
+        |
+         Dinner prep}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                        \end{itemize}
+        
+
+            \section*{Friday 18:00
+        -
+        18:40
+        |
+         Dinner }
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                        \end{itemize}
+        
+
+            \section*{Friday 18:40
+        -
+        19:20
+        |
+         Final facilities}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                        \end{itemize}
+        
+
+            \section*{Friday 19:20
+        -
+        20:00
+        |
+         Doc Organisation and base layout}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                        \end{itemize}
+        
+
+            \section*{Friday 20:00
+        -
+        21:00
+        |
+         Final organisation}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                        \end{itemize}
+        
+
+            \section*{Friday 21:00
+        -
+        22:00
+        |
+         Staff chill time}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                        \end{itemize}
+        
+
+            \section*{Friday 23:00
+        -
+        06:00
+        |
+         lightsout}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                        \end{itemize}
+        
+
+            \section*{Saturday 06:00
+        -
+        07:30
+        |
+         Wake up}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                        \end{itemize}
+        
+
+            \section*{Saturday 07:30
+        -
+        08:00
+        |
+         Breakfast prep and final prep}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                        \end{itemize}
+        
+
+            \section*{Saturday 12:00
+        -
+        12:10
+        |
+         PL's Briefing}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                        \end{itemize}
+        
+
+    
+	\clearpage
+
+		\newtitle{Chris Collier-Reed}
+	\newsubtitle{CC}
+
+            \section*{Friday 17:30
+        -
+        18:00
+        |
+         Dinner prep}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 18:00
+        -
+        18:40
+        |
+         Dinner }
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 18:40
+        -
+        19:20
+        |
+         Final facilities}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 19:20
+        -
+        20:00
+        |
+         Doc Organisation and base layout}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 20:00
+        -
+        21:00
+        |
+         Final organisation}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 21:00
+        -
+        22:00
+        |
+         Staff chill time}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 23:00
+        -
+        06:00
+        |
+         lightsout}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Saturday 06:00
+        -
+        07:30
+        |
+         Wake up}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Saturday 07:30
+        -
+        08:00
+        |
+         Breakfast prep and final prep}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Saturday 13:30
+        -
+        14:00
+        |
+         snake venom}
+        
+                            Scout must name three types of snake venom (Cytotoxic, Neurotoxic, Hemotoxic and myotoxic) and must then explain what each toxin they named does.
+        
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                        \end{itemize}
+        
+
+    
+	\clearpage
+
+		\newtitle{Luca Scott}
+	\newsubtitle{LS}
+
+            \section*{Friday 17:30
+        -
+        18:00
+        |
+         Dinner prep}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 18:00
+        -
+        18:40
+        |
+         Dinner }
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 18:40
+        -
+        19:20
+        |
+         Final facilities}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 19:20
+        -
+        20:00
+        |
+         Doc Organisation and base layout}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 20:00
+        -
+        21:00
+        |
+         Final organisation}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 21:00
+        -
+        22:00
+        |
+         Staff chill time}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 23:00
+        -
+        06:00
+        |
+         lightsout}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Saturday 06:00
+        -
+        07:30
+        |
+         Wake up}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Saturday 07:30
+        -
+        08:00
+        |
+         Breakfast prep and final prep}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+    
+	\clearpage
+
+		\newtitle{Timothy Begg}
+	\newsubtitle{TB}
+
+            \section*{Friday 17:30
+        -
+        18:00
+        |
+         Dinner prep}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 18:00
+        -
+        18:40
+        |
+         Dinner }
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 18:40
+        -
+        19:20
+        |
+         Final facilities}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 19:20
+        -
+        20:00
+        |
+         Doc Organisation and base layout}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 20:00
+        -
+        21:00
+        |
+         Final organisation}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 21:00
+        -
+        22:00
+        |
+         Staff chill time}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 23:00
+        -
+        06:00
+        |
+         lightsout}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Saturday 06:00
+        -
+        07:30
+        |
+         Wake up}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Saturday 07:30
+        -
+        08:00
+        |
+         Breakfast prep and final prep}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+    
+	\clearpage
+
+		\newtitle{Holly Raine}
+	\newsubtitle{HR}
+
+            \section*{Friday 17:30
+        -
+        18:00
+        |
+         Dinner prep}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 18:00
+        -
+        18:40
+        |
+         Dinner }
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 18:40
+        -
+        19:20
+        |
+         Final facilities}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 19:20
+        -
+        20:00
+        |
+         Doc Organisation and base layout}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 20:00
+        -
+        21:00
+        |
+         Final organisation}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 21:00
+        -
+        22:00
+        |
+         Staff chill time}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 23:00
+        -
+        06:00
+        |
+         lightsout}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Saturday 06:00
+        -
+        07:30
+        |
+         Wake up}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Saturday 07:30
+        -
+        08:00
+        |
+         Breakfast prep and final prep}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Chris Collier-Reed
+                            \item James Webb
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Saturday 11:20
+        -
+        12:00
+        |
+         Lunch prep}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Olivia Steenkamp
+                        \end{itemize}
+        
+
+            \section*{Saturday 12:40
+        -
+        12:50
+        |
+         STA 1 Hand in}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                        \end{itemize}
+        
+
+    
+	\clearpage
+
+		\newtitle{James Webb}
+	\newsubtitle{JaW}
+
+            \section*{Friday 17:30
+        -
+        18:00
+        |
+         Dinner prep}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 18:00
+        -
+        18:40
+        |
+         Dinner }
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 18:40
+        -
+        19:20
+        |
+         Final facilities}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 19:20
+        -
+        20:00
+        |
+         Doc Organisation and base layout}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 20:00
+        -
+        21:00
+        |
+         Final organisation}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 21:00
+        -
+        22:00
+        |
+         Staff chill time}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Friday 23:00
+        -
+        06:00
+        |
+         lightsout}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Saturday 06:00
+        -
+        07:30
+        |
+         Wake up}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Saturday 07:30
+        -
+        08:00
+        |
+         Breakfast prep and final prep}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                            \item Holly Raine
+                            \item Chris Collier-Reed
+                            \item Timothy Begg
+                            \item Luca Scott
+                            \item Timothy van Zyl-Smit
+                        \end{itemize}
+        
+
+            \section*{Saturday 10:20
+        -
+        11:20
+        |
+         Regestration}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Melissa Rijs
+                            \item Philip Brink
+                            \item Oiver Hewson
+                            \item Jude Conradie
+                        \end{itemize}
+        
+
+            \section*{Saturday 13:00
+        -
+        13:30
+        |
+         campsite saftey}
+        
+                            Scout must identify a hazard created in their campsites, equipment, pioneering, Fireplace and campsite location. and they must then explain how they should correct it
+        
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Daniel Le Jeune
+                        \end{itemize}
+        
+
+    
+	\clearpage
+
+		\newtitle{Jude Conradie}
+	\newsubtitle{JC}
+
+            \section*{Saturday 10:20
+        -
+        11:20
+        |
+         Regestration}
+        
+                
+        \subsection*{Other Judges}
+        
+            \begin{itemize}
+                            \item Melissa Rijs
+                            \item James Webb
+                            \item Philip Brink
+                            \item Oiver Hewson
+                        \end{itemize}
+        
+
+    
+	\clearpage
+
+	
+
+
+
+\end{document}

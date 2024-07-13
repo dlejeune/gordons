@@ -114,7 +114,16 @@ class Competition:
 
 class Base:
     def __init__(self, base_id,
-                 start_time, end_time, num_judges, base_name="", base_description = "", base_location="", base_type="", marks=""):
+                 start_time, 
+                 end_time, 
+                 num_judges, 
+                 base_name="", 
+                 base_description = "", 
+                 base_location="", 
+                 base_type="", 
+                 marks="", 
+                 test_id=None,
+                 print_staff_doc=True):
         self.base_id = base_id
         self.base_name = base_name
         self.start_time: datetime = start_time
@@ -127,6 +136,8 @@ class Base:
         self.judges = []
         self.equipment = []
         self.documents = []
+        self.test_id = test_id
+        self.print_staff_doc = print_staff_doc
 
 
     def convert_all_times(self):
@@ -166,8 +177,8 @@ class Base:
                 "base_location": self.base_location,
                 "base_type": self.base_type,
                 "marks": self.marks,
-
-
+                "test_id":self.test_id,
+                "print_staff_doc":self.print_staff_doc,
                 "num_judges": self.required_judges,
                 "judges": [judge.judge_id for judge in self.judges],
                 "equipment": [e.as_dict() for e in self.equipment],
@@ -198,10 +209,12 @@ class Base:
 class Judge:
     day1 = datetime(2023, 9, 16)
     day2 = datetime(2023, 9, 17)
-    def __init__(self, judge_id, name, competence):
+    def __init__(self, judge_id, name, competence, abbrv= None, judge_type = None):
         self.judge_id = judge_id
         self.name = name
         self.competence = competence
+        self.abbrv = abbrv
+        self.judge_type = judge_type
         self.bases: list[Base] = []
 
     def is_judge_busy_at_time(self, time):
@@ -220,12 +233,19 @@ class Judge:
 
         return return_bases
 
-
+    def printable_bases_iter(self):
+        for base in self.bases:
+            if base.print_staff_doc:
+                yield base
+            else:
+                continue
 
     def as_dict(self):
         return {"judge_id": self.judge_id,
                 "name": self.name,
                 "competence": self.competence,
+                "abbrv": self.abbrv,
+                "judge_type": self.judge_type,
                 "bases": [base.base_id for base in self.bases]}
 
     def __gt__(self, other):
@@ -388,7 +408,10 @@ def load_full_schedule_from_json(base_file, judge_file):
     for judge in judge_json:
         gordons.add_judge(Judge(judge["judge_id"],
                             judge["name"],
-                            judge["competence"]))
+                            judge["competence"],
+                            judge["abbrv"],
+                            judge["judge_type"]
+                            ))
 
 
     for base in base_json:
@@ -400,7 +423,9 @@ def load_full_schedule_from_json(base_file, judge_file):
                           base["base_description"],
                           base["base_location"],
                           base["base_type"],
-                          base["marks"])
+                          base["marks"],
+                          base["test_id"],
+                          base["print_staff_doc"])
 
         for equipment in base["equipment"]:
             temp_base.equipment.append(Equipment(**equipment))

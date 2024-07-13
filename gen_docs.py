@@ -7,6 +7,8 @@ from jinja2 import Template
 import jinja2
 import os
 
+app = typer.Typer()
+
 def load_judges(file):
     with open(file) as fh:
         judges = json.load(fh)
@@ -68,7 +70,7 @@ def generate_judge_docs(judges):
     with open("judge_docs.tex", "w") as fh:
         fh.write(template.render(judges=judges))
 
-    subprocess.run(["xelatex", "judge_docs.tex", "--output-directory", "tmp/"], shell=True)
+    subprocess.run(["xelatex", "judge_docs.tex", "--output-directory", "tmp/", "-interaction", "nonstopmode"], shell=True)
 
 def load_bases(file):
     with open(file) as fh:
@@ -98,10 +100,10 @@ def load_bases(file):
 
 def main():
 
-    comp = load_full_schedule_from_json("bases_allocated.json", "judges_allocated.json")
-    generate_base_docs(comp.bases)
+    comp = load_full_schedule_from_json("temp_ds_sched.json", "temp_ds_judges.json")
+    #generate_base_docs(comp.bases)
 
-    # generate_judge_docs(comp.judges)
+    generate_judge_docs(comp.judges)
     pass
 
 

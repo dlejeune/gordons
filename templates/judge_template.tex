@@ -68,7 +68,7 @@ isbn=false%
 
 
 \hypersetup{
-	pdftitle="Troop Report",
+	pdftitle="Judge Handout",
 	pdfauthor="Daniel Le Jeune"
 }
 
@@ -92,17 +92,21 @@ isbn=false%
 
 	\BLOCK{for judge in judges}
 	\newtitle{\VAR{judge.name}}
-	\newsubtitle{ID: \VAR{judge.judge_id}}
+	\newsubtitle{\VAR{judge.abbrv}}
 
-    \BLOCK{for base in judge.bases}
-        \section*{
-        \VAR{base.start_time.strftime("%A %H:%M")}
+    \BLOCK{for base in judge.printable_bases_iter()}
+        \section*{\VAR{base.start_time.strftime("%A %H:%M")}
         -
         \VAR{base.end_time.strftime("%H:%M") }
         |
          \VAR{base.base_name}}
-        \subsection*{\VAR{base.base_location}}
-        \VAR{base.base_description}\\
+        
+        \BLOCK{if base.base_location != ""}
+            \subsection*{\VAR{base.base_location}}
+        \BLOCK{endif}
+        \BLOCK{if base.base_description != ""}
+            \VAR{base.base_description}
+        \BLOCK{endif}
 
         \subsection*{Other Judges}
         \BLOCK{if base.get_other_judges(judge).__len__() <= 12}
@@ -112,9 +116,9 @@ isbn=false%
                 \item \VAR{judge.name}
             \BLOCK{endfor}
             \end{itemize}
-            \BLOCK{else}
-            All
-            \BLOCK{endif}
+        \BLOCK{else}
+        All
+        \BLOCK{endif}
 
 
     \BLOCK{endfor}

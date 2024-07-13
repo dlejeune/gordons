@@ -1,0 +1,1886 @@
+[
+    {
+        "base_id": 1,
+        "start_time": "2023-09-16 00:00:00",
+        "end_time": "2023-09-16 00:00:00",
+        "base_name": "Entry on Time",
+        "base_description": "Just a placeholder base for teams' entry on time.",
+        "base_location": "None",
+        "base_type": "Admin",
+        "marks": 5,
+        "num_judges": 6,
+        "judges": [
+            29,
+            6,
+            7,
+            5,
+            32,
+            15
+        ],
+        "equipment": [],
+        "documents": []
+    },
+    {
+        "base_id": 2,
+        "start_time": "2023-09-16 12:00:00",
+        "end_time": "2023-09-16 13:00:00",
+        "base_name": "Registration",
+        "base_description": "Standard registration for teams. Scouts must present their team list, the lanyards they have pre-made and all the consent forms. ",
+        "base_location": "Barn",
+        "base_type": "Admin",
+        "marks": 10,
+        "num_judges": 6,
+        "judges": [
+            29,
+            35,
+            3,
+            36,
+            22,
+            16
+        ],
+        "equipment": [
+            {
+                "name": "Consent Forms",
+                "amount": 8.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Team Register",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Table",
+                "amount": 4.0,
+                "e_type": "Staff",
+                "have": true,
+                "notes": NaN
+            },
+            {
+                "name": "Chairs",
+                "amount": 8.0,
+                "e_type": "Staff",
+                "have": true,
+                "notes": NaN
+            },
+            {
+                "name": "Document Tray",
+                "amount": 3.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": [
+            {
+                "name": "Team Checklist",
+                "base_id": 2.0,
+                "amount": 7.0,
+                "is_printed": false,
+                "size": "A4",
+                "colour": false,
+                "laminated": false,
+                "double_sided": false,
+                "notes": NaN
+            },
+            {
+                "name": "Medical Issue Sheet",
+                "base_id": 2.0,
+                "amount": 7.0,
+                "is_printed": false,
+                "size": "A4",
+                "colour": false,
+                "laminated": false,
+                "double_sided": false,
+                "notes": NaN
+            },
+            {
+                "name": "Marksheet",
+                "base_id": 2.0,
+                "amount": 7.0,
+                "is_printed": false,
+                "size": "A4",
+                "colour": false,
+                "laminated": false,
+                "double_sided": false,
+                "notes": NaN
+            }
+        ]
+    },
+    {
+        "base_id": 3,
+        "start_time": "2023-09-16 13:00:00",
+        "end_time": "2023-09-16 14:00:00",
+        "base_name": "Uniform Inspection",
+        "base_description": "Initial uniform inspection that is carried out just after teams register. This inspection covers main aspects of uniform, like year badges, patrol flashes, scarves, etc.",
+        "base_location": "Barn",
+        "base_type": "Inspection",
+        "marks": 5,
+        "num_judges": 6,
+        "judges": [
+            13,
+            6,
+            9,
+            38,
+            27,
+            29
+        ],
+        "equipment": [],
+        "documents": [
+            {
+                "name": "Marksheet",
+                "base_id": 3.0,
+                "amount": 7.0,
+                "is_printed": false,
+                "size": "A4",
+                "colour": false,
+                "laminated": false,
+                "double_sided": false,
+                "notes": NaN
+            }
+        ]
+    },
+    {
+        "base_id": 4,
+        "start_time": "2023-09-16 14:00:00",
+        "end_time": "2023-09-16 15:00:00",
+        "base_name": "Clouds Identification",
+        "base_description": "Scouts are given 5 random cloud images (out of a total of 10) and asked to identify them. ",
+        "base_location": "Chapel",
+        "base_type": "Backwoods",
+        "marks": 5,
+        "num_judges": 6,
+        "judges": [
+            15,
+            21,
+            17,
+            2,
+            11,
+            39
+        ],
+        "equipment": [],
+        "documents": []
+    },
+    {
+        "base_id": 5,
+        "start_time": "2023-09-16 14:00:00",
+        "end_time": "2023-09-16 15:00:00",
+        "base_name": "Water Purification",
+        "base_description": "Scouts must construct a standard water filter with a 2L plastic bottle. This water filter must contain charcoal, rocks, sand and cotton wool.",
+        "base_location": "Dam",
+        "base_type": "Backwoods",
+        "marks": 10,
+        "num_judges": 6,
+        "judges": [
+            40,
+            8,
+            3,
+            34,
+            24,
+            13
+        ],
+        "equipment": [
+            {
+                "name": "Plastic Water Bottle, 2L",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Cotton Wool",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Things to make a water filter with",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Bin",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": true,
+                "notes": "For Rubbish"
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 6,
+        "start_time": "2023-09-16 14:00:00",
+        "end_time": "2023-09-16 15:00:00",
+        "base_name": "Compass Rose",
+        "base_description": "The scout must draw a 16-point compass rose",
+        "base_location": "Barn",
+        "base_type": "Mapping",
+        "marks": 10,
+        "num_judges": 6,
+        "judges": [
+            23,
+            35,
+            7,
+            12,
+            27,
+            16
+        ],
+        "equipment": [
+            {
+                "name": "Pen",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Notepad",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Ruler",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Clipboard",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 7,
+        "start_time": "2023-09-16 14:30:00",
+        "end_time": "2023-09-16 15:30:00",
+        "base_name": "Magnetic Declination",
+        "base_description": "A scout is shown 3 items that they must take bearings of. They must report these bearings as True North bearings. They are then asked to orientate their compass to two bearings, given to them as True North. They must describe what the compass is pointing to.",
+        "base_location": "Field",
+        "base_type": "Mapping",
+        "marks": 10,
+        "num_judges": 6,
+        "judges": [
+            20,
+            1,
+            30,
+            43,
+            25,
+            14
+        ],
+        "equipment": [
+            {
+                "name": "Clipboard",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Compass",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Pen",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Notepad",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 8,
+        "start_time": "2023-09-16 14:30:00",
+        "end_time": "2023-09-16 15:30:00",
+        "base_name": "Spanish Windlass",
+        "base_description": "Scouts must construct a spanish windlass to move a bench a certain distance. They must also explain the safety precautions necessary when making use of a spanish windlass",
+        "base_location": "Campfire",
+        "base_type": "Pioneering",
+        "marks": 10,
+        "num_judges": 8,
+        "judges": [
+            29,
+            6,
+            42,
+            36,
+            22,
+            18,
+            31,
+            9
+        ],
+        "equipment": [
+            {
+                "name": "Bench and Table",
+                "amount": 4.0,
+                "e_type": "Staff",
+                "have": true,
+                "notes": NaN
+            },
+            {
+                "name": "Thick long rope",
+                "amount": 4.0,
+                "e_type": "Staff",
+                "have": true,
+                "notes": NaN
+            },
+            {
+                "name": "Staves",
+                "amount": 2.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 9,
+        "start_time": "2023-09-16 15:00:00",
+        "end_time": "2023-09-16 16:00:00",
+        "base_name": "Ground to Air Signals",
+        "base_description": "A set of ground to air signals are set out on the ground. The scouts must describe what the symbols mean. They must then draw two separate symbols that the staff ask them to draw.",
+        "base_location": "Lower Field",
+        "base_type": "Backwoods",
+        "marks": 10,
+        "num_judges": 8,
+        "judges": [
+            40,
+            8,
+            33,
+            2,
+            27,
+            39,
+            35,
+            17
+        ],
+        "equipment": [
+            {
+                "name": "Notepad",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Pen",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 10,
+        "start_time": "2023-09-16 15:00:00",
+        "end_time": "2023-09-16 16:00:00",
+        "base_name": "First Aid Carry + Fracture",
+        "base_description": "Upon arrival, scouts are told that the P8 has fractured their leg and can no longer walk. They must treat the injury and then transport the scout - by means of a carry - to a location determined by the staff",
+        "base_location": "Field",
+        "base_type": "First Aid",
+        "marks": 10,
+        "num_judges": 10,
+        "judges": [
+            13,
+            21,
+            4,
+            28,
+            24,
+            15,
+            19,
+            37,
+            32,
+            16
+        ],
+        "equipment": [
+            {
+                "name": "First Aid Kit",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Splints",
+                "amount": 2.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Large box of lego",
+                "amount": 1.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": "Should probably be sorted into colours?"
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 11,
+        "start_time": "2023-09-16 15:30:00",
+        "end_time": "2023-09-16 16:30:00",
+        "base_name": "Lego Set",
+        "base_description": "The staff is to construct a lego model of their own devising. The P7 may look at the structure a max of 5 times, and must instruct the P2 on how to build the structure. ",
+        "base_location": "Barn",
+        "base_type": "Misc",
+        "marks": 10,
+        "num_judges": 10,
+        "judges": [
+            14,
+            31,
+            42,
+            34,
+            11,
+            18,
+            1,
+            7,
+            12,
+            25
+        ],
+        "equipment": [],
+        "documents": []
+    },
+    {
+        "base_id": 12,
+        "start_time": "2023-09-16 15:30:00",
+        "end_time": "2023-09-16 16:30:00",
+        "base_name": "Snake Identification",
+        "base_description": "Scouts are shown 5 images of snakes, of which they must correctly identify the type of snake.",
+        "base_location": "Chapel",
+        "base_type": "Backwoods",
+        "marks": 10,
+        "num_judges": 6,
+        "judges": [
+            29,
+            6,
+            30,
+            38,
+            22,
+            23
+        ],
+        "equipment": [],
+        "documents": []
+    },
+    {
+        "base_id": 13,
+        "start_time": "2023-09-16 16:00:00",
+        "end_time": "2023-09-16 17:00:00",
+        "base_name": "Fire Starting",
+        "base_description": "Using flint and steel, scouts must start a fire. No time limit is given, but the actual starting of the fire must be witnessed by a judge.",
+        "base_location": "Campfire",
+        "base_type": "Backwoods",
+        "marks": 5,
+        "num_judges": 8,
+        "judges": [
+            39,
+            35,
+            17,
+            2,
+            27,
+            15,
+            8,
+            4
+        ],
+        "equipment": [
+            {
+                "name": "Flint and Steel",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Fire Drums",
+                "amount": 6.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Fire Beaters",
+                "amount": 4.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Fire Extinguisher",
+                "amount": 1.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 14,
+        "start_time": "2023-09-16 16:00:00",
+        "end_time": "2023-09-16 17:00:00",
+        "base_name": "Pellet Guns",
+        "base_description": "Targets are set up with classical point scoring. Each scout gets 5 bullets. The highest shot is taken as their final point value.",
+        "base_location": "Bumslide Rock Path",
+        "base_type": "Misc",
+        "marks": 5,
+        "num_judges": 10,
+        "judges": [
+            13,
+            21,
+            3,
+            43,
+            32,
+            20,
+            9,
+            41,
+            24,
+            16
+        ],
+        "equipment": [
+            {
+                "name": "First Aid Kit",
+                "amount": 1.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Warning Flags",
+                "amount": 4.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Pellet Guns",
+                "amount": 6.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Pellets",
+                "amount": 500.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Table",
+                "amount": 3.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Rope, 10m",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Measuring tape ",
+                "amount": 1.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 15,
+        "start_time": "2023-09-16 16:30:00",
+        "end_time": "2023-09-16 17:30:00",
+        "base_name": "Scout Laws",
+        "base_description": "The scout is asked to recite a random scout law. They only get one shot at answering.",
+        "base_location": "Lower Field",
+        "base_type": "Misc",
+        "marks": 5,
+        "num_judges": 6,
+        "judges": [
+            29,
+            1,
+            42,
+            34,
+            25,
+            23
+        ],
+        "equipment": [],
+        "documents": []
+    },
+    {
+        "base_id": 16,
+        "start_time": "2023-09-16 16:30:00",
+        "end_time": "2023-09-16 17:30:00",
+        "base_name": "First Aid - Wounds",
+        "base_description": "The P5 is injured and has a variety of wound types, including grazing on the palm of their hand, venal bleeding on their wrist and arterial bleeding from their upper arm. P6 must treat these types of bleeding.",
+        "base_location": "Field",
+        "base_type": "First Aid",
+        "marks": 10,
+        "num_judges": 10,
+        "judges": [
+            40,
+            6,
+            19,
+            5,
+            22,
+            14,
+            31,
+            30,
+            36,
+            11
+        ],
+        "equipment": [
+            {
+                "name": "First Aid Kit",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 17,
+        "start_time": "2023-09-16 17:00:00",
+        "end_time": "2023-09-16 18:00:00",
+        "base_name": "Scout Promise",
+        "base_description": "Scouts are given a sheet with words of the promise left out. They must fill the words in to complete the promise.",
+        "base_location": "Field",
+        "base_type": "Misc",
+        "marks": 5,
+        "num_judges": 6,
+        "judges": [
+            18,
+            35,
+            4,
+            2,
+            27,
+            20
+        ],
+        "equipment": [
+            {
+                "name": "Pen",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Notepad",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 18,
+        "start_time": "2023-09-16 17:00:00",
+        "end_time": "2023-09-16 18:00:00",
+        "base_name": "Whippings",
+        "base_description": "The scout is given a rope and asked to perform a sailmakers whipping and a simple whipping on each end. ",
+        "base_location": "Chapel",
+        "base_type": "Pioneering",
+        "marks": 10,
+        "num_judges": 8,
+        "judges": [
+            15,
+            8,
+            7,
+            28,
+            24,
+            16,
+            21,
+            17
+        ],
+        "equipment": [
+            {
+                "name": "Whipping Twine Roll",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Rope Scraps",
+                "amount": 50.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Scissors",
+                "amount": 4.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 19,
+        "start_time": "2023-09-16 17:00:00",
+        "end_time": "2023-09-16 18:00:00",
+        "base_name": "Triangulation",
+        "base_description": NaN,
+        "base_location": "Start of mountain bike track",
+        "base_type": "Mapping",
+        "marks": 10,
+        "num_judges": 10,
+        "judges": [
+            39,
+            33,
+            37,
+            32,
+            13,
+            3,
+            38,
+            26,
+            41,
+            9
+        ],
+        "equipment": [
+            {
+                "name": "Ruler",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Compass",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Protractor",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Pencil",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Eraser",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Clipboard",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Table",
+                "amount": 4.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 20,
+        "start_time": "2023-09-16 17:30:00",
+        "end_time": "2023-09-16 18:00:00",
+        "base_name": "STA 2: Dinner Invitation",
+        "base_description": "Handin on of th second STA",
+        "base_location": "Barn",
+        "base_type": "STA",
+        "marks": 10,
+        "num_judges": 10,
+        "judges": [
+            23,
+            6,
+            19,
+            34,
+            25,
+            40,
+            31,
+            30,
+            12,
+            22
+        ],
+        "equipment": [
+            {
+                "name": "Table",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 21,
+        "start_time": "2023-09-16 19:00:00",
+        "end_time": "2023-09-16 20:30:00",
+        "base_name": "Dinner",
+        "base_description": "Standard dinner marking",
+        "base_location": "Campsites",
+        "base_type": "Meal",
+        "marks": 40,
+        "num_judges": 42,
+        "judges": [
+            18,
+            21,
+            26,
+            28,
+            22,
+            13,
+            6,
+            3,
+            12,
+            24,
+            40,
+            1,
+            7,
+            37,
+            32,
+            15,
+            8,
+            19,
+            34,
+            11,
+            29,
+            35,
+            30,
+            5,
+            27,
+            20,
+            31,
+            42,
+            43,
+            25,
+            14,
+            33,
+            36,
+            16,
+            4,
+            41,
+            23,
+            9,
+            10,
+            39,
+            17,
+            2
+        ],
+        "equipment": [
+            {
+                "name": "Mess Kit",
+                "amount": 1.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 22,
+        "start_time": "2023-09-16 20:30:00",
+        "end_time": "2023-09-16 22:30:00",
+        "base_name": "Semaphor Flags",
+        "base_description": "Scouts are placed at a distance from each other. The patrol is split into two. Half the patrol is responsible for sending a message to the other half, using Semaphore flags. The message to be transmitted is\"LIGHTS, CAMERA, GORDONS\"",
+        "base_location": "Parade Ground",
+        "base_type": "Misc",
+        "marks": 15,
+        "num_judges": 6,
+        "judges": [
+            20,
+            35,
+            19,
+            28,
+            24,
+            16
+        ],
+        "equipment": [
+            {
+                "name": "Pen",
+                "amount": 2.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Notepad",
+                "amount": 2.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Clipboard",
+                "amount": 2.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Sempaphor Flags",
+                "amount": 20.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 23,
+        "start_time": "2023-09-16 20:30:00",
+        "end_time": "2023-09-16 22:30:00",
+        "base_name": "Jump the Fence",
+        "base_description": "A fence is set up to be roughly 1.7m in height. The patrol must build a structure that will allow for the entirety of their members to pass over the fence without touching it. Scouts may not pass back to the other side of the fence once they have passed over.",
+        "base_location": "Field",
+        "base_type": "Pioneering",
+        "marks": 15,
+        "num_judges": 5,
+        "judges": [
+            14,
+            6,
+            17,
+            38,
+            25
+        ],
+        "equipment": [
+            {
+                "name": "Staves, 2m",
+                "amount": 12.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Rope, 5m",
+                "amount": 6.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Rope, 3m",
+                "amount": 25.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Pegs",
+                "amount": 25.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Mallets",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 24,
+        "start_time": "2023-09-16 20:30:00",
+        "end_time": "2023-09-16 22:30:00",
+        "base_name": "Orienteering (night base)",
+        "base_description": "An orienteering course is set up around the hawequas farm. Scouts go from point to point, at each point collecting a number. At the end, they need to relay the numbers to the judge in correct order.",
+        "base_location": "Lower Field",
+        "base_type": "Mapping",
+        "marks": 15,
+        "num_judges": 8,
+        "judges": [
+            39,
+            21,
+            9,
+            41,
+            22,
+            18,
+            1,
+            30
+        ],
+        "equipment": [
+            {
+                "name": "Pen",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Notepad",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Clipboard",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Compass",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 25,
+        "start_time": "2023-09-16 20:30:00",
+        "end_time": "2023-09-16 22:30:00",
+        "base_name": "ESM (Water drowning)",
+        "base_description": "One scout in the patrol is placed in the dam and is the \"drowning victim\". Scouts must demonstrate the correct method of retrieving their patrol member. They must demonstrate \"reach, throw, row, go\" after which on patrol member must get in and correctly rescue the drowned member. The patrol must then treat BOTH the victim and the rescuer. The former must be treated for drowning and the latter must be treated for hypothermia.",
+        "base_location": "Dam",
+        "base_type": "First Aid",
+        "marks": 15,
+        "num_judges": 6,
+        "judges": [
+            13,
+            31,
+            33,
+            2,
+            27,
+            15
+        ],
+        "equipment": [
+            {
+                "name": "Rope",
+                "amount": 8.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "First Aid Kit",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Towel",
+                "amount": 2.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Swimming costume",
+                "amount": 2.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Blankets",
+                "amount": 4.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 26,
+        "start_time": "2023-09-16 23:00:00",
+        "end_time": "2023-09-16 23:30:00",
+        "base_name": "STA 1: Code",
+        "base_description": "Handin of the first STA",
+        "base_location": "Barn",
+        "base_type": "STA",
+        "marks": 10,
+        "num_judges": 10,
+        "judges": [
+            18,
+            6,
+            42,
+            41,
+            32,
+            15,
+            31,
+            30,
+            28,
+            11
+        ],
+        "equipment": [
+            {
+                "name": "Table",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Chairs",
+                "amount": 6.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 27,
+        "start_time": "2023-09-16 23:00:00",
+        "end_time": "2023-09-16 23:30:00",
+        "base_name": "STA 3: Script",
+        "base_description": "Handin of the third STA",
+        "base_location": "Barn",
+        "base_type": "STA",
+        "marks": 10,
+        "num_judges": 10,
+        "judges": [
+            13,
+            21,
+            9,
+            12,
+            25,
+            23,
+            8,
+            4,
+            38,
+            27
+        ],
+        "equipment": [
+            {
+                "name": "Table",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Chairs",
+                "amount": 6.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 28,
+        "start_time": "2023-09-17 08:00:00",
+        "end_time": "2023-09-17 09:00:00",
+        "base_name": "Inspection: Uniform + Hygeine",
+        "base_description": "Standard uniform inspection. All items of the uniform must be there, clean and neat. ",
+        "base_location": "Campsites",
+        "base_type": "Inspection",
+        "marks": 10,
+        "num_judges": 10,
+        "judges": [
+            39,
+            21,
+            17,
+            38,
+            22,
+            20,
+            8,
+            4,
+            37,
+            32
+        ],
+        "equipment": [],
+        "documents": []
+    },
+    {
+        "base_id": 29,
+        "start_time": "2023-09-17 08:00:00",
+        "end_time": "2023-09-17 09:00:00",
+        "base_name": "Inspection: Patrol Kits",
+        "base_description": "Patrol kit inspection, making sure all cooking equipment is clean and stored dry. All pioneering equipment should be neatly stored, preferably off the ground.",
+        "base_location": "Campsites",
+        "base_type": "Inspection",
+        "marks": 10,
+        "num_judges": 10,
+        "judges": [
+            40,
+            1,
+            42,
+            2,
+            11,
+            23,
+            31,
+            9,
+            28,
+            27
+        ],
+        "equipment": [],
+        "documents": []
+    },
+    {
+        "base_id": 30,
+        "start_time": "2023-09-17 08:00:00",
+        "end_time": "2023-09-17 09:00:00",
+        "base_name": "Inspection: Tent",
+        "base_description": "Tents should be neat and clean, all personal kit should be packed away and neatly arranged within the tent. Tents should be open for airing out if it is not raining. ",
+        "base_location": "Campsites",
+        "base_type": "Inspection",
+        "marks": 10,
+        "num_judges": 10,
+        "judges": [
+            14,
+            6,
+            3,
+            36,
+            25,
+            16,
+            35,
+            26,
+            12,
+            24
+        ],
+        "equipment": [],
+        "documents": []
+    },
+    {
+        "base_id": 31,
+        "start_time": "2023-09-17 08:00:00",
+        "end_time": "2023-09-17 09:00:00",
+        "base_name": "Inspection: Theme Elements in Campsite",
+        "base_description": NaN,
+        "base_location": "Campsites",
+        "base_type": "Inspection",
+        "marks": 5,
+        "num_judges": 10,
+        "judges": [
+            18,
+            33,
+            43,
+            13,
+            19,
+            5,
+            29,
+            7,
+            10,
+            15
+        ],
+        "equipment": [],
+        "documents": []
+    },
+    {
+        "base_id": 32,
+        "start_time": "2023-09-17 09:00:00",
+        "end_time": "2023-09-17 10:00:00",
+        "base_name": "Burns",
+        "base_description": "One of the patrol member has sustained third degree burns. The other scout must demonstrated how to care for this injury",
+        "base_location": "Parade Ground",
+        "base_type": "First Aid",
+        "marks": 5,
+        "num_judges": 6,
+        "judges": [
+            40,
+            8,
+            26,
+            37,
+            32,
+            39
+        ],
+        "equipment": [
+            {
+                "name": "First Aid Kit",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 33,
+        "start_time": "2023-09-17 09:00:00",
+        "end_time": "2023-09-17 10:00:00",
+        "base_name": "First Aid - Sucking Chest Wound",
+        "base_description": "P7 has sustained a sucking chest wound. The P2 must treat this injury. ",
+        "base_location": "Chapel",
+        "base_type": "First Aid",
+        "marks": 10,
+        "num_judges": 6,
+        "judges": [
+            13,
+            31,
+            30,
+            38,
+            25,
+            16
+        ],
+        "equipment": [
+            {
+                "name": "First Aid Kit",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 34,
+        "start_time": "2023-09-17 09:30:00",
+        "end_time": "2023-09-17 10:30:00",
+        "base_name": "Acting script",
+        "base_description": "The patrol must act out the script that they have submitted the previous night.",
+        "base_location": "Field",
+        "base_type": "Misc",
+        "marks": 10,
+        "num_judges": 6,
+        "judges": [
+            15,
+            1,
+            3,
+            5,
+            11,
+            29
+        ],
+        "equipment": [
+            {
+                "name": "Written Script",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Props",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 35,
+        "start_time": "2023-09-17 09:30:00",
+        "end_time": "2023-09-17 10:00:00",
+        "base_name": "STA 7: Trivia",
+        "base_description": "Handin of STA 7",
+        "base_location": "Barn",
+        "base_type": "STA",
+        "marks": 10,
+        "num_judges": 10,
+        "judges": [
+            23,
+            21,
+            9,
+            10,
+            22,
+            18,
+            6,
+            4,
+            36,
+            27
+        ],
+        "equipment": [
+            {
+                "name": "Table",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Chairs",
+                "amount": 6.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 36,
+        "start_time": "2023-09-17 10:00:00",
+        "end_time": "2023-09-17 11:00:00",
+        "base_name": "Six Basic Knots",
+        "base_description": "The patrol member must tie all six basic knots, and explain what each knot is being used for.",
+        "base_location": "Dam",
+        "base_type": "Pioneering",
+        "marks": 10,
+        "num_judges": 6,
+        "judges": [
+            13,
+            35,
+            26,
+            28,
+            24,
+            23
+        ],
+        "equipment": [
+            {
+                "name": "Rope, 4m",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 37,
+        "start_time": "2023-09-17 10:00:00",
+        "end_time": "2023-09-17 11:00:00",
+        "base_name": "Advanced Knots",
+        "base_description": "The patrol member is asked to tie 5 advanced knots: The carrick bend, the hunters bend, the scaffold hitch, barrel hitch and the guyline hitch. They are asked what the function of each knot is",
+        "base_location": "Campfire",
+        "base_type": "Pioneering",
+        "marks": 10,
+        "num_judges": 6,
+        "judges": [
+            14,
+            21,
+            30,
+            43,
+            22,
+            39
+        ],
+        "equipment": [
+            {
+                "name": "Rope, 4m",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Stave, 1.5m",
+                "amount": 1.0,
+                "e_type": "Scout",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Cylindrical Object",
+                "amount": 5.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Bench",
+                "amount": 5.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 38,
+        "start_time": "2023-09-17 10:00:00",
+        "end_time": "2023-09-17 10:30:00",
+        "base_name": "STA 6: Clapper",
+        "base_description": "Handin of STA 6",
+        "base_location": "Barn",
+        "base_type": "STA",
+        "marks": 10,
+        "num_judges": 10,
+        "judges": [
+            18,
+            31,
+            19,
+            41,
+            25,
+            20,
+            8,
+            17,
+            36,
+            27
+        ],
+        "equipment": [
+            {
+                "name": "Table",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Chairs",
+                "amount": 6.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 39,
+        "start_time": "2023-09-17 10:30:00",
+        "end_time": "2023-09-17 11:00:00",
+        "base_name": "STA 5: Chair",
+        "base_description": "Handin of STA 5",
+        "base_location": "Barn",
+        "base_type": "STA",
+        "marks": 10,
+        "num_judges": 10,
+        "judges": [
+            18,
+            1,
+            9,
+            5,
+            11,
+            40,
+            31,
+            3,
+            2,
+            25
+        ],
+        "equipment": [],
+        "documents": []
+    },
+    {
+        "base_id": 40,
+        "start_time": "2023-09-17 11:00:00",
+        "end_time": "2023-09-17 12:30:00",
+        "base_name": "Inspection: Site",
+        "base_description": "Patrol campsite is inspected for genera cleanliness and layout.",
+        "base_location": "Campsites",
+        "base_type": "Inspection",
+        "marks": 10,
+        "num_judges": 6,
+        "judges": [
+            16,
+            1,
+            17,
+            2,
+            22,
+            39
+        ],
+        "equipment": [],
+        "documents": []
+    },
+    {
+        "base_id": 41,
+        "start_time": "2023-09-17 11:00:00",
+        "end_time": "2023-09-17 12:30:00",
+        "base_name": "Inspection: Table",
+        "base_description": "The patrol's table is inspected, taking into account pioneering, design, functionality and extra features.",
+        "base_location": "Campsites",
+        "base_type": "Inspection",
+        "marks": 15,
+        "num_judges": 6,
+        "judges": [
+            40,
+            31,
+            4,
+            10,
+            24,
+            20
+        ],
+        "equipment": [],
+        "documents": []
+    },
+    {
+        "base_id": 42,
+        "start_time": "2023-09-17 11:00:00",
+        "end_time": "2023-09-17 12:30:00",
+        "base_name": "Inspection: Extra Gadgets",
+        "base_description": "Any extra gadgets are awarded points depending on pioneering quality and usefulness",
+        "base_location": "Campsites",
+        "base_type": "Inspection",
+        "marks": 10,
+        "num_judges": 6,
+        "judges": [
+            23,
+            21,
+            7,
+            43,
+            27,
+            15
+        ],
+        "equipment": [],
+        "documents": []
+    },
+    {
+        "base_id": 43,
+        "start_time": "2023-09-17 11:00:00",
+        "end_time": "2023-09-17 12:30:00",
+        "base_name": "Inspection: Dresser",
+        "base_description": "The patrol's dresser is inspected, looking at pioneering quality, design and neatness",
+        "base_location": "Campsites",
+        "base_type": "Inspection",
+        "marks": 10,
+        "num_judges": 6,
+        "judges": [
+            14,
+            35,
+            42,
+            34,
+            25,
+            13
+        ],
+        "equipment": [],
+        "documents": []
+    },
+    {
+        "base_id": 44,
+        "start_time": "2023-09-17 11:00:00",
+        "end_time": "2023-09-17 12:30:00",
+        "base_name": "Inspection: Notice Board",
+        "base_description": "The patrol's Noticboard is inspected for structural integrity, the ingenuity of the design and if its being used.",
+        "base_location": "Campsites",
+        "base_type": "Inspection",
+        "marks": 10,
+        "num_judges": 6,
+        "judges": [
+            18,
+            6,
+            9,
+            36,
+            11,
+            29
+        ],
+        "equipment": [],
+        "documents": []
+    },
+    {
+        "base_id": 45,
+        "start_time": "2023-09-17 11:00:00",
+        "end_time": "2023-09-17 12:30:00",
+        "base_name": "Inspection: Flag",
+        "base_description": "The patrols flagpole is inspected, looking at design, pioneering quality and ingenuity.",
+        "base_location": "Campsites",
+        "base_type": "Inspection",
+        "marks": 10,
+        "num_judges": 6,
+        "judges": [
+            8,
+            19,
+            38,
+            32,
+            3,
+            5
+        ],
+        "equipment": [],
+        "documents": []
+    },
+    {
+        "base_id": 46,
+        "start_time": "2023-09-17 11:00:00",
+        "end_time": "2023-09-17 12:30:00",
+        "base_name": "Inspection: Gateway",
+        "base_description": "The patrol's gateway is inspected, looking for moving parts, ingenuity in design and complexity",
+        "base_location": "Campsites",
+        "base_type": "Inspection",
+        "marks": 10,
+        "num_judges": 6,
+        "judges": [
+            33,
+            28,
+            30,
+            41,
+            26,
+            12
+        ],
+        "equipment": [],
+        "documents": []
+    },
+    {
+        "base_id": 47,
+        "start_time": "2023-09-17 13:00:00",
+        "end_time": "2023-09-17 13:30:00",
+        "base_name": "STA 8: Academy Award",
+        "base_description": "Handin of STA 8",
+        "base_location": "Barn",
+        "base_type": "STA",
+        "marks": 15,
+        "num_judges": 10,
+        "judges": [
+            14,
+            21,
+            3,
+            43,
+            25,
+            15,
+            8,
+            26,
+            37,
+            22
+        ],
+        "equipment": [
+            {
+                "name": "Table",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Chairs",
+                "amount": 6.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 48,
+        "start_time": "2023-09-17 13:30:00",
+        "end_time": "2023-09-17 14:00:00",
+        "base_name": "STA 4: Pinhole",
+        "base_description": "Handin of STA 4",
+        "base_location": "Barn",
+        "base_type": "STA",
+        "marks": 10,
+        "num_judges": 10,
+        "judges": [
+            15,
+            6,
+            4,
+            28,
+            22,
+            20,
+            8,
+            3,
+            34,
+            25
+        ],
+        "equipment": [
+            {
+                "name": "Table",
+                "amount": 2.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            },
+            {
+                "name": "Chairs",
+                "amount": 6.0,
+                "e_type": "Staff",
+                "have": false,
+                "notes": NaN
+            }
+        ],
+        "documents": []
+    },
+    {
+        "base_id": 49,
+        "start_time": "2023-09-17 14:30:00",
+        "end_time": "2023-09-17 15:30:00",
+        "base_name": "Final Site Inspection",
+        "base_description": "Final site inspection, looking for cleanliness of the site and all equipment has been packed away",
+        "base_location": "Campsites",
+        "base_type": "Inspection",
+        "marks": 5,
+        "num_judges": 42,
+        "judges": [
+            20,
+            6,
+            4,
+            37,
+            11,
+            15,
+            1,
+            3,
+            38,
+            27,
+            23,
+            8,
+            19,
+            10,
+            32,
+            40,
+            21,
+            33,
+            34,
+            22,
+            29,
+            31,
+            17,
+            2,
+            25,
+            14,
+            35,
+            9,
+            12,
+            24,
+            13,
+            30,
+            43,
+            18,
+            42,
+            28,
+            16,
+            7,
+            41,
+            39,
+            26,
+            36
+        ],
+        "equipment": [],
+        "documents": []
+    }
+]

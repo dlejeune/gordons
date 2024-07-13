@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>base_docs.bcf</file>
+      <file>judge_docs.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>base_docs.bbl</file>
+      <file>judge_docs.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -66,19 +66,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>base_docs</infile>
+      <infile>judge_docs</infile>
     </cmdline>
     <input>
-      <file>base_docs.bcf</file>
+      <file>judge_docs.bcf</file>
     </input>
     <output>
-      <file>base_docs.bbl</file>
+      <file>judge_docs.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>base_docs.bbl</file>
+      <file>judge_docs.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>base_docs.bcf</file>
+      <file>judge_docs.bcf</file>
     </requires>
   </external>
 </requests>
