@@ -1,0 +1,1742 @@
+\documentclass[10pt, A5]{article}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[margin=0.75in]{geometry}
+
+\usepackage[acronym]{glossaries}
+
+\usepackage[final]{pdfpages}
+
+\usepackage{setspace}
+
+\usepackage{hyperref}
+
+\usepackage{xstring}
+\usepackage{filecontents}
+
+\usepackage[%
+style=authoryear-comp,%
+maxcitenames=2, %
+maxbibnames=8, %
+mergedate=compact, %
+uniquename=false, %
+giveninits=true,%
+url=false,%
+doi=false,%
+isbn=false%
+]{biblatex}
+
+
+\usepackage{xpatch}
+
+
+\usepackage{booktabs}
+
+\usepackage{amsmath}
+
+\usepackage{array}
+
+
+\usepackage{listings}
+\usepackage[breakable]{tcolorbox}
+\tcbuselibrary{listings}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{fancyvrb}
+\usepackage{calc}
+\usepackage{enumitem}
+
+\usepackage{fontawesome5}
+
+
+% \definecolor{codegray}{gray}{0.9}
+% \newcommand{\code}[1]{\colorbox{codegray}{\texttt{#1}}}
+\newcommand{\code}[1]{\texttt{#1}}
+
+%\setstretch{1.1}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\renewcommand{\headrulewidth}{0pt}
+
+\lfoot{}
+
+\rfoot{}
+
+\cfoot{\includegraphics[width=\paperwidth]{rope.png}}
+
+
+\usepackage{caption}
+\usepackage{framed}
+
+\setlength{\parindent}{0pt}
+\usepackage{xcolor}
+\usepackage{layouts}
+\usepackage[ddmmyyyy,hhmmss]{datetime}
+
+
+\hypersetup{
+	pdftitle="Troop Report",
+	pdfauthor="Daniel Le Jeune"
+}
+
+\definecolor{grey}{HTML}{969696}
+
+
+\newcommand{\newtitle}[1]{\begin{center}{\Huge\bfseries #1 }\\ \vspace{5mm}\end{center}}
+\newcommand{\newsubtitle}[1]{\begin{center}{\color{grey}\Large\bfseries #1 }\\ \vspace{5mm}\end{center}}
+
+
+
+\usepackage{fontspec}
+
+
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Verdana}
+
+\begin{document}
+
+
+
+		\newtitle{Orsella Schneeberger}
+	\newsubtitle{ID: 40}
+
+
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{2}
+        \section{General Staff Arrive}
+        \subsection*{09:30-10:00 | Saturday | Hawequas}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{3}
+        \section{Staff Briefing}
+        \subsection*{10:00-10:30 | Saturday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										1&Programme\\\midrule
+										1&Personal Itinerary\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{5}
+        \section{Registration}
+        \subsection*{11:00-13:00 | Saturday | Barn}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    
+
+        	\begin{multicols}{2}
+
+		\begin{itemize}
+									\item Aaron Filmalter
+									\item Andrew Venter
+									\item Emily Gammon
+									\item Jonathan Webb
+									\item Josie Adlard
+						\end{itemize}
+
+		\vfill\null
+		\columnbreak
+
+		\begin{itemize}
+									\item Josie Adlard
+									\item Melissa Rijs
+									\item Neil Botha
+									\item Robbie Schreiber
+						\end{itemize}
+
+		\vfill\null
+
+		\end{multicols}
+
+    \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+		
+	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+
+				\textbf{QTY} & \textbf{Item} \\\toprule
+												4&Table\\\midrule
+												4&Chair\\\midrule
+												4&Radio\\\midrule
+												4&Collection Tray\\\midrule
+								\end{tabular}
+
+			\end{center}
+
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										4&02-"Registration"\\\midrule
+										4&02-"Consent Forms"\\\midrule
+										9&02-Marksheet\\\midrule
+										9&02-Instructions\\\midrule
+										20&02-Consent forms\\\midrule
+										5&02-Team register\\\midrule
+										4&Medical Issue Sheet\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{10}
+        \section{Opening Parade}
+        \subsection*{13:30-13:45 | Saturday | Main Field}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										1&04-Marksheet\\\midrule
+										1&04-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{11}
+        \section{Staff Lunch}
+        \subsection*{13:45-14:00 | Saturday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{17}
+        \section{Compass Rose}
+        \subsection*{14:00-15:00 | Saturday | Barn}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    
+
+        	\begin{multicols}{2}
+
+		\begin{itemize}
+									\item Caleb Sebastian Serafin
+									\item Matthew Mc Allister
+									\item Sean Wilbraham
+									\item Simon Grantham
+						\end{itemize}
+
+		\vfill\null
+		\columnbreak
+
+		\begin{itemize}
+									\item Simon Grantham
+									\item Tikana May
+						\end{itemize}
+
+		\vfill\null
+
+		\end{multicols}
+
+    \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+		
+	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+
+				\textbf{QTY} & \textbf{Item} \\\toprule
+												3&Radio\\\midrule
+								\end{tabular}
+
+			\end{center}
+
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										7&08-Marksheet\\\midrule
+										7&08-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{22}
+        \section{First Aid: Carry and Fracture}
+        \subsection*{15:00-16:00 | Saturday | Main Field}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    
+
+        	\begin{multicols}{2}
+
+		\begin{itemize}
+									\item Carol Wannenburgh
+									\item Christian John Beerwinkel
+									\item Connor Johan Venter
+									\item David Bosch
+									\item Gavin Hapgood-Strickland
+									\item James Stewart
+						\end{itemize}
+
+		\vfill\null
+		\columnbreak
+
+		\begin{itemize}
+									\item James Stewart
+									\item Jemma Gill
+									\item Melissa Rijs
+									\item Tikana May
+						\end{itemize}
+
+		\vfill\null
+
+		\end{multicols}
+
+    \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+		
+	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+
+				\textbf{QTY} & \textbf{Item} \\\toprule
+												5&Radio\\\midrule
+								\end{tabular}
+
+			\end{center}
+
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										11&12-Marksheet\\\midrule
+										11&12-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{27}
+        \section{Pellet Guns}
+        \subsection*{16:00-17:00 | Saturday | L4}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    
+
+        	\begin{multicols}{2}
+
+		\begin{itemize}
+									\item Carol Wannenburgh
+									\item Connor Johan Venter
+									\item David Bosch
+									\item David Knight
+									\item Emile Du Plooi
+									\item Kaylee Fittock
+						\end{itemize}
+
+		\vfill\null
+		\columnbreak
+
+		\begin{itemize}
+									\item Kaylee Fittock
+									\item Nicholas MacDonald
+									\item Simon Grantham
+									\item Tracey le Roux
+						\end{itemize}
+
+		\vfill\null
+
+		\end{multicols}
+
+    \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+		
+	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+
+				\textbf{QTY} & \textbf{Item} \\\toprule
+												5&Radio\\\midrule
+												5&Pellet Gun\\\midrule
+												2&Pellet Gun Pellets Box\\\midrule
+												10&Nails\\\midrule
+												2&Hammer\\\midrule
+								\end{tabular}
+
+			\end{center}
+
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										11&16-Marksheet\\\midrule
+										11&16-Instructions\\\midrule
+										50&16-Target\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{32}
+        \section{Scout Promise}
+        \subsection*{17:00-18:00 | Saturday | Front Lawn}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    
+
+        	\begin{multicols}{2}
+
+		\begin{itemize}
+									\item Connor Johan Venter
+									\item Emile Du Plooi
+									\item Emily Gammon
+									\item Gavin Hapgood-Strickland
+						\end{itemize}
+
+		\vfill\null
+		\columnbreak
+
+		\begin{itemize}
+									\item Gavin Hapgood-Strickland
+									\item James Stewart
+						\end{itemize}
+
+		\vfill\null
+
+		\end{multicols}
+
+    \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+		
+	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+
+				\textbf{QTY} & \textbf{Item} \\\toprule
+												3&Radio\\\midrule
+								\end{tabular}
+
+			\end{center}
+
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										7&19-Marksheet\\\midrule
+										7&19-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{37}
+        \section{Staff Night Briefing}
+        \subsection*{18:15-18:30 | Saturday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{38}
+        \section{Dinner}
+        \subsection*{19:00-19:30 | Saturday | Campsites}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    
+
+        	\begin{multicols}{2}
+
+		\begin{itemize}
+									\item Aaron Filmalter
+									\item Abubakr Marcus
+									\item Ashley Minshall
+									\item Asmaa Marcus
+									\item Caleb Sebastian Serafin
+									\item Capucine Wiroth
+									\item Carol Wannenburgh
+									\item Christian John Beerwinkel
+									\item Christopher Hapgood-Strickland
+									\item Connor Johan Venter
+									\item Conrad Thomas
+									\item Daniel Skriker
+									\item David Bosch
+									\item David Knight
+									\item Deen Storkey
+									\item Dylan Cloete
+									\item Emile Du Plooi
+									\item Emily Gammon
+									\item Gavin Hapgood-Strickland
+									\item Heike Hellstrom
+						\end{itemize}
+
+		\vfill\null
+		\columnbreak
+
+		\begin{itemize}
+									\item Heike Hellstrom
+									\item James Stewart
+									\item Jemma Gill
+									\item Josie Adlard
+									\item Junior Kathe
+									\item Kaylee Fittock
+									\item Matthew Mc Allister
+									\item Melissa Rijs
+									\item Neil Botha
+									\item Nicholas MacDonald
+									\item Robbie Schreiber
+									\item Roshe Applegate
+									\item Sai Ehrhardt
+									\item Sean Wilbraham
+									\item Simon Grantham
+									\item Simon Shoosmith
+									\item Tikana May
+									\item Tracey le Roux
+						\end{itemize}
+
+		\vfill\null
+
+		\end{multicols}
+
+    \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										25&23-Marksheet\\\midrule
+										25&23-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{39}
+        \section{Staff Dinner}
+        \subsection*{19:30-20:00 | Saturday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{44}
+        \section{Night Base Orienteering}
+        \subsection*{20:30-22:30 | Saturday | Lower Field}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    
+
+        	\begin{multicols}{2}
+
+		\begin{itemize}
+									\item Ashley Minshall
+									\item Capucine Wiroth
+									\item Christian John Beerwinkel
+									\item David Knight
+									\item Nicholas MacDonald
+						\end{itemize}
+
+		\vfill\null
+		\columnbreak
+
+		\begin{itemize}
+									\item Nicholas MacDonald
+									\item Sai Ehrhardt
+									\item Simon Grantham
+						\end{itemize}
+
+		\vfill\null
+
+		\end{multicols}
+
+    \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+		
+	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+
+				\textbf{QTY} & \textbf{Item} \\\toprule
+												4&Radio\\\midrule
+								\end{tabular}
+
+			\end{center}
+
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										9&27-Marksheet\\\midrule
+										9&27-Instructions\\\midrule
+										1&27-Equipment-1\\\midrule
+										1&27-Equipment-2\\\midrule
+										1&27-Equipment-3\\\midrule
+										1&27-Equipment-4\\\midrule
+										1&27-Equipment-5\\\midrule
+										1&27-Equipment-6\\\midrule
+										1&27-Equipment-7\\\midrule
+										1&27-Equipment-8\\\midrule
+										1&27-Equipment-9\\\midrule
+										1&27-Equipment-10\\\midrule
+										1&27-Equipment-11\\\midrule
+										1&27-Equipment-12\\\midrule
+										1&27-Equipment-13\\\midrule
+										50&27-Scout-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{48}
+        \section{Staff Bedtime Briefing}
+        \subsection*{22:45-23:00 | Saturday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{49}
+        \section{STA 2: Code}
+        \subsection*{23:00-23:30 | Saturday | Barn}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    
+
+        	\begin{multicols}{2}
+
+		\begin{itemize}
+									\item Aaron Filmalter
+									\item Daniel Skriker
+									\item Emile Du Plooi
+									\item Melissa Rijs
+						\end{itemize}
+
+		\vfill\null
+		\columnbreak
+
+		\begin{itemize}
+									\item Melissa Rijs
+									\item Sai Ehrhardt
+						\end{itemize}
+
+		\vfill\null
+
+		\end{multicols}
+
+    \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+		
+	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+
+				\textbf{QTY} & \textbf{Item} \\\toprule
+												3&Table\\\midrule
+												3&Radio\\\midrule
+												6&Chair\\\midrule
+												2&Collection Tray\\\midrule
+								\end{tabular}
+
+			\end{center}
+
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										7&30-Marksheet\\\midrule
+										7&30-Instructions\\\midrule
+										7&30-STA-Answers\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{53}
+        \section{Lights Out}
+        \subsection*{00:00-06:00 | Sunday | Various}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										1&34-Marksheet\\\midrule
+										1&34-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{55}
+        \section{Staff Breakfast}
+        \subsection*{06:30-07:15 | Sunday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{56}
+        \section{Staff Morning Briefing}
+        \subsection*{07:15-07:45 | Sunday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{58}
+        \section{Inspection: Patrol Kits}
+        \subsection*{08:00-09:00 | Sunday | Campsites}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    
+
+        	\begin{multicols}{2}
+
+		\begin{itemize}
+									\item Asmaa Marcus
+									\item Deen Storkey
+									\item Emile Du Plooi
+									\item Gavin Hapgood-Strickland
+									\item Heike Hellstrom
+									\item Jason Raad
+						\end{itemize}
+
+		\vfill\null
+		\columnbreak
+
+		\begin{itemize}
+									\item Jason Raad
+									\item Robbie Schreiber
+									\item Sean Wilbraham
+									\item Simon Shoosmith
+						\end{itemize}
+
+		\vfill\null
+
+		\end{multicols}
+
+    \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										11&36-Marksheet\\\midrule
+										11&36-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{66}
+        \section{STA 7: Trivia}
+        \subsection*{09:30-10:00 | Sunday | Barn}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    
+
+        	\begin{multicols}{2}
+
+		\begin{itemize}
+									\item Ashley Minshall
+									\item Daniel Skriker
+									\item Dylan Cloete
+									\item Gavin Hapgood-Strickland
+						\end{itemize}
+
+		\vfill\null
+		\columnbreak
+
+		\begin{itemize}
+									\item Gavin Hapgood-Strickland
+									\item Matthew Mc Allister
+						\end{itemize}
+
+		\vfill\null
+
+		\end{multicols}
+
+    \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+		
+	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+
+				\textbf{QTY} & \textbf{Item} \\\toprule
+												3&Table\\\midrule
+												3&Radio\\\midrule
+												6&Chair\\\midrule
+												2&Collection Tray\\\midrule
+								\end{tabular}
+
+			\end{center}
+
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										7&42-Marksheet\\\midrule
+										7&42-Instructions\\\midrule
+										7&42-STA-Answers\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{69}
+        \section{STA 4: Clapper}
+        \subsection*{10:00-10:45 | Sunday | Barn}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    
+
+        	\begin{multicols}{2}
+
+		\begin{itemize}
+									\item Jason Raad
+									\item Neil Botha
+									\item Nicholas MacDonald
+									\item Sai Ehrhardt
+						\end{itemize}
+
+		\vfill\null
+		\columnbreak
+
+		\begin{itemize}
+									\item Sai Ehrhardt
+									\item Simon Grantham
+						\end{itemize}
+
+		\vfill\null
+
+		\end{multicols}
+
+    \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+		
+	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+
+				\textbf{QTY} & \textbf{Item} \\\toprule
+												3&Table\\\midrule
+												3&Radio\\\midrule
+												6&Chair\\\midrule
+								\end{tabular}
+
+			\end{center}
+
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										7&45-Marksheet\\\midrule
+										7&45-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{79}
+        \section{Inspection: Flag}
+        \subsection*{11:00-12:30 | Sunday | Campsites}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    
+
+        	\begin{multicols}{2}
+
+		\begin{itemize}
+									\item Christian John Beerwinkel
+									\item David Bosch
+									\item Deen Storkey
+									\item Jason Raad
+						\end{itemize}
+
+		\vfill\null
+		\columnbreak
+
+		\begin{itemize}
+									\item Jason Raad
+									\item Neil Botha
+						\end{itemize}
+
+		\vfill\null
+
+		\end{multicols}
+
+    \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										11&53-Marksheet\\\midrule
+										11&53-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{81}
+        \section{Staff Lunch}
+        \subsection*{12:30-13:30 | Sunday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{86}
+        \section{Final Site Inspection}
+        \subsection*{14:30-15:15 | Sunday | Campsites}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    
+
+        	\begin{multicols}{2}
+
+		\begin{itemize}
+									\item Aaron Filmalter
+									\item Ashley Minshall
+									\item Caleb Sebastian Serafin
+									\item Capucine Wiroth
+									\item Carol Wannenburgh
+									\item Christian John Beerwinkel
+									\item Connor Johan Venter
+									\item Conrad Thomas
+									\item Daniel Skriker
+									\item Deen Storkey
+									\item Emile Du Plooi
+									\item Gavin Hapgood-Strickland
+									\item Heike Hellstrom
+						\end{itemize}
+
+		\vfill\null
+		\columnbreak
+
+		\begin{itemize}
+									\item Heike Hellstrom
+									\item Jason Raad
+									\item Josie Adlard
+									\item Kaylee Fittock
+									\item Robbie Schreiber
+									\item Roshe Applegate
+									\item Sai Ehrhardt
+									\item Sean Wilbraham
+									\item Simon Grantham
+									\item Simon Shoosmith
+									\item Tracey le Roux
+						\end{itemize}
+
+		\vfill\null
+
+		\end{multicols}
+
+    \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										13&58-Marksheet\\\midrule
+										13&58-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{91}
+        \section{Final Parade}
+        \subsection*{16:00-16:30 | Sunday | Main Field}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										1&60-Marksheet\\\midrule
+										1&60-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{92}
+        \section{Judge Debrief}
+        \subsection*{16:30-16:45 | Sunday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{93}
+        \section{Pack Up}
+        \subsection*{16:45-17:30 | Sunday | Various}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{94}
+        \section{End}
+        \subsection*{17:30-18:00 | Sunday | Hawequas}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+    
+
+	\clearpage
+
+	
+
+
+
+\end{document}

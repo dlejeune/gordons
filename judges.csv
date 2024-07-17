@@ -1,44 +1,55 @@
-Name,Troop,Training,Role,Staffed,Competance,ID
-Aaron Filmalter,9th/16th Cape Town Scout Group,Warrant,Assistant Troop Scouter,No,2,1
-Abubakr Marcus,Other,Warrant,Assistant Troop Scouter,No,4,2
-Alys Willson-Heaton,1st Muizenberg Scout Group,Warrant,Assistant Troop Scouter,Yes,3,3
-Ashley Minshall,1st Milnerton Scout Group,Warrant,Assistant Troop Scouter,Yes,3,4
-Asmaa Marcus,Other,Warrant,Troop Scouter,No,4,5
-Caleb Sebastian Serafin,1st Claremont Scout Group,Warrant,Assistant Troop Scouter,Yes,2,6
-Capucine Wiroth,9th/16th Cape Town Scout Group,IAL,Assistant Troop Scouter,No,3,7
-Carmielah Achmat,1st Bellville South Scout Group,Woodbadge,Troop Scouter,Yes,2,8
-Carol Wannenburgh,1st Fish Hoek Scout Group,Warrant,Assistant Troop Scouter,Yes,3,9
-Christian John Beerwinkel,1st Pinelands Scout Group,IAL,Assistant Troop Scouter,Yes,4,10
-Christopher Hapgood-Strickland,1st Strand Scout Group,IAL,Assistant Troop Scouter,No,5,11
-Connor Johan Venter,1st Somerset West Scout Group,Warrant,Assistant Troop Scouter,No,4,12
-Conrad Thomas,"District",Woodbadge,DC,Yes,1,13
-Daniel Skriker,1st Bergvliet Sea Scouts,Warrant,Troop Scouter,Yes,1,14
-David Bosch,1st Muizenberg Scout Group,Woodbadge,Troop Scouter,Yes,1,15
-David Knight,"District",Woodbadge,District Commissioner,Yes,1,16
-Deen Storkey,1st Factreton Scout Group,Warrant,Assistant Troop Scouter,Yes,3,17
-Dylan Cloete,Durbanville Kraaifontein (DK) Scout Group,Warrant,Troop Scouter,Yes,1,18
-Emile Du Plooi,1st Bellville South Scout Group,Warrant,Assistant Troop Scouter,Yes,3,19
-Emily Gammon,1st Claremont Scout Group,Warrant,Assistant Troop Scouter,No,1,20
-Gavin Hapgood-Strickland,1st Strand Scout Group,Woodbadge,Troop Scouter,Yes,2,21
-Heike Hellstrom,Durbanville Kraaifontein (DK) Scout Group,IAL,Assistant Troop Scouter,No,5,22
-James Stewart,6th Rondebosch Scout Group,Woodbadge,Troop Scouter,Yes,1,23
-Jemma Gill,1st Durbanville Scout Group,IAL,Doing ATS warrant in sep/oct,No,5,24
-Josie Adlard,1st Pinelands Scout Group,IAL,Assistant Troop Scouter,No,5,25
-Junior Kathe,1st Claremont Scout Group,Warrant,Assistant Troop Scouter,No,3,26
-Kaylee Fittock,1st Durbanville Scout Group,IAL,Assistant Troop Scouter,No,5,27
-Matthew Mc Allister,1st Strand Scout Group,Warrant,Assistant Troop Scouter,No,4,28
-Melissa Rijs,3rd Pinelands Scout Group,Warrant,Troop Scouter,Yes,1,29
-Neil Botha,Other,Warrant,Troop Scouter,No,3,30
-Nicholas MacDonald,1st Bergvliet Sea Scouts,Warrant,Assistant Troop Scouter,Yes,2,31
-Orsella Schneeberger,1st Hermanus Scout Group,Warrant,Assistant Troop Scouter,No,5,32
-Petra Botes,1st Paarl Scout Group,Warrant,Troop Scouter,Yes,3,33
-Rebecca Dix-Peek,4th Claremont Fernwood Scout Group,IAL,Assistant Troop Scouter,No,4,34
-Robbie Schreiber,1st Rosebank Air Scout Group,Warrant,Troop Scouter,No,2,35
-Robin Hermanus,1st Table View Scout Group,Warrant,Troop Scouter,No,4,36
-Rosh� Applegate,1st Muizenberg Scout Group,IAL,Rover,No,4,37
-Sai Ehrhardt,9th/16th Cape Town Scout Group,IAL,Assistant Troop Scouter,No,4,38
-Sean Wilbraham,1st Durbanville Scout Group,Warrant,Assistant Troop Scouter,Yes,1,39
-Simon Grantham,1st Somerset West Scout Group,Woodbadge,District Commissioner,Yes,1,40
-Simon Shoosmith,1st Fish Hoek Scout Group,Warrant,Assistant Troop Scouter,No,4,41
-Tikana May,4th Claremont Fernwood Scout Group,IAL,Assistant Troop Scouter,No,3,42
-Tracey le Roux,1st Hermanus Scout Group,Warrant,Assistant Troop Scouter,No,4,43
+Judge ID,Full Name,Group,Phone Number,Email address,Highest Level Of Adult Training,Role in Scouts,Medical Conditions,Dietary Requirements,Gordons Experience,Special Staff,Attending,Score,WhatsApp,Room,Abbriviation,
+1,Joseph Hansen,2nd Hout Bay,27711801189,joseph.hansen@scouts.org.za,Warrant,Troop Scouter,,,Yes,TRUE,TRUE,1,TRUE,Red,JH,JH
+2,Daniel Le Jeune,1st Claremont Scout Group,27839534591,daniel.lejeune@scouts.org.za,Warrant,Troop Scouter,,,Yes,TRUE,TRUE,1,TRUE,Red,DLJ,DLJ
+3,Dylan Ribbans,2th Rondebosch Scout Group,27847434555,dylanribbans@gmail.com,Warrant,Assistant Troop Scouter,,,Yes,TRUE,TRUE,1,TRUE,Red,DR,DR
+4,Andrew Venter,Durbanville Kraaifontein (DK) Scout Group,27728700259,andrew.venter.av@gmail.com,Warrant,Assistant Troop Scouter,,,No,TRUE,TRUE,2,TRUE,Red,AV,AV
+5,Sebastian Haug,9th/16th Cape Town Scout Group,27817300782,sebastian4Haug@gmail.com,Warrant,Troop Scouter,,,No,TRUE,TRUE,4,TRUE,Red,SH,SH
+6,Simon Bean,1st Claremont Scout Group,27717187276,simonwjbean@gmail.com,Warrant,Assistant Troop Scouter,,,No,TRUE,TRUE,3,TRUE,Red,SB,SB
+7,Michael Uphill,2nd Fish Hoek,27838657870,michaeluphill2@gmail.com,Warrant,Assistant Troop Scouter,,,No,TRUE,TRUE,4,TRUE,Blue,MU,MU
+8,Orion Barker,2th Rondebosch Scout Group,27663331796,orion.j.barker@gmail.com,Warrant,Assistant Troop Scouter,,,Yes,TRUE,TRUE,4,TRUE,Blue,OB,OB
+9,Jonathan Webb,1st Claremont Scout Group,27834128126,jonathan.webb@scouts.org.za,Woodbadge,Assistant Troop Scouter,,,Yes,TRUE,TRUE,1,TRUE,First Aid,JW,JW
+10,Kiara Winter,2nd Hout Bay,27767982375,kiawint890@gmail.com,IAL,Assistant Troop Scouter,,,No,TRUE,TRUE,4,TRUE,Yellow,KW,KW
+11,Nigel Forshaw,None,27829910720,nigel.forshaw@scouts.org.za,Woodbadge,RTC: Programme,,,Yes,TRUE,TRUE,1,TRUE,Blue,NF,NF
+12,Peter Nielsen,1st Fish Hoek Scout Group,27832775675,peternielsen@hotmail.co.uk,Warrant,Troop Scouter,,,Yes,TRUE,TRUE,3,TRUE,Blue,PN,PN
+13,Robert Britz,1st Strand,27828757992,robertbritz@gmail.com,Warrant,Assistant Troop Scouter,,,No,TRUE,TRUE,3,TRUE,Bunkroom,RB,RB
+14,Markus Smith,None,27737920388,markus.smith229@gmail.com,None,None,,,No,TRUE,TRUE,5,TRUE,Blue,MS,MS
+15,Monet van Antwerpen,None,27827683195,monet.vanantwerpen@scouts.org.za,Warrant,RTC: Programme,,,Yes,TRUE,TRUE,1,TRUE,Yellow,MvA,MvA
+16,Conrad Thomas,"District, Regional or National Team",27828890263,conrad.thomas@scouts.org.za,Woodbadge,District Commissioner,,,Yes,FALSE,TRUE,1,TRUE,Robert Hall,CT,CT
+17,David Bosch,1st Muizenberg Scout Group,27825681200,david.bosch@scouts.org.za,Woodbadge,Troop Scouter,,,Yes,FALSE,TRUE,1,TRUE,Robert Hall,DB,DB
+18,David Knight,"District, Regional or National Team",27764059042,david.knight@scouts.org.za,Woodbadge,District Commissioner,,,Yes,FALSE,TRUE,1,TRUE,Robert Hall,DK,DK
+19,Gavin Hapgood-Strickland,1st Strand Scout Group,27825634299,gavin@willock.co.za,Woodbadge,Troop Scouter,,,Yes,FALSE,TRUE,2,TRUE,Robert Hall,GH,GH
+20,James Stewart,6th Rondebosch Scout Group,27712361203,james.stewart@scouts.org.za,Woodbadge,Troop Scouter,Type 1 Diabetic ,,Yes,FALSE,TRUE,1,TRUE,Robert Hall,JS,JS
+21,Jason Raad,1st Bergvliet,27723637736,jasonraad62@gmail.com,Woodbadge,Assistant Troop Scouter,,,Yes,FALSE,TRUE,1,TRUE,Robert Hall,JR,JR
+22,Simon Grantham,1st Somerset West Scout Group,27845838238,simon.grantham@scouts.org.za,Woodbadge,District Commissioner,Allergic Aspirin,,Yes,FALSE,TRUE,1,TRUE,Robert Hall,SG,SG
+23,Aaron Filmalter,9th/16th Cape Town Scout Group,27761552236,aaronfilmalter@gmail.com,Warrant,Assistant Troop Scouter,,,No,FALSE,TRUE,2,TRUE,Bunkroom,AF,AF
+24,Abubakr Marcus,Other,27679878319,abumarcus04@gmail.com,Warrant,Assistant Troop Scouter,,Halal,No,FALSE,TRUE,4,TRUE,Barn Bunks,AM1,AM1
+25,Ashley Minshall,1st Milnerton Scout Group,27764280182,aminshall2909@gmail.com,Warrant,Assistant Troop Scouter,,No bananas or peanuts,Yes,FALSE,TRUE,3,TRUE,Bunkroom,AM2,AM2
+26,Asmaa Marcus,Other,27817488487,asmaa.marcus@scouts.org.za,Warrant,Troop Scouter,Allergies: Penecillin ,Halal,No,FALSE,TRUE,4,TRUE,Barn Bunks,AM3,AM3
+27,Caleb Sebastian Serafin,1st Claremont Scout Group,27763189700,caleb.serafin@scouts.org.za,Warrant,Assistant Troop Scouter,,,Yes,FALSE,TRUE,2,TRUE,Red,CSS,CSS
+28,Carol Wannenburgh,1st Fish Hoek Scout Group,27832426717,carolmcqueen@gmail.com,Warrant,Assistant Troop Scouter,,,Yes,FALSE,TRUE,3,TRUE,Bunkroom,CW1,CW1
+29,Connor Johan Venter,1st Somerset West Scout Group,27829320448,connor.venter@gmail.com,Warrant,Assistant Troop Scouter,,,No,FALSE,TRUE,4,TRUE,Bunkroom,CJV,CJV
+30,Daniel Skriker,1st Bergvliet Sea Scouts,27836401114,daniel.skriker@scouts.org.za,Warrant,Troop Scouter,,Vegetarian,Yes,FALSE,TRUE,1,TRUE,Bunkroom,DS1,DS1
+31,Deen Storkey,1st Factreton Scout Group,27799739347,deenstorks1@gmail.com,Warrant,Assistant Troop Scouter,,Halal,Yes,FALSE,TRUE,3,TRUE,Bunkroom,DS2,DS2
+32,Dylan Cloete,Durbanville Kraaifontein (DK) Scout Group,27844152832,dylan.cloete@scouts.org.za,Warrant,Troop Scouter,,,Yes,FALSE,TRUE,1,TRUE,Barn Bunks,DC,DC
+33,Emile Du Plooi,1st Bellville South Scout Group,27742319839,emileduplooy6@gmail.com,Warrant,Assistant Troop Scouter,,Halal,Yes,FALSE,TRUE,3,TRUE,Bunkroom,EDP,EDP
+34,Emily Gammon,1st Claremont Scout Group,27733757281,emily.gammon@scouts.org.za,Warrant,Assistant Troop Scouter,,,No,FALSE,TRUE,1,TRUE,Yellow,EG,EG
+35,Junior Kathe,1st Claremont Scout Group,27659166871,juniorkudzai@gmail.com,Warrant,Assistant Troop Scouter,,,No,FALSE,TRUE,3,TRUE,Bunkroom,JK,JK
+36,Matthew Mc Allister,1st Strand Scout Group,27711583596,matatacmca@gmail.com,Warrant,Assistant Troop Scouter,,,No,FALSE,TRUE,4,TRUE,Bunkroom,MMA,MMA
+37,Melissa Rijs,3rd Pinelands Scout Group,27842608283,melissa.rijs@scouts.org.za,Warrant,Troop Scouter,,,Yes,FALSE,TRUE,1,TRUE,Yellow,MR,MR
+38,Neil Botha,Other,27722727906,neilbotha1008@gmail.com,Warrant,Troop Scouter,Asthma,,No,FALSE,TRUE,3,TRUE,Bunkroom,NB,NB
+39,Nicholas MacDonald,1st Bergvliet Sea Scouts,27603807767,nickmacdonaldsa@gmail.com,Warrant,Assistant Troop Scouter,,,Yes,FALSE,TRUE,2,TRUE,Barn Bunks,NM,NM
+40,Orsella Schneeberger,1st Hermanus Scout Group,27842452769,orsellas@gmail.com,Warrant,Assistant Troop Scouter,,Canola allergy can drink Texa,No,FALSE,TRUE,5,TRUE,Yellow,OS,OS
+41,Robbie Schreiber,1st Rosebank Air Scout Group,27837788420,robert@schreiber.org.za,Warrant,Troop Scouter,,,No,FALSE,TRUE,2,TRUE,Robert Hall,RS,RS
+42,Sean Wilbraham,1st Durbanville Scout Group,27828999842,sean.scoutswc@gmail.com,Warrant,Assistant Troop Scouter,,,Yes,FALSE,TRUE,1,TRUE,Bunkroom,SW,SW
+43,Simon Shoosmith,1st Fish Hoek Scout Group,27765060569,sshoosmith@outlook.com,Warrant,Assistant Troop Scouter,Asthma,,No,FALSE,TRUE,4,TRUE,Bunkroom,SS,SS
+44,Tracey le Roux,1st Hermanus Scout Group,27741473769,tracey.leroux@scouts.org.za,Warrant,Assistant Troop Scouter,Have chronic bronchiectasis which is usually well managed. Cochlear implants - so I can't have any MRI's :-) ,Gluten-free,No,FALSE,TRUE,4,TRUE,Bunkroom,TlR,TlR
+45,Capucine Wiroth,9th/16th Cape Town Scout Group,27660395858,capucine@wts.fr,IAL,Assistant Troop Scouter,,,No,FALSE,TRUE,3,TRUE,Barn Floor,CW2,CW2
+46,Christopher Hapgood-Strickland,1st Strand Scout Group,27712309407,chrishapgstri@gmail.com,IAL,Assistant Troop Scouter,,,No,FALSE,TRUE,5,TRUE,Bunkroom,CH,CH
+47,Heike Hellstrom,Durbanville Kraaifontein (DK) Scout Group,27738171778,heikehellstrom@gmail.com,IAL,Assistant Troop Scouter,,"Gluten-free, Dairy-free",No,FALSE,TRUE,5,TRUE,Barn Floor,HH,HH
+48,Jemma Gill,1st Durbanville Scout Group,27832469064,jemmastaceygill@gmail.com,IAL,Assistant Troop Scouter,,Pescatarian ,No,FALSE,TRUE,5,TRUE,Barn Floor,JG,JG
+49,Josie Adlard,1st Pinelands Scout Group,27844065520,josie@firstpinelands.org,IAL,Assistant Troop Scouter,,,No,FALSE,TRUE,5,TRUE,Barn Floor,JA,JA
+50,Christian John Beerwinkel,1st Pinelands Scout Group,27632130878,puma@firstpinelands.org,IAL,Assistant Troop Scouter,,,Yes,FALSE,TRUE,4,TRUE,Barn Floor,CJB,CJB
+51,Roshé Applegate,1st Muizenberg Scout Group,27619313318,rosheapplegate14@gmail.com,IAL,Rover,,,No,FALSE,TRUE,5,TRUE,Barn Floor,RA,RA
+52,Sai Ehrhardt,9th/16th Cape Town Scout Group,27607073453,saiehrhardt123@gmail.com,IAL,Assistant Troop Scouter,Asthma ,Vegetarian,No,FALSE,TRUE,4,TRUE,Barn Floor,SE,SE
+53,Tikana May,4th Claremont Fernwood Scout Group,27652554895,tikana.may@gmail.com,IAL,Assistant Troop Scouter,,,No,FALSE,TRUE,3,TRUE,Barn Floor,TM,TM
+54,Kaylee Fittock,1st Durbanville Scout Group,27766956925,wildmouse3@mweb.co.za,IAL,Assistant Troop Scouter,,Vegetarian,No,FALSE,TRUE,5,TRUE,Barn Floor,KF,KF

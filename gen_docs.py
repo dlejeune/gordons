@@ -21,7 +21,7 @@ def load_judges(file):
 
 
 def latex_sanitize(text):
-    return text.replace("&", "\\&")
+    return text.replace("&", "\\&").replace("#", "num")
 
 def generate_base_docs(bases):
     latex_jinja_env = jinja2.Environment(
@@ -38,10 +38,10 @@ def generate_base_docs(bases):
         loader=jinja2.FileSystemLoader("templates/")
     )
 
-    template = latex_jinja_env.get_template('bse_template.tex')
+    template = latex_jinja_env.get_template('bse_template_2.tex')
     latex_jinja_env.globals.update(sanitize=latex_sanitize)
 
-    with open("base_docs.tex", "w") as fh:
+    with open("base_docs.tex", "w", encoding="utf-8") as fh:
         fh.write(template.render(bases=bases))
 
     subprocess.run(["xelatex", "base_docs.tex", "--output-directory", "tmp/"], shell=True)
@@ -65,10 +65,19 @@ def generate_judge_docs(judges):
     template = latex_jinja_env.get_template('judge_template.tex')
     latex_jinja_env.globals.update(sanitize=latex_sanitize)
 
-    with open("judge_docs.tex", "w") as fh:
-        fh.write(template.render(judges=judges))
+    specific_judges = [13, 16, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54]
 
-    subprocess.run(["xelatex", "judge_docs.tex", "--output-directory", "tmp/"], shell=True)
+    for judge in judges:
+
+        if judge.judge_id in specific_judges:
+            filename = f"judge_{judge.name}.tex"
+
+            new_judges = [judge,]
+
+            with open(filename, "w") as fh:
+                fh.write(template.render(judges=new_judges))
+
+            subprocess.run(["xelatex", filename, "--output-directory", "tmp/"], shell=True)
 
 def load_bases(file):
     with open(file) as fh:
@@ -96,12 +105,15 @@ def load_bases(file):
 
 
 
+
+
 def main():
 
-    comp = load_full_schedule_from_json("bases_allocated.json", "judges_allocated.json")
+    comp = load_full_schedule_from_json("final_bases.json", "final_judges.json")
     generate_base_docs(comp.bases)
 
-    # generate_judge_docs(comp.judges)
+
+    generate_judge_docs(comp.judges)
     pass
 
 
