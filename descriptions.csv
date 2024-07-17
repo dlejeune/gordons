@@ -1,0 +1,900 @@
+Description ID,Event,Test ID,Day,Start Time,Location,Staff Required,Mark,UID,Scout Instructions,Base Instructions,Completed,Join
+1,Entry on Time,1,0,00:00,Various,100,5,101,Enter before the closing date,Check on Excel,TRUE,"Enter before the closing date
+
+Check on Excel"
+2,Core Staff Arrive,0,0,18:00,Hawequas,100,0,102,,"Make sure all the keys are on the kitchen table, check the various rooms and make everything is ready for staff in morning.
+
+Check campsites, that the correct numbers are in the fire drums as per the map. Put the map on the wall, along with programme, and all other important documents.
+
+Set up admin and printing tables, along with back-up power. 
+
+Run through the programme, allocate jobs and roles for the next day, and contingencies.",TRUE,
+3,General Staff Arrive,0,1,09:30,Hawequas,800,0,103,,Staff arrive and park at top parking lot,TRUE,
+4,Staff Briefing,0,1,10:00,House,800,0,104,,"Staff Briefing Talking Points:
+
+- Introduction:
+  - Warm welcome and gratitude for volunteering.
+  - Emphasize the unique nature of this year's competition given the weather challenges and event size.
+
+- Vision of the Competition:
+  1. Skill Acquisition: Scouts and Adult Leaders alike should leave with new knowledge.
+  2. Networking: Aiming for everyone to form at least one new connection.
+  3. Experience: Ensuring a positive and memorable event for all, even in the face of challenges like the weather.
+  4. Scout Development: Empowering Scouts to be proactive, adaptive, and innovative.
+  5. Theme Adherence: Embrace the ""Director's Cut"" theme, making every activity cinematic and memorable.
+
+- Interpersonal Dynamics:
+  - Emphasize patience and mutual respect. Everyone brings unique skills and perspectives.
+  - A positive environment is key. Even in stressful moments, remember the bigger picture and how much a smile can help.
+
+- Engagement with Scouts:
+  - Honesty and transparency are vital. Our goal is to mentor, not mislead.
+  - Encourage questions and curiosity. If unsure about an answer, it's fine to admit it and find out together.
+
+- Safety and Well-being:
+  - With challenging weather, safety is paramount. Ensure every activity considers the well-being of participants.
+  - Encourage open communication. If someone feels something is unsafe or has a concern, it should be voiced.
+
+- Team Assignments and Preparations:
+  1. Parking Team: Dylan and Sebastien – ensure smooth movement and organization of vehicles.
+  2. Registration: Andrew – efficient check-in, ensuring all necessary forms and details are collected.
+  3. Uniform Inspection: Daniel – maintaining standards and ensuring everyone is dressed appropriately.
+
+- Feedback Mechanism:
+  - Encourage staff to share feedback after each event segment. Continuous improvement is key.
+  - Set up a feedback box or a designated person for collecting thoughts/suggestions.
+
+- Closing:
+  - Reiterate gratitude for everyone's dedication and hard work.
+  - Remind everyone to keep the theme and objectives of the competition at the forefront.
+  - End with a motivational note, emphasizing collaboration, enthusiasm, and the impact of this event on the Scouts.",TRUE,
+5,Scout Arrival,0,1,10:45,Various,805,0,105,,"Various teams ready for arrival of Scouts, and for assisting with Traffic and unloading. Forrest teams to park at TOP parking lot to drop off trailers. Terrace teams to drop off trailers at Terrace parking. Teams will have 10 minutes to unhitch their trailer and keep moving.",TRUE,
+6,Registration,2,1,11:00,Barn,807,10,106,,"PLs are to proceed to the Barn Foyer for registration. During registration:
+
+1. PLs must hand in their summary sheet and all consent forms.
+2. Scouts with missing or incomplete consent forms will be penalized.
+3. Any scout missing a consent form must contact their parents to ensure that Andrew Venter receives a consent form. If parents are still present, blank forms will be available for completion.
+",TRUE,"PLs are to proceed to the Barn Foyer for registration. During registration:
+
+1. PLs must hand in their summary sheet and all consent forms.
+2. Scouts with missing or incomplete consent forms will be penalized.
+3. Any scout missing a consent form must contact their parents to ensure that Andrew Venter receives a consent form. If parents are still present, blank forms will be available for completion.
+"
+7,Uniform Inspection,3,1,11:00,Front Lawn,808,5,107,,"Inspect each scout's uniform based on the following criteria:
+
+1. Uniformity: Ensure all scouts in a patrol have consistent attire, such as wearing or not wearing hats, choosing between shorts or long pants, and wearing the same type or general color of pants.
+2. Badges: Check that badges are in their correct positions and are up to date
+3. Neatness: Uniforms should be in good condition with no torn pants, should not be dirty, and shirts should be tucked in.
+4. Scout belts: Ensure all scouts have their belts on.
+5. Scarf and Woggle: Check if the scout scarf and woggle are present and neat.
+6. Name Tags: All scouts should have name tags that are neat. Each name tag should display the scout's name, rank, and team number.
+7. Do not penalize teams for wearing jamboree badges
+",TRUE,"Inspect each scout's uniform based on the following criteria:
+
+1. Uniformity: Ensure all scouts in a patrol have consistent attire, such as wearing or not wearing hats, choosing between shorts or long pants, and wearing the same type or general color of pants.
+2. Badges: Check that badges are in their correct positions and are up to date
+3. Neatness: Uniforms should be in good condition with no torn pants, should not be dirty, and shirts should be tucked in.
+4. Scout belts: Ensure all scouts have their belts on.
+5. Scarf and Woggle: Check if the scout scarf and woggle are present and neat.
+6. Name Tags: All scouts should have name tags that are neat. Each name tag should display the scout's name, rank, and team number.
+7. Do not penalize teams for wearing jamboree badges
+"
+8,Consent Form Check,0,1,11:00,Barn,801,0,108,,"Ensure each scout has submitted a signed consent form. Ensure all required fields are filled out. All medical conditions to be reported to Jonathan
+",TRUE,
+9,Lunch Prep,0,1,12:00,House,802,0,109,,Catering start prepping lunch,TRUE,
+10,Media Crew (Opening Parade),0,1,13:00,Main Field,803,0,110,,"Use opening parade to get unique shots of staff, scouts and surroundings. Try different intro/exit transitions for special effects in post. Focus on candidness, and emotions, as well as sweeping scenes with the drone of the general area.",TRUE,
+11,Opening Parade,4,1,13:30,Main Field,800,0,111,,"Welcome, flag party, introduction, house keeping, expectations, declare compeition open",TRUE,"Welcome, flag party, introduction, house keeping, expectations, declare compeition open"
+12,Staff Lunch,0,1,13:45,House,800,0,112,,Ham and cheese sandwiches,TRUE,
+13,Patrol Leader Briefing 1,5,1,13:45,Front Lawn,901,0,113,,"Provide the Patrol Leader (PL) with day 1 instructions:
+1. Hand over the instructions document.
+2. Distribute all STA hand-outs.
+3. Discuss the day's expectations.
+4. Go over the understanding of the weather forecast.
+5. Address any questions from the PL.
+6. Distribute personal event-packs.
+7. Instruct on proper rubbish disposal methods.
+",TRUE,"Provide the Patrol Leader (PL) with day 1 instructions:
+1. Hand over the instructions document.
+2. Distribute all STA hand-outs.
+3. Discuss the day's expectations.
+4. Go over the understanding of the weather forecast.
+5. Address any questions from the PL.
+6. Distribute personal event-packs.
+7. Instruct on proper rubbish disposal methods.
+"
+14,"Fun Memes, Trivia and Quotes (Staff)",0,1,14:00,House,810,0,114,,"Create light hearted trivia, memes and things for staff",TRUE,
+15,Media Crew (Hawquas General and Fillers),0,1,14:00,Hawequas,803,0,115,,"Capture unique aspects of Hawequas, and of the Scouts/Staff in action. Try different intro/exit transitions for special effects in post. Focus on candidness, and emotions, as well as sweeping scenes with the drone",TRUE,
+16,Clouds Identification,6,1,14:00,Chapel,106,5,116,"To protect your camera gear while shooting outdoors, it is best to know how the weather may turn. Identify the four clouds on the page and mention the weather associated with each.","Scouts to identify the four clouds on the page and mention the weather associated with each, matching the cloud to the number on the laminated sheet. 1 point if both cloud name and weather are correct for each:
+
+1. Cumulonimbus - thunderclouds producing thunder and lightning. 
+2. Stratus - overcast weather, produce drizzle or fine snow.
+3. Cirrus - few clouds mean fair weather or change of weather occurring in the next 24 hours.
+4. Nimbostratus - rain or snow",TRUE,"To protect your camera gear while shooting outdoors, it is best to know how the weather may turn. Identify the four clouds on the page and mention the weather associated with each.
+
+Scouts to identify the four clouds on the page and mention the weather associated with each, matching the cloud to the number on the laminated sheet. 1 point if both cloud name and weather are correct for each:
+
+1. Cumulonimbus - thunderclouds producing thunder and lightning. 
+2. Stratus - overcast weather, produce drizzle or fine snow.
+3. Cirrus - few clouds mean fair weather or change of weather occurring in the next 24 hours.
+4. Nimbostratus - rain or snow"
+17,Water Purification,7,1,14:00,Dam,106,10,117,"The next scene in your film is set in a treacherous marshland. Amidst the chaos, the crew realized they've forgotten to bring clean water! Now, the actors are parched, and it's up to you to quench their thirst. Using only the materials you find and what you have brought with you, can you engineer a water filter to transform the murky marsh water into a refreshing drink?","Scouts must construct a standard water filter using whatever resources they have brough in their equipment and STA kit. This filter should contain something along the lines of rocks, sand, and cotton wool - or equivilant in appropriate layers to filter various sizes of pollutants. Judges should assess:
+
+1. Large filter substance (rocks) - Check for placement and quantity.
+2. Medium Filter Substance (sand) - Check for even spread and depth.
+3. Fine filter substance (cotten wool) - Ensure presence and appropriate quantity.
+4. Collection vessel for water - Ensure it's appropriately placed to collect filtered water.
+5. Quality of filtered water:
+   - Clear water: 4 marks.
+   - Dirty but no visible particles: 3 marks.
+   - Dirty with visible particulates: 2 marks.
+   - No noticeable change: 1 mark.
+
+Scouts may leave the base to get more equipment from their campsite.
+",TRUE,"The next scene in your film is set in a treacherous marshland. Amidst the chaos, the crew realized they've forgotten to bring clean water! Now, the actors are parched, and it's up to you to quench their thirst. Using only the materials you find and what you have brought with you, can you engineer a water filter to transform the murky marsh water into a refreshing drink?
+
+Scouts must construct a standard water filter using whatever resources they have brough in their equipment and STA kit. This filter should contain something along the lines of rocks, sand, and cotton wool - or equivilant in appropriate layers to filter various sizes of pollutants. Judges should assess:
+
+1. Large filter substance (rocks) - Check for placement and quantity.
+2. Medium Filter Substance (sand) - Check for even spread and depth.
+3. Fine filter substance (cotten wool) - Ensure presence and appropriate quantity.
+4. Collection vessel for water - Ensure it's appropriately placed to collect filtered water.
+5. Quality of filtered water:
+   - Clear water: 4 marks.
+   - Dirty but no visible particles: 3 marks.
+   - Dirty with visible particulates: 2 marks.
+   - No noticeable change: 1 mark.
+
+Scouts may leave the base to get more equipment from their campsite.
+"
+18,Compass Rose,8,1,14:00,Barn,106,10,118,"In order to get the lighting correct, the set director needs to know which direction the sun will rise and set. You need to assist them, by drawing a 16 point compase rose, and clearly labeling each point.  ","Scouts to draw 16 point compass rose. Award marks for the correct eight major labels, specifically North, South, East, West, North-East, North-West, South-East and South-West. If they got any of the midway points incorrect (i.e. NNE, WSW, etc.) they can only get a maximum of 8 marks.",TRUE,"In order to get the lighting correct, the set director needs to know which direction the sun will rise and set. You need to assist them, by drawing a 16 point compase rose, and clearly labeling each point.  
+
+Scouts to draw 16 point compass rose. Award marks for the correct eight major labels, specifically North, South, East, West, North-East, North-West, South-East and South-West. If they got any of the midway points incorrect (i.e. NNE, WSW, etc.) they can only get a maximum of 8 marks."
+19,Magnetic Declination,9,1,14:30,L2,106,10,119,"The film's climactic scene is about to be shot, but the director is concerned about unwanted shadows! As the set's navigation expert, you're tasked with ensuring that the stage elements are precisely oriented. Use your compass skills to identify and report true north bearings of key set pieces. Then, follow given bearings to discover which props they lead to. Your precision can make or break this pivotal scene!","Scouts are given two items of your choosing to take bearings of. Using their magnetic compasses, they must report a true north bearing, taking into account magnetic declination (-25.8°). Award points based on accuracy:
+- Within 5 degrees: 2 marks
+- Within 10 degrees: 1 mark
+
+Subsequently, you must provide the Scouts with two true north bearings. They must calculate the magnetic bearing and then orientate their compass to these bearings and describe the items they point to. Award 2 marks for each correctly identified item. Ensure that the bearings lead to distinct and easily identifiable objects in view.
+
+Important: Judges need to arrive early to take and record the bearings and back bearings for the memo. ",TRUE,"The film's climactic scene is about to be shot, but the director is concerned about unwanted shadows! As the set's navigation expert, you're tasked with ensuring that the stage elements are precisely oriented. Use your compass skills to identify and report true north bearings of key set pieces. Then, follow given bearings to discover which props they lead to. Your precision can make or break this pivotal scene!
+
+Scouts are given two items of your choosing to take bearings of. Using their magnetic compasses, they must report a true north bearing, taking into account magnetic declination (-25.8°). Award points based on accuracy:
+- Within 5 degrees: 2 marks
+- Within 10 degrees: 1 mark
+
+Subsequently, you must provide the Scouts with two true north bearings. They must calculate the magnetic bearing and then orientate their compass to these bearings and describe the items they point to. Award 2 marks for each correctly identified item. Ensure that the bearings lead to distinct and easily identifiable objects in view.
+
+Important: Judges need to arrive early to take and record the bearings and back bearings for the memo. "
+20,Spanish Windlass,10,1,14:30,Campfire,108,10,120,"During the shoot of an intense off-road chase scene in Indiana Jones and the Kingdom of the Gordon Shield, the director's prized vintage car got stuck in the mud! The towing services are hours away, but the golden hour of filming is fleeting. Using pioneering skills, can you construct a Spanish Windlass to rescue the vehicle and save the day's shoot?","Scouts are required to construct a Spanish Windlass to move a bench a distance of your choosing. They should make the correct attachments, either using a round-turn or bowline. The setup of the windlass should be precise, with one pole upright and another stave perpendicular to the first, weaving the rope over it. It's crucial that they move the object (bench) and demonstrate safe operation around the windlass considering the tension. Scouts must also explain the safety precautions necessary when making use of a Spanish Windlass.
+",TRUE,"During the shoot of an intense off-road chase scene in Indiana Jones and the Kingdom of the Gordon Shield, the director's prized vintage car got stuck in the mud! The towing services are hours away, but the golden hour of filming is fleeting. Using pioneering skills, can you construct a Spanish Windlass to rescue the vehicle and save the day's shoot?
+
+Scouts are required to construct a Spanish Windlass to move a bench a distance of your choosing. They should make the correct attachments, either using a round-turn or bowline. The setup of the windlass should be precise, with one pole upright and another stave perpendicular to the first, weaving the rope over it. It's crucial that they move the object (bench) and demonstrate safe operation around the windlass considering the tension. Scouts must also explain the safety precautions necessary when making use of a Spanish Windlass.
+"
+21,Media Crew (First Aid),0,1,14:45,Main Field,803,0,121,,"At the First Aid base, capture footage and photos of the Scouts in action as they apply first aid to one another. Focus on candidness and emotions, as well as general shots of the base in action. Play around with unique and interesting shots and angles, and attempt different intro and exit transitions for special effects in post.",TRUE,
+22,Ground to Air Signals,11,1,15:00,Lower Field,108,10,122,"While filming a nail-biting scene for the 'Extraction' sequel, the lead actor realizes he's forgotten how to signal for help to the plane overhead! As part of the crew, it falls on you to quickly teach him the vital ground-to-air signals. Can you identify the signals laid out on set? Once you've shown your expertise, the director has also asked if you can draw out a couple of signals for the next scene.","A set of six ground-to-air signals are arranged on the ground at your choosing using staves or pioneering poles. The scouts' task is to describe the meaning of each symbol. Following this, they are required to draw two specific symbols, which will be chosen by you. Ensure they identify and draw the signals correctly.",TRUE,"While filming a nail-biting scene for the 'Extraction' sequel, the lead actor realizes he's forgotten how to signal for help to the plane overhead! As part of the crew, it falls on you to quickly teach him the vital ground-to-air signals. Can you identify the signals laid out on set? Once you've shown your expertise, the director has also asked if you can draw out a couple of signals for the next scene.
+
+A set of six ground-to-air signals are arranged on the ground at your choosing using staves or pioneering poles. The scouts' task is to describe the meaning of each symbol. Following this, they are required to draw two specific symbols, which will be chosen by you. Ensure they identify and draw the signals correctly."
+23,First Aid: Carry and Fracture,12,1,15:00,Main Field,110,10,123,"During a chaotic scene involving a chase through the woods of the new Hunger Games prequel, one of the actors has taken a nasty fall and broken their leg. The director shouts for a medic, but they're caught up in another scene! It's up to you to step in. Can you stabilize the leg with a splint, make sure the actor is comfortable, and then transport them to the medical tent using a three-handed carry?
+","Upon arrival, scouts are told that the P3 has fractured their leg and can no longer walk. Scouts are to create a splint for the leg, ensuring it's of appropriate length and sturdiness. They must then strap the leg ensuring the bandages are comfortable and not too tight. Once the leg is stabilized, they must transport the patient using the three-handed carry to a location determined by the staff. Points will be awarded based on splint construction, comfort, and transportation technique.
+",TRUE,"During a chaotic scene involving a chase through the woods of the new Hunger Games prequel, one of the actors has taken a nasty fall and broken their leg. The director shouts for a medic, but they're caught up in another scene! It's up to you to step in. Can you stabilize the leg with a splint, make sure the actor is comfortable, and then transport them to the medical tent using a three-handed carry?
+
+
+Upon arrival, scouts are told that the P3 has fractured their leg and can no longer walk. Scouts are to create a splint for the leg, ensuring it's of appropriate length and sturdiness. They must then strap the leg ensuring the bandages are comfortable and not too tight. Once the leg is stabilized, they must transport the patient using the three-handed carry to a location determined by the staff. Points will be awarded based on splint construction, comfort, and transportation technique.
+"
+24,Lego Set,13,1,15:30,Barn,110,10,124,"An eccentric director has envisioned an intricate set design for her upcoming movie, but the blueprint has been lost! There's only one model left of the envisioned set. Can your patrol recreate it from memory? Your task is to replicate a LEGO model with the pieces provided. Due to technical limitations, only one of you can look at the original, and the other has to build it. But be careful! You can only take a peek at the original model a maximum of 5 times. Lights, camera, LEGO!","The staff is to construct a LEGO model of their own devising. The P6 may look at the structure a maximum of 5 times and must instruct the APL on how to build the structure. Points will be awarded based on the accuracy of the replicated model, as well as communication skills demonstrated by the team. Ensure you count the number of times P6 looks at the original model. Maximum of 5 minutes allowed per team - ensure that this is timed for each team
+
+- Award 2 marks if they only looked 3 or less times, and then minus one point for every subsequent look
+- Award 5 marks for correct replication of model (minus 1 point for every 4 blocks incorrect)
+- Award 1 mark if the scouts take less than 4 minutes, else 0 marks
+- Award 2 marks if communication was clear and understood, 1 mark if a good attempt was made, 0 if the instructions were incoherent",TRUE,"An eccentric director has envisioned an intricate set design for her upcoming movie, but the blueprint has been lost! There's only one model left of the envisioned set. Can your patrol recreate it from memory? Your task is to replicate a LEGO model with the pieces provided. Due to technical limitations, only one of you can look at the original, and the other has to build it. But be careful! You can only take a peek at the original model a maximum of 5 times. Lights, camera, LEGO!
+
+The staff is to construct a LEGO model of their own devising. The P6 may look at the structure a maximum of 5 times and must instruct the APL on how to build the structure. Points will be awarded based on the accuracy of the replicated model, as well as communication skills demonstrated by the team. Ensure you count the number of times P6 looks at the original model. Maximum of 5 minutes allowed per team - ensure that this is timed for each team
+
+- Award 2 marks if they only looked 3 or less times, and then minus one point for every subsequent look
+- Award 5 marks for correct replication of model (minus 1 point for every 4 blocks incorrect)
+- Award 1 mark if the scouts take less than 4 minutes, else 0 marks
+- Award 2 marks if communication was clear and understood, 1 mark if a good attempt was made, 0 if the instructions were incoherent"
+25,Snake Identification,14,1,15:30,Chapel,106,10,125,"The director is in a bind! The script for the new nature documentary series episode, ""Serpents of the South"", has gone missing. You need to help out by correctly identifying these snakes and naming their venom types to keep the shoot on track!","Scouts are to identify the snake name and its venom type from the provided images. The snakes and their respective venoms are as follows:
+
+1. Cape Cobra - neurotoxic
+2. Boomslang - haemotoxic
+3. Berg adder - neurotoxic
+4. Puff adder - cytotoxic
+
+Ensure that the scouts identify both the snake and its venom type correctly.
+",TRUE,"The director is in a bind! The script for the new nature documentary series episode, ""Serpents of the South"", has gone missing. You need to help out by correctly identifying these snakes and naming their venom types to keep the shoot on track!
+
+Scouts are to identify the snake name and its venom type from the provided images. The snakes and their respective venoms are as follows:
+
+1. Cape Cobra - neurotoxic
+2. Boomslang - haemotoxic
+3. Berg adder - neurotoxic
+4. Puff adder - cytotoxic
+
+Ensure that the scouts identify both the snake and its venom type correctly.
+"
+26,Media Crew (Pellet Guns),0,1,15:45,L4,803,0,126,,"At the Pellet Gun base, capture footage and photos of the Scouts in action as they attempt to shoot the target. Focus on candidness and emotions, as well action shots of the Scouts firing, and hitting the target. Play around with unique and interesting shots and angles, and change up the focal length to get dynamic shots of the action. Try using different intro and exit transitions for special effects in post.",TRUE,
+27,Fire Starting,15,1,16:00,Campfire,108,5,127,"The movie set's special effects have malfunctioned, and the director needs a fire, pronto! The props team has only left behind a battery and some steel wool. It's up to you to save the scene! Can you ignite the fire using these unlikely tools? And once you've lit up the screen, ensure you safely extinguish your masterpiece.",Scouts are to use a battery and steel wool to start a small fire. The tinder and kindling will be provided. Points are awarded for the correct set-up and method. Flames must be clearly visible before instructing the scout to stop. Ensure there's sand readily available to put out any unwanted fires. Award points for successfully starting and then properly extinguishing the fire.,TRUE,"The movie set's special effects have malfunctioned, and the director needs a fire, pronto! The props team has only left behind a battery and some steel wool. It's up to you to save the scene! Can you ignite the fire using these unlikely tools? And once you've lit up the screen, ensure you safely extinguish your masterpiece.
+
+Scouts are to use a battery and steel wool to start a small fire. The tinder and kindling will be provided. Points are awarded for the correct set-up and method. Flames must be clearly visible before instructing the scout to stop. Ensure there's sand readily available to put out any unwanted fires. Award points for successfully starting and then properly extinguishing the fire."
+28,Pellet Guns,16,1,16:00,L4,110,5,128,Keanu Reeves is preparing for the next John Wick movie and needs some practice. Show him how its done by getting all your shots on target.,Targets are set up with classical point scoring. Use hammer and nails to attach target to tree. Each scout gets 5 bullets. The highest shot is taken as their final point value.,TRUE,"Keanu Reeves is preparing for the next John Wick movie and needs some practice. Show him how its done by getting all your shots on target.
+
+Targets are set up with classical point scoring. Use hammer and nails to attach target to tree. Each scout gets 5 bullets. The highest shot is taken as their final point value."
+29,Scout Laws,17,1,16:30,Lower Field,106,5,129,"The script for the upcoming movie has a scene where the lead character, a former Scout, reflects on the Scout Laws that guided their youth. The director is looking for authenticity and has asked for your help. Can you recite the Scout Laws flawlessly for the scene? ","Ask the Scouts to recite a random Scout Law. Shuffle the order or choice of laws for each Scout to maintain unpredictability. Award points for each correctly recited law. No points will be awarded if the wording is incorrect. Ensure that Scouts only get one attempt to answer.
+",TRUE,"The script for the upcoming movie has a scene where the lead character, a former Scout, reflects on the Scout Laws that guided their youth. The director is looking for authenticity and has asked for your help. Can you recite the Scout Laws flawlessly for the scene? 
+
+Ask the Scouts to recite a random Scout Law. Shuffle the order or choice of laws for each Scout to maintain unpredictability. Award points for each correctly recited law. No points will be awarded if the wording is incorrect. Ensure that Scouts only get one attempt to answer.
+"
+30,First Aid: Wounds and Bleeding,18,1,16:30,Main Field,110,10,130,"During a high-paced chase scene on set, your fellow actor tripped over a cable and took a nasty fall. They've scraped both their wrist and elbow, which now bleed profusely. With the director and crew anxiously looking on, using your first aid knowledge, you jump into action to administer proper treatment to ensure your friend's safety. Time to shine, medic!
+","An actor, simulated by a scout, has sustained injuries: a graze on the wrist and a more severe bleeding on the elbow after a fall. The other scout is tasked with correctly addressing these injuries using their first aid kit. Observe their technique and approach for each wound, ensuring they treat both wounds effectively.
+Make sure the bandages are correctly applied, they are comfortable and that both wounds are addressed",TRUE,"During a high-paced chase scene on set, your fellow actor tripped over a cable and took a nasty fall. They've scraped both their wrist and elbow, which now bleed profusely. With the director and crew anxiously looking on, using your first aid knowledge, you jump into action to administer proper treatment to ensure your friend's safety. Time to shine, medic!
+
+
+An actor, simulated by a scout, has sustained injuries: a graze on the wrist and a more severe bleeding on the elbow after a fall. The other scout is tasked with correctly addressing these injuries using their first aid kit. Observe their technique and approach for each wound, ensuring they treat both wounds effectively.
+Make sure the bandages are correctly applied, they are comfortable and that both wounds are addressed"
+31,Dinner Prep,0,1,16:30,House,802,0,131,,Catering start prepping dinner,TRUE,
+32,Media Crew (Scout Promise),0,1,16:45,Front Lawn,803,0,132,,"Capture the solemn and emotional moment of the Scouts reciting the Scout Promise. Use close-up shots to capture the expressions and emotions of the Scouts. Ensure to also get wide-angle shots showcasing the entire group in formation, standing at attention. Use the drone for an overhead view capturing the formation and surrounding environment. Focus on the Scouts making the Scout sign for a poignant touch to the scene. Try to catch the authenticity and commitment in their voices and expressions. Utilize slow zoom-ins during key moments of the promise to emphasize its importance.",TRUE,
+33,Scout Promise,19,1,17:00,Front Lawn,106,5,133,"The movie's climactic scene features a Scout reflecting on their commitment to Scouting. However, the actor is having a hard time remembering the lines! Can you assest them and recite the iconic Scout Promise and deliver a performance worthy of an Oscar?","Scouts are asked to say the promise. Award 2 marks for correct promise, 1 mark if generally correct but few words wrong, 0 if they do not recite it. Award 1 mark for standing at attention, and 1 mark for making the Scout sign.",TRUE,"The movie's climactic scene features a Scout reflecting on their commitment to Scouting. However, the actor is having a hard time remembering the lines! Can you assest them and recite the iconic Scout Promise and deliver a performance worthy of an Oscar?
+
+Scouts are asked to say the promise. Award 2 marks for correct promise, 1 mark if generally correct but few words wrong, 0 if they do not recite it. Award 1 mark for standing at attention, and 1 mark for making the Scout sign."
+34,Whippings,20,1,17:00,Chapel,108,10,134,"You are about rig a high jump stunt using rope, but it has been cut! Tie a sailmakers whipping and a simple whipping to repair it to avoid disaster.",Scouts to tie a sailmakers whipping on one end of the rope and a simple whipping on the other end of the rope. Whippings are marked according to correctness and neatness.,TRUE,"You are about rig a high jump stunt using rope, but it has been cut! Tie a sailmakers whipping and a simple whipping to repair it to avoid disaster.
+
+Scouts to tie a sailmakers whipping on one end of the rope and a simple whipping on the other end of the rope. Whippings are marked according to correctness and neatness."
+35,Triangulation,21,1,17:00,L3,110,10,135,"While shooting an action-packed chase sequence, the movie's main character finds themselves lost in the wilderness. They need to triangulate their position to send for help. Use triangulation to identify your position on a map. Find three noticeable landmarks and take bearings to pinpoint your location. Remember, every degree counts in this nail-biting scene!","Scouts will use triangulation to determine their position on the map. They will take bearings to three noticeable landmarks, identify them on the map, and then use these bearings and the subsequent back bearings to triangulate their position. The back bearings will be triangulated onto the map to form a triangle indicating their position. Bearings and back bearings must be clearly labeled. There is a tolerance of 5 degrees on either side for the bearings. Ensure the scouts follow the instructions accurately.
+
+Important: Judges need to arrive early to take and record the bearings and back bearings for the memo. 
+",TRUE,"While shooting an action-packed chase sequence, the movie's main character finds themselves lost in the wilderness. They need to triangulate their position to send for help. Use triangulation to identify your position on a map. Find three noticeable landmarks and take bearings to pinpoint your location. Remember, every degree counts in this nail-biting scene!
+
+Scouts will use triangulation to determine their position on the map. They will take bearings to three noticeable landmarks, identify them on the map, and then use these bearings and the subsequent back bearings to triangulate their position. The back bearings will be triangulated onto the map to form a triangle indicating their position. Bearings and back bearings must be clearly labeled. There is a tolerance of 5 degrees on either side for the bearings. Ensure the scouts follow the instructions accurately.
+
+Important: Judges need to arrive early to take and record the bearings and back bearings for the memo. 
+"
+36,STA 1: Dinner Invitation,22,1,17:30,Barn,106,10,136,,"Scouts are to make a handwritten dinner invitation addressed to all the judges. Ensure that:
+1. The invitation is decorated, neat, and showcases effort.
+2. Details of the dinner such as time and campsite location are included.
+
+
+Evaluation criteria:
+1. Decoration: Assess based on design, effort, and involvement of the competition theme. -4
+2. Details: -2 
+3. Has to look like a movie poster -2
+4. Neatness and effort -2
+",TRUE,"Scouts are to make a handwritten dinner invitation addressed to all the judges. Ensure that:
+1. The invitation is decorated, neat, and showcases effort.
+2. Details of the dinner such as time and campsite location are included.
+
+
+Evaluation criteria:
+1. Decoration: Assess based on design, effort, and involvement of the competition theme. -4
+2. Details: -2 
+3. Has to look like a movie poster -2
+4. Neatness and effort -2
+"
+37,Media Crew (General House and Staff),0,1,17:30,House,803,0,137,,"Get candid shots of the staff in their off-duty moments, showcasing the behind-the-scenes preparations and interactions. Capture the camaraderie, laughter, discussions, and perhaps even moments of relaxation or contemplation. Use the environment of the house area to frame your shots, emphasizing the homely and casual atmosphere. Get close-ups of any equipment, food, or materials that staff might be working with or discussing. This is a great opportunity for B-roll footage, showcasing the human side of the event's organization. If possible, use the drone to get a sweeping shot of the house and surrounding areas, setting the scene for the viewers. Include smooth pan shots to capture the breadth of activities happening in and around the house.
+",TRUE,
+38,Staff Night Briefing,0,1,18:15,House,800,0,138,,"Thank staff for the day of bases and move into evening activities:
+- All staff are judging meals in pairs (no more than 10 mins per patrol)
+- Staff dinner will be in the house after judging too teams
+- Night base leaders are to set up night bases prior to the bases opening (check the personal sheets for team and equipment)
+- After night bases, there will be one final briefing for everyone
+- Those not on STA bases have time off",TRUE,
+39,Dinner,23,1,19:00,Campsites,148,40,139,,"Scouts are tasked with preparing a three-course meal for themselves and two designated judges. One course must be prepared in a Dutch oven on an open fire, while the other can be prepared on gas. The meals should be well-balanced, incorporating protein, starch, and vegetables. 
+
+Upon the judges' arrival, the patrol leader should greet them and guide them to their seat. Ensure that the entire patrol and the judges are seated comfortably at the pioneered table. Meals should be served promptly and be at the appropriate temperature. See marksheet for evaluation breakdwon",TRUE,"Scouts are tasked with preparing a three-course meal for themselves and two designated judges. One course must be prepared in a Dutch oven on an open fire, while the other can be prepared on gas. The meals should be well-balanced, incorporating protein, starch, and vegetables. 
+
+Upon the judges' arrival, the patrol leader should greet them and guide them to their seat. Ensure that the entire patrol and the judges are seated comfortably at the pioneered table. Meals should be served promptly and be at the appropriate temperature. See marksheet for evaluation breakdwon"
+40,Staff Dinner,0,1,19:30,House,800,0,140,,"Chicken Stew / Vegetable Stew 
+(and something sweet)",TRUE,
+41,Night Bases Parade,24,1,20:15,Main Field,901,0,141,,"Welcome everyone to night bases, the event will be two hours for four bases.
+Only four members required per base, teams will be allowed to split up.
+Bases will close at 22h30",TRUE,"Welcome everyone to night bases, the event will be two hours for four bases.
+Only four members required per base, teams will be allowed to split up.
+Bases will close at 22h30"
+42,Media Crew (Jump the Fence),0,1,20:15,Main Field,803,0,142,,"Capture the intensity and drama of the scenario as Scouts work together to construct their pioneering structure. Prioritize shots that emphasize teamwork, problem-solving, and innovation. 
+Use dynamic angles to showcase the height and challenge of the fence, emphasizing the urgency of the task at hand. Get close-ups of the ropes, knots, and any other details that highlight the complexity and skill involved in the construction. 
+As Scouts begin to cross the fence, aim for dramatic low angles that emphasize the height and challenge. Capture the reactions, emotions, and celebrations as each Scout successfully crosses. 
+For added drama, employ slow-motion shots of the crossing, highlighting the precision and care taken. Utilize the drone to get overhead shots of the entire structure, giving viewers a bird's-eye view of the challenge. Lastly, don't forget to capture the interactions between the Scouts and the judges, especially during crucial decision-making moments.
+",TRUE,
+43,Semaphor Flags,25,1,20:30,Front Lawn,108,15,143,"During the filming of a silent movie on a remote island, your communication radios have failed. The director urgently needs to convey a secret message to the crew on the other side of the island. With no tech available, you revert to the classic Semaphore flags. Can your patrol successfully transmit this crucial message to save the shoot?","Scouts are placed at a distance from each other. The patrol is split into two. Half the patrol is responsible for sending a message to the other half, using Semaphore flags. The message to be transmitted is ""LIGHTS, CAMERA, GORDONS"". Judges should ensure that the message is correctly transmitted using the correct Semaphore signals. 
+
+Bonus points for speed (at judge's desgression)",TRUE,"During the filming of a silent movie on a remote island, your communication radios have failed. The director urgently needs to convey a secret message to the crew on the other side of the island. With no tech available, you revert to the classic Semaphore flags. Can your patrol successfully transmit this crucial message to save the shoot?
+
+Scouts are placed at a distance from each other. The patrol is split into two. Half the patrol is responsible for sending a message to the other half, using Semaphore flags. The message to be transmitted is ""LIGHTS, CAMERA, GORDONS"". Judges should ensure that the message is correctly transmitted using the correct Semaphore signals. 
+
+Bonus points for speed (at judge's desgression)"
+44,Jump the Fence,26,1,20:30,Main Field,108,15,144,"For the upcoming Prison Break movie, the director has asked you to assist with creating a pioneering structure and testing it, before the stunt doubles use it in the movie. In the movie scene, the only way out is over a tall fence. But there's a twist: the fence is electrified in the movie. You and your patrol must construct a pioneering structure to help the stunt doubles safely get over the fence without touching it. Once they're on the other side, there's no turning back.
+","A fence approximately 1.7m in height must be set up. The patrol's task is to construct a pioneering structure that enables all their members to safely cross over the fence without making contact with it. Once a Scout has successfully crossed, they are not permitted to return. Marks will be awarded based on the effectiveness, stability, and safety of the structure. Judges must ensure that there is no contact with the fence, as this will result in penalties.
+
+Important: Judges to construct fence prior to base. Recommend using two tripods, with rope suspended between them at 1.7m - other methods also acceptable
+",TRUE,"For the upcoming Prison Break movie, the director has asked you to assist with creating a pioneering structure and testing it, before the stunt doubles use it in the movie. In the movie scene, the only way out is over a tall fence. But there's a twist: the fence is electrified in the movie. You and your patrol must construct a pioneering structure to help the stunt doubles safely get over the fence without touching it. Once they're on the other side, there's no turning back.
+
+
+A fence approximately 1.7m in height must be set up. The patrol's task is to construct a pioneering structure that enables all their members to safely cross over the fence without making contact with it. Once a Scout has successfully crossed, they are not permitted to return. Marks will be awarded based on the effectiveness, stability, and safety of the structure. Judges must ensure that there is no contact with the fence, as this will result in penalties.
+
+Important: Judges to construct fence prior to base. Recommend using two tripods, with rope suspended between them at 1.7m - other methods also acceptable
+"
+45,Night Base Orienteering,27,1,20:30,Lower Field,108,15,145,"Whilst filming the episode *Into the Wilderness: Hawequas Unhinged* for National Geographic, your film crew was hit by a storm and in the chaos, your equipment was lost. However, luckily the expensive gear has trackers on it, and was able to send out it's location before the battery died. Using the readouts given to you, find the locations of the missing equipment, and log what you find. Additional instructions are on the readout provided.","Scouts are given an instruction sheet with 13 bearings and distances. All bearings and distances are measured from the base location. Using a compass, Scouts will need to find each of the locations, where there will be a laminated piece of paper with a photo of the various equipment that was lost. They will need to log the equipment that they found, and report back to you on completion. For every correct corresponding equipment name and location number, they will receive one mark.",TRUE,"Whilst filming the episode *Into the Wilderness: Hawequas Unhinged* for National Geographic, your film crew was hit by a storm and in the chaos, your equipment was lost. However, luckily the expensive gear has trackers on it, and was able to send out it's location before the battery died. Using the readouts given to you, find the locations of the missing equipment, and log what you find. Additional instructions are on the readout provided.
+
+Scouts are given an instruction sheet with 13 bearings and distances. All bearings and distances are measured from the base location. Using a compass, Scouts will need to find each of the locations, where there will be a laminated piece of paper with a photo of the various equipment that was lost. They will need to log the equipment that they found, and report back to you on completion. For every correct corresponding equipment name and location number, they will receive one mark."
+46,ESM: Water Drowning,28,1,20:30,Dam,108,15,146,"During a dramatic boat scene for the latest blockbuster, the lead actor's stunt double accidentally falls overboard unseen by the occupied crew. In an unfortunate turn of events, the trailing boat accidently crashes into the double in the water, knocking him out cold with major head trauma. Upon seeing this, the director is panicking, and the medics are nowhere in sight. Step in, demonstrate the correct rescue procedure, and make sure both the victim and rescuer are cared for afterwards. The water is becoming dangerous due to the boats moving around.
+","One Scout will need to be briefed away from the patrol, as they will be the drowing victem.
+
+This Scout is then positioned in the dam, while the rest of the patrol is getting briefed. Scouts must demonstrate the correct method of retrieving their patrol member, covering the procedures: reach, throw, row, go. Following this, one patrol member must accurately rescue the drowning member. After the rescue, the patrol is required to treat BOTH the victim and the rescuer. When the victim is pulled from the water, you must inform them that their heart is not beating. Inform the rescuer that they are now shivering violently, and have become a secondary patient.
+
+The main objective here is to assess Emergency Scene Management (ESM): the 4 H's, triage, correct 112 number called, and proceedure followed. Ensure there's an observation for their approach to the scene, prioritization of actions, and correct application of first aid techniques. CPR must be conducted, and airways must be checked. We suspect a spinal injury due to the head trauma, but it is more important to get the victem out the water as there is a time constraint.
+
+The scenario will end once the patrol declares the victem and rescuer stable.
+",TRUE,"During a dramatic boat scene for the latest blockbuster, the lead actor's stunt double accidentally falls overboard unseen by the occupied crew. In an unfortunate turn of events, the trailing boat accidently crashes into the double in the water, knocking him out cold with major head trauma. Upon seeing this, the director is panicking, and the medics are nowhere in sight. Step in, demonstrate the correct rescue procedure, and make sure both the victim and rescuer are cared for afterwards. The water is becoming dangerous due to the boats moving around.
+
+
+One Scout will need to be briefed away from the patrol, as they will be the drowing victem.
+
+This Scout is then positioned in the dam, while the rest of the patrol is getting briefed. Scouts must demonstrate the correct method of retrieving their patrol member, covering the procedures: reach, throw, row, go. Following this, one patrol member must accurately rescue the drowning member. After the rescue, the patrol is required to treat BOTH the victim and the rescuer. When the victim is pulled from the water, you must inform them that their heart is not beating. Inform the rescuer that they are now shivering violently, and have become a secondary patient.
+
+The main objective here is to assess Emergency Scene Management (ESM): the 4 H's, triage, correct 112 number called, and proceedure followed. Ensure there's an observation for their approach to the scene, prioritization of actions, and correct application of first aid techniques. CPR must be conducted, and airways must be checked. We suspect a spinal injury due to the head trauma, but it is more important to get the victem out the water as there is a time constraint.
+
+The scenario will end once the patrol declares the victem and rescuer stable.
+"
+47,Media Crew (ESM),0,1,21:00,Dam,803,0,147,,"This is an intense, high-stakes scenario - treat it as such. Start with a wide shot of the dam to set the scene, then zoom in on the briefing to capture the tension and anticipation. As the action unfolds, keep the camera steady and follow the Scouts' movements, making sure to capture their facial expressions, decision-making processes, and teamwork. 
+
+During the rescue sequence, have one camera dedicated to close-ups: capturing hands gripping, water splashing, and the rescuer's determination. Another camera can capture the wider scene, showcasing the full scope of the rescue effort, and the patrol's coordination.
+
+The dramatic moment when the victim is pulled from the water and the heart is not beating should be captured with a mix of close-ups and medium shots, emphasizing the urgency and the Scouts' reactions. 
+
+When CPR is initiated, respect the sensitivity of the situation but don't shy away from the intensity of the moment. Capture the compressions, the checking of airways, and the surrounding Scouts' reactions.
+
+Throughout, maintain a focus on the Emergency Scene Management: the prioritization, the decision-making, and the application of first aid techniques. This is not just about the drama, but about showcasing the skill and training of the Scouts in action.
+
+End with shots of the stabilized victims and a relieved patrol, emphasizing the gravity of what they've just accomplished. If possible, get interviews or sound bites from the Scouts post-action, capturing their immediate reactions and reflections on the scenario.
+",TRUE,
+48,Night Bases Closing,29,1,22:30,Main Field,901,0,148,,"Everyone to go back to campsites.
+Reminder that STAs due in 30 minutes.",TRUE,"Everyone to go back to campsites.
+Reminder that STAs due in 30 minutes."
+49,Staff Bedtime Briefing,0,1,22:45,House,800,0,149,,S,TRUE,
+50,STA 2: Code,30,1,23:00,Barn,106,10,150,,"Scouts have been given a binary code that encodes an image of mario. Mark allocation goes as follows:
+
+Hand-in  - 1
+Overall correct shape - 2
+Correctness: Award 7 if perfect, deduct one point per mistake thereafter. Use your discretion with colours",FALSE,"Scouts have been given a binary code that encodes an image of mario. Mark allocation goes as follows:
+
+Hand-in  - 1
+Overall correct shape - 2
+Correctness: Award 7 if perfect, deduct one point per mistake thereafter. Use your discretion with colours"
+51,STA 3: Script,31,1,23:00,Barn,106,10,151,,"The patrol is to write a script for the trailer of the sequel to a movie. Here's what to look for:
+
+1. The chosen movie for the sequel and the context provided.
+2. Script length should allow for performance by 2-4 patrol members within 120 seconds.
+3. The script should contain voice lines for 2-4 actors/actresses.
+4. The script should describe characters' actions and emotions comprehensively.
+5. Originality and creativity in the sequel idea.
+6. Coherence and potential appeal of the trailer's narrative.
+Marking criteria:
+1. Originality -2
+2. Correct Length -1
+3. Coherence -1
+4. Cues -2
+5. Overall quality -4
+",TRUE,"The patrol is to write a script for the trailer of the sequel to a movie. Here's what to look for:
+
+1. The chosen movie for the sequel and the context provided.
+2. Script length should allow for performance by 2-4 patrol members within 120 seconds.
+3. The script should contain voice lines for 2-4 actors/actresses.
+4. The script should describe characters' actions and emotions comprehensively.
+5. Originality and creativity in the sequel idea.
+6. Coherence and potential appeal of the trailer's narrative.
+Marking criteria:
+1. Originality -2
+2. Correct Length -1
+3. Coherence -1
+4. Cues -2
+5. Overall quality -4
+"
+52,Rubbish Hand-In,32,1,23:00,Kitchen,102,0,152,,"Patrols are to deposit waste strictly at the kitchen area. Any recyclable materials must be retained by the patrols and taken home with them.
+",TRUE,"Patrols are to deposit waste strictly at the kitchen area. Any recyclable materials must be retained by the patrols and taken home with them.
+"
+53,Patrol Leader Briefing 2,33,1,23:00,Front Lawn,901,0,153,,"Provide the Patrol Leader (PL) with day 2 instructions:
+1. Hand over the instructions document.
+2. Discuss the day's expectations.
+3. Go over day 1 and allow feedback
+4. Address any questions from the PL.
+5. Instruct on proper rubbish disposal methods.",TRUE,"Provide the Patrol Leader (PL) with day 2 instructions:
+1. Hand over the instructions document.
+2. Discuss the day's expectations.
+3. Go over day 1 and allow feedback
+4. Address any questions from the PL.
+5. Instruct on proper rubbish disposal methods."
+54,Lights Out,34,2,00:00,Various,800,0,154,,No noise,TRUE,No noise
+55,Breakfast Prep,0,2,06:00,House,802,0,155,,Catering start prepping breakfast and boiling water,TRUE,
+56,Staff Breakfast,0,2,06:30,House,800,0,156,,Assorted cearals with milk,TRUE,
+57,Staff Morning Briefing,0,2,07:15,House,800,0,157,,"Welcome everyone, hand out packs to teams
+Answer any questions
+Introduce that there will be two inspections, separated by bases inbetween them
+Talk about tone and method of testing - the scouts must be discaplined, but this also isn't a military camp
+Encourage the teams to talk with one another before hand to agree on marking methods
+After inpsections scouts to go immediately into bases
+Followed by final inspections
+Lunch will be at 12h30",TRUE,
+58,Inspection: Uniform and Hygeine,35,2,08:00,Campsites,110,10,158,,"Inspect each patrol's uniform for neatness and personal hygiene. Consider the following criteria:
+
+1. Is the uniform neat and clean?
+2. Are shirts tucked in?
+3. Uniform consistency: Are all scouts in the patrol wearing the same type of pants (long, short, chinos, jeans)?
+4. Hat consistency: Are all scouts either wearing hats or none of them wearing hats?
+5. Personal hygiene: Have scouts washed their faces this morning?
+6. Hand cleanliness: Have scouts washed their hands?
+7. Oral hygiene: Verify that at least two members' toothbrushes are wet, indicating they brushed their teeth.",TRUE,"Inspect each patrol's uniform for neatness and personal hygiene. Consider the following criteria:
+
+1. Is the uniform neat and clean?
+2. Are shirts tucked in?
+3. Uniform consistency: Are all scouts in the patrol wearing the same type of pants (long, short, chinos, jeans)?
+4. Hat consistency: Are all scouts either wearing hats or none of them wearing hats?
+5. Personal hygiene: Have scouts washed their faces this morning?
+6. Hand cleanliness: Have scouts washed their hands?
+7. Oral hygiene: Verify that at least two members' toothbrushes are wet, indicating they brushed their teeth."
+59,Inspection: Patrol Kits,36,2,08:00,Campsites,110,10,159,,"Inspect each patrol's kit organization and maintenance:
+
+1. Are patrol member's kits neatly stored? 
+2. Are kits off the ground?
+3. Are kits packed in a row?
+4. Are bags accessible and closed?
+5. Are patrol trommels off the ground, closed, and packed neatly?
+6. Are pots from breakfast and dinner clean and dry?
+7. Is the Dutch oven from dinner clean and properly oiled?",TRUE,"Inspect each patrol's kit organization and maintenance:
+
+1. Are patrol member's kits neatly stored? 
+2. Are kits off the ground?
+3. Are kits packed in a row?
+4. Are bags accessible and closed?
+5. Are patrol trommels off the ground, closed, and packed neatly?
+6. Are pots from breakfast and dinner clean and dry?
+7. Is the Dutch oven from dinner clean and properly oiled?"
+60,Inspection: Tent,37,2,08:00,Campsites,110,10,160,,"Inspect the tent based on the following criteria:
+
+1. Tent must be properly pitched.
+2. Tent should appear neat, easily accessible, and functional. 
+3. Depending on the type (army or dome tent), the fabric/sides should be taut and evenly spread without creases.
+4. Guy lines should all be pegged such that they are parallel, straight, and taut.
+5. Guy ropes should be angled at 45 degrees and pegs should be secured at 90 degrees into the ground.
+6. Depending on the weather, the tent should either be opened out/brailed for airing (if it's fine weather) or weatherproofed (sides secured) if it's raining.",TRUE,"Inspect the tent based on the following criteria:
+
+1. Tent must be properly pitched.
+2. Tent should appear neat, easily accessible, and functional. 
+3. Depending on the type (army or dome tent), the fabric/sides should be taut and evenly spread without creases.
+4. Guy lines should all be pegged such that they are parallel, straight, and taut.
+5. Guy ropes should be angled at 45 degrees and pegs should be secured at 90 degrees into the ground.
+6. Depending on the weather, the tent should either be opened out/brailed for airing (if it's fine weather) or weatherproofed (sides secured) if it's raining."
+61,Inspection: Theme Elements in Campsite,38,2,08:00,Campsites,110,5,161,,"Inspect each campsite to determine the presence of elements related to the theme ""Director's Cut"". 
+Look for indications like pictures, images, drawings of movies, or movie props and equipment. 
+Marks should be awarded based on the relevance and creativity of the theme elements present in the campsite.
+",TRUE,"Inspect each campsite to determine the presence of elements related to the theme ""Director's Cut"". 
+Look for indications like pictures, images, drawings of movies, or movie props and equipment. 
+Marks should be awarded based on the relevance and creativity of the theme elements present in the campsite.
+"
+62,Media Crew (Campsites General),0,2,08:00,Campsites,803,0,162,,"Dive into the heart of the scouting experience by capturing the essence of campsite living. 
+Start with a drone shot, soaring above the campsites to give viewers an aerial perspective of the layout and progress. 
+Zoom into the details: tents pitched, campfires, makeshift kitchens, and pioneering structures. Focus on Scouts working together, making adjustments, and improving their sites after a night's rest. 
+Highlight any innovative solutions or structures they've come up with. 
+Take close-ups of hands tying knots, feet stomping on pegs, and faces deep in concentration or bursting with pride. 
+Also, capture the morning routines - Scouts cooking breakfast, warming hands over the fire, or planning their day. Use natural lighting to your advantage, especially during the golden hour, to add a warm and authentic touch to your footage. Remember to get candid reactions, laughter, camaraderie, and perhaps even the occasional frustration, showcasing the full spectrum of emotions and experiences in a Scout campsite.
+",TRUE,
+63,First Aid: Burns,39,2,09:00,Front Lawn,106,5,163,"While filming the Trinity explosion on the set of Oppenheimer, a pyrotechnic mishap has caused one of the actors to sustain a burn. As the emergency medical consultant for the movie, you need to jump into action! Treat the burn, bearing in mind it appears dry, leathery, and slightly charred black. The clock is ticking, and the director is relying on you!
+","The scenario is an unfortunate accident on a movie set during a pyrotechnics scene. One of the scouts must play the victem, having suffered third-degree burns. The treating scout is to demonstrate the correct care and treatment of the patient, which should include:
+1. Gently cleaning the burnt area without exacerbating the injury.
+2. Applying burn shield or a similar cooling agent.
+3. Covering the burn with a sterile bandage to avoid infection.
+4. Treating the patient for potential shock.
+5. Calling for medical assistance and ensuring the patient remains calm and stable.
+
+Evaluate the actions to ensure they are done correctly and safely.
+",TRUE,"While filming the Trinity explosion on the set of Oppenheimer, a pyrotechnic mishap has caused one of the actors to sustain a burn. As the emergency medical consultant for the movie, you need to jump into action! Treat the burn, bearing in mind it appears dry, leathery, and slightly charred black. The clock is ticking, and the director is relying on you!
+
+
+The scenario is an unfortunate accident on a movie set during a pyrotechnics scene. One of the scouts must play the victem, having suffered third-degree burns. The treating scout is to demonstrate the correct care and treatment of the patient, which should include:
+1. Gently cleaning the burnt area without exacerbating the injury.
+2. Applying burn shield or a similar cooling agent.
+3. Covering the burn with a sterile bandage to avoid infection.
+4. Treating the patient for potential shock.
+5. Calling for medical assistance and ensuring the patient remains calm and stable.
+
+Evaluate the actions to ensure they are done correctly and safely.
+"
+64,First Aid: Shock Treatment,40,2,09:00,Chapel,106,10,164,"During the filming of a high-intensity action scene, one of the main characters suffers a dramatic fall. Though there's no obvious injury, they're showing signs of shock. As the designated medic, it's your responsibility to ensure their well-being and stabilize them. Can you manage the situation and keep the star actor safe until professional help arrives?","The scenario presented is of an individual who has experienced a traumatic event and is showing signs of shock, even without any visible injury. The P7 must play the victem, and the APL is expected to:
+
+1. Recognize the symptoms of shock.
+2. Ensure the patient's safety by removing them from any immediate danger.
+3. Lay the patient down, preferably with their head slightly lower than the rest of the body and legs elevated.
+4. Loosen any tight clothing and ensure they are warm, but avoid overheating.
+5. Offer reassurance and comfort.
+6. Avoid giving the patient anything to eat or drink.
+7. Monitor the patient's condition and be prepared to begin CPR if they become unconscious or stop breathing.
+8. Call for emergency assistance immediately.
+
+The focus is on the scout's ability to correctly and safely manage the situation until professional help can arrive.
+",TRUE,"During the filming of a high-intensity action scene, one of the main characters suffers a dramatic fall. Though there's no obvious injury, they're showing signs of shock. As the designated medic, it's your responsibility to ensure their well-being and stabilize them. Can you manage the situation and keep the star actor safe until professional help arrives?
+
+The scenario presented is of an individual who has experienced a traumatic event and is showing signs of shock, even without any visible injury. The P7 must play the victem, and the APL is expected to:
+
+1. Recognize the symptoms of shock.
+2. Ensure the patient's safety by removing them from any immediate danger.
+3. Lay the patient down, preferably with their head slightly lower than the rest of the body and legs elevated.
+4. Loosen any tight clothing and ensure they are warm, but avoid overheating.
+5. Offer reassurance and comfort.
+6. Avoid giving the patient anything to eat or drink.
+7. Monitor the patient's condition and be prepared to begin CPR if they become unconscious or stop breathing.
+8. Call for emergency assistance immediately.
+
+The focus is on the scout's ability to correctly and safely manage the situation until professional help can arrive.
+"
+65,Media Crew (Acting Script),0,2,09:15,Main Field,803,0,165,,"Capture the essence of the Scout's performances, focusing on the emotions and expressions of the actors. 
+Ensure you get wide-angle shots to capture the entire scene, as well as close-ups to focus on individual performances. 
+Emphasize the use of props in the shots, highlighting the creativity of the Scouts. 
+Monitor the time to ensure that the entire performance is captured, especially key moments that stand out. 
+Consider using different camera angles or positions to best capture the story being told. 
+Additionally, get reaction shots from the audience, if any, to gauge their engagement and response to the performance
+. This base provides an excellent opportunity to capture the creativity and storytelling skills of the Scouts, so ensure you're always ready to capture unexpected moments or improvisations.
+",TRUE,
+66,Acting Script,41,2,09:30,Main Field,106,10,166,"Now is your chance to act out the script you wrote for STA 3. Points awarded for delivery and  execution of script, use of props, and sticking within the time limit.","The patrol will act out the script they submitted the previous night. Award points based on:
+1. Delivery and execution of the script.
+2. Creative use of props.
+3. Staying within the time limit.
+Ensure that the performance remains respectful and adheres to the spirit of Scouting.
+",TRUE,"Now is your chance to act out the script you wrote for STA 3. Points awarded for delivery and  execution of script, use of props, and sticking within the time limit.
+
+The patrol will act out the script they submitted the previous night. Award points based on:
+1. Delivery and execution of the script.
+2. Creative use of props.
+3. Staying within the time limit.
+Ensure that the performance remains respectful and adheres to the spirit of Scouting.
+"
+67,STA 7: Trivia,42,2,09:30,Barn,106,10,167,"1. James Cameron (Avatar)
+2. Onions have layers. Ogres have layers... You get it? We both have layers. 
+3. John Williams
+4. Camera angles, Continuity, Cutting, Close-ups, and Composition
+5. Neill Blomkamp
+6. Han Solo
+7. Ryan Reynolds
+8. Luke Skywalker's lightsaber
+9. Bruce
+10. Wand, Cloak, Time Turner
+11. 438
+12. Willy Wonka and the Chocolate Factory
+13. Peter Capaldi
+14. The stained glass knight from Young Sherlock Holmes
+15. Thomas Cruise Mapother IV
+16. Walt Disney, Roy O. Disney
+17. 12
+18. Tim Burton
+19. Martin Scorsese and Robert De Niro
+20. Forest Whitaker",The Trivia STA is a 20-point questionnaire about movie trivia. Award one mark per two correct answers,TRUE,"1. James Cameron (Avatar)
+2. Onions have layers. Ogres have layers... You get it? We both have layers. 
+3. John Williams
+4. Camera angles, Continuity, Cutting, Close-ups, and Composition
+5. Neill Blomkamp
+6. Han Solo
+7. Ryan Reynolds
+8. Luke Skywalker's lightsaber
+9. Bruce
+10. Wand, Cloak, Time Turner
+11. 438
+12. Willy Wonka and the Chocolate Factory
+13. Peter Capaldi
+14. The stained glass knight from Young Sherlock Holmes
+15. Thomas Cruise Mapother IV
+16. Walt Disney, Roy O. Disney
+17. 12
+18. Tim Burton
+19. Martin Scorsese and Robert De Niro
+20. Forest Whitaker
+
+The Trivia STA is a 20-point questionnaire about movie trivia. Award one mark per two correct answers"
+68,Six Basic Knots,43,2,10:00,Dam,106,10,168,"As you're preparing for the new Jumanji movie, one of the set directors have asked you to use your Scouting knowledge to tie all the six basic knots on a sinlge piece of rope, for background decore in the Jumanji market scene. You must also be able to name all of the knots, and what their use is.","The scout is required to tie the six basic knots on a single length of rope. They should then present and name each knot:
+1. Reef knot
+2. Clove hitch
+3. Round turn and two half hitches
+4. Bowline
+5. Sheep shank
+6. Sheet bend
+
+Upon presentation, ask the scout to explain the use for any two of the knots (judge's choice). Ensure the explanations are accurate and the knots are tied correctly.
+",TRUE,"As you're preparing for the new Jumanji movie, one of the set directors have asked you to use your Scouting knowledge to tie all the six basic knots on a sinlge piece of rope, for background decore in the Jumanji market scene. You must also be able to name all of the knots, and what their use is.
+
+The scout is required to tie the six basic knots on a single length of rope. They should then present and name each knot:
+1. Reef knot
+2. Clove hitch
+3. Round turn and two half hitches
+4. Bowline
+5. Sheep shank
+6. Sheet bend
+
+Upon presentation, ask the scout to explain the use for any two of the knots (judge's choice). Ensure the explanations are accurate and the knots are tied correctly.
+"
+69,Advanced Knots,44,2,10:00,Campfire,106,10,169,"In a riveting scene set on a historical ship, the director requires authentic rigging to be done. As the ship's lead rigger, you have to demonstrate your knot-tying skills using advanced knots. Remember, tying the knot correctly is just half the job; knowing its purpose is essential too. Can you impress the director and get the ship ready for the shoot? You will need to tie the following knots: 
+1. Carrick bend
+2. Hunters bend
+3. Scaffold hitch
+4. Barrel hitch
+5. Guyline hitch","The Scout is tasked with tying the following advanced knots:
+1. Carrick bend
+2. Hunters bend
+3. Scaffold hitch
+4. Barrel hitch
+5. Guyline hitch
+
+For each knot, award one mark for correctly tying the knot and one mark for correctly stating its function or usage. Ensure that each knot is tied securely and correctly.
+",TRUE,"In a riveting scene set on a historical ship, the director requires authentic rigging to be done. As the ship's lead rigger, you have to demonstrate your knot-tying skills using advanced knots. Remember, tying the knot correctly is just half the job; knowing its purpose is essential too. Can you impress the director and get the ship ready for the shoot? You will need to tie the following knots: 
+1. Carrick bend
+2. Hunters bend
+3. Scaffold hitch
+4. Barrel hitch
+5. Guyline hitch
+
+The Scout is tasked with tying the following advanced knots:
+1. Carrick bend
+2. Hunters bend
+3. Scaffold hitch
+4. Barrel hitch
+5. Guyline hitch
+
+For each knot, award one mark for correctly tying the knot and one mark for correctly stating its function or usage. Ensure that each knot is tied securely and correctly.
+"
+70,STA 4: Clapper,45,2,10:00,Barn,106,10,170,,"Scouts are to construct a director's clapper using materials they've brought with them, primarily cardboard or wooden board. Evaluate the final product based on the following criteria:
+
+1. Overall neatness of the clapper. -2
+2. Quality and strength of the construction. -2
+3. Functionality: Does the clapper produce a clear clap? -2
+4. Design and decoration: Is the clapper aesthetically pleasing and creatively decorated? -4",TRUE,"Scouts are to construct a director's clapper using materials they've brought with them, primarily cardboard or wooden board. Evaluate the final product based on the following criteria:
+
+1. Overall neatness of the clapper. -2
+2. Quality and strength of the construction. -2
+3. Functionality: Does the clapper produce a clear clap? -2
+4. Design and decoration: Is the clapper aesthetically pleasing and creatively decorated? -4"
+71,STA 5: Chair,46,2,10:00,Barn,106,10,171,,"Scouts are to construct a miniature version of a director's chair using twine and wooden sticks. Assess the following criteria:
+
+1. Decoration: Is the chair decorated or finished in a manner that enhances its appearance? -2
+2. Quality of Lashings: Are the lashings tight, neat, and finished appropriately? -2
+3. Strength: Is the structure sturdy and can it hold some weight without collapsing? -2
+4. Correct use of lashings: Ensure both diagonal and square lashings are used in appropriate places. -2
+5. Function: Can the chair fold up -2
+",TRUE,"Scouts are to construct a miniature version of a director's chair using twine and wooden sticks. Assess the following criteria:
+
+1. Decoration: Is the chair decorated or finished in a manner that enhances its appearance? -2
+2. Quality of Lashings: Are the lashings tight, neat, and finished appropriately? -2
+3. Strength: Is the structure sturdy and can it hold some weight without collapsing? -2
+4. Correct use of lashings: Ensure both diagonal and square lashings are used in appropriate places. -2
+5. Function: Can the chair fold up -2
+"
+72,Patrol Leader Briefing 3,47,2,10:30,Front Lawn,901,0,172,,"Provide the Patrol Leader (PL) with final pack-up and inspection instructions:
+1. Make sure patrol eats.
+2. Instruct on proper rubbish disposal methods.
+3. After final inspection they may start deconstructing.
+4. Final site inspection is their last base
+5. Mark check at 15h15
+6. Anything else that needs to be addressed
+7.  Any questions
+",TRUE,"Provide the Patrol Leader (PL) with final pack-up and inspection instructions:
+1. Make sure patrol eats.
+2. Instruct on proper rubbish disposal methods.
+3. After final inspection they may start deconstructing.
+4. Final site inspection is their last base
+5. Mark check at 15h15
+6. Anything else that needs to be addressed
+7.  Any questions
+"
+73,Lunch Prep,0,2,10:30,House,802,0,173,,Catering start prepping lunch,TRUE,
+74,Media Crew (Final Inspection),0,2,10:45,Campsites,803,0,174,,"During the final inspection, focus on capturing the gravity and solemnity of the moment. Start with wide-angle shots that set the scene, showing the scouts standing at attention in front of their constructed campsites. Move in for close-ups to catch the emotions on the scouts' faces — the anticipation, the nervousness, and the pride. 
+
+As the staff move through the inspection, capture their professionalism — the meticulousness with which they check each aspect, their discussions, and their notations. Keep the camera steady, and transition smoothly between shots to emphasize the seriousness of the process.
+
+Highlight the contrast between the scouts' anticipation and the staff's methodical approach. This is a pivotal moment, and the footage should reflect the weight of the situation and the culmination of the scouts' hard work.
+
+If possible, get some overhead drone shots to showcase the entire setup of the campsites and the scale of the event. As the inspection concludes, focus on reactions — the relief, the joy, or the disappointment, capturing the essence of this critical juncture in the event.",TRUE,
+75,Inspection: Site,48,2,11:00,Campsites,106,10,175,,"Inspect the overall neatness, cleanliness, and layout of each campsite, considering the following criteria:
+
+1. Neatness and cleanliness: Ensure that the site is tidy, with no litter, sisal, ropes, or other equipment scattered around.
+2. No digging policy: Verify that there are no dry pits, wet pits, or trenches of any kind, in line with Hawequas' regulations.
+3. Logical site layout: The layout should ensure easy flow between important structures. 
+4. Fireplace positioning: The fireplace should be positioned downwind to prevent smoke from blowing through the campsite.
+5. Chopping area: It should be strategically located near the fireplace for efficiency.
+6. Campsite boundary: The boundary should be clearly marked out. While ropes and sticks are acceptable, sisal alone does not suffice as a boundary.
+
+Note: Deduct a point if any form of digging or trenching is found.
+",TRUE,"Inspect the overall neatness, cleanliness, and layout of each campsite, considering the following criteria:
+
+1. Neatness and cleanliness: Ensure that the site is tidy, with no litter, sisal, ropes, or other equipment scattered around.
+2. No digging policy: Verify that there are no dry pits, wet pits, or trenches of any kind, in line with Hawequas' regulations.
+3. Logical site layout: The layout should ensure easy flow between important structures. 
+4. Fireplace positioning: The fireplace should be positioned downwind to prevent smoke from blowing through the campsite.
+5. Chopping area: It should be strategically located near the fireplace for efficiency.
+6. Campsite boundary: The boundary should be clearly marked out. While ropes and sticks are acceptable, sisal alone does not suffice as a boundary.
+
+Note: Deduct a point if any form of digging or trenching is found.
+"
+76,Inspection: Table,49,2,11:00,Campsites,106,15,176,,"Inspect the quality, stability, and design of the pioneered table in each campsite. Consider the following criteria:
+
+1. Pioneering quality: Are the lashings done correctly?
+2. Stability: Does the table wobble or is it sturdy?
+3. Design: Is the design practical and effective for seating?
+4. Neatness: Is the table clean with no stray ends or rough edges?
+5. Lashing ends: Are the ends of the lashings neatly tucked away?
+6. Seating capacity: Can the table comfortably seat 8 people?
+7. Table top: Is there a proper table top or is it a pioneered table top using multiple staves or slats?
+",TRUE,"Inspect the quality, stability, and design of the pioneered table in each campsite. Consider the following criteria:
+
+1. Pioneering quality: Are the lashings done correctly?
+2. Stability: Does the table wobble or is it sturdy?
+3. Design: Is the design practical and effective for seating?
+4. Neatness: Is the table clean with no stray ends or rough edges?
+5. Lashing ends: Are the ends of the lashings neatly tucked away?
+6. Seating capacity: Can the table comfortably seat 8 people?
+7. Table top: Is there a proper table top or is it a pioneered table top using multiple staves or slats?
+"
+77,Inspection: Extra Gadgets,50,2,11:00,Campsites,106,10,177,,"Inspect the campsite for extra gadgets (excluding tables and gateways). These gadgets should enhance the functionality of the campsite. Consider the following criteria:
+
+1. Check the quality of lashings: Are they tight and neat?
+2. Test the functionality of the gadgets: Do they work as they're supposed to?
+3. Count the number of extra gadgets.",TRUE,"Inspect the campsite for extra gadgets (excluding tables and gateways). These gadgets should enhance the functionality of the campsite. Consider the following criteria:
+
+1. Check the quality of lashings: Are they tight and neat?
+2. Test the functionality of the gadgets: Do they work as they're supposed to?
+3. Count the number of extra gadgets."
+78,Inspection: Dresser,51,2,11:00,Campsites,106,10,178,,"Assess the campsite kitchen dresser based on pioneering quality, neatness, and effectiveness. The dresser should meet the following criteria:
+
+1. Pioneering quality of the dresser.
+2. Neatness of the dresser.
+3. Effectiveness in holding 2 washing bowls, a drying rack, and a bin.
+4. Stability of the dresser.
+5. The dresser should be freestanding.
+6. Assessment of the bin setup:
+   - Pioneered as part of the structure: 2 points.
+   - Black bag attached to the structure: 1 point.
+   - No bin: 0 points.",TRUE,"Assess the campsite kitchen dresser based on pioneering quality, neatness, and effectiveness. The dresser should meet the following criteria:
+
+1. Pioneering quality of the dresser.
+2. Neatness of the dresser.
+3. Effectiveness in holding 2 washing bowls, a drying rack, and a bin.
+4. Stability of the dresser.
+5. The dresser should be freestanding.
+6. Assessment of the bin setup:
+   - Pioneered as part of the structure: 2 points.
+   - Black bag attached to the structure: 1 point.
+   - No bin: 0 points."
+79,Inspection: Notice Board,52,2,11:00,Campsites,106,10,179,,"Assess the pioneering quality, design, and functionality of the notice board. Consider the following criteria:
+
+1. Stability: Is the notice board stable and firmly planted?
+2. Lashings: Are all lashings correct and tight?
+3. Neatness: Is the design neat?
+4. Attractiveness: Does the design appeal visually?
+5. Functionality: Is the notice board functional with relevant items displayed, such as the program or team name?
+6. Accessibility: Can all scouts easily access and read the contents of the notice board?
+",TRUE,"Assess the pioneering quality, design, and functionality of the notice board. Consider the following criteria:
+
+1. Stability: Is the notice board stable and firmly planted?
+2. Lashings: Are all lashings correct and tight?
+3. Neatness: Is the design neat?
+4. Attractiveness: Does the design appeal visually?
+5. Functionality: Is the notice board functional with relevant items displayed, such as the program or team name?
+6. Accessibility: Can all scouts easily access and read the contents of the notice board?
+"
+80,Inspection: Flag,53,2,11:00,Campsites,106,10,180,,"Assess the pioneering quality, design, and functionality of the campsite flagpole. Consider the following criteria:
+
+1. Stability of the flagpole.
+2. Correctness and tightness of the lashings.
+3. Neatness of the flagpole construction.
+4. Attractiveness of the flagpole design.
+5. Functionality: Ability to raise and lower a flag.
+6. Presence of a cleared area around the flagpole for a parade ground or area to fall in.
+",TRUE,"Assess the pioneering quality, design, and functionality of the campsite flagpole. Consider the following criteria:
+
+1. Stability of the flagpole.
+2. Correctness and tightness of the lashings.
+3. Neatness of the flagpole construction.
+4. Attractiveness of the flagpole design.
+5. Functionality: Ability to raise and lower a flag.
+6. Presence of a cleared area around the flagpole for a parade ground or area to fall in.
+"
+81,Inspection: Gateway,54,2,11:00,Campsites,106,10,181,,"Assess the design and structure of each patrol's campsite gateway. Consider the following criteria:
+
+1. Location: Is the gateway positioned at the most accessible path leading into and out of the campsite?
+2. Stability: The gateway should be freestanding without relying on trees or external objects for support.
+3. Aesthetics: The design should be attractive and neat.
+4. Functionality: Supporting ropes or structures should not interfere with the entry or exit from the campsite.
+5. Ingenuity: Extra points awarded if the gateway has some form of moving part or unique mechanism.
+",TRUE,"Assess the design and structure of each patrol's campsite gateway. Consider the following criteria:
+
+1. Location: Is the gateway positioned at the most accessible path leading into and out of the campsite?
+2. Stability: The gateway should be freestanding without relying on trees or external objects for support.
+3. Aesthetics: The design should be attractive and neat.
+4. Functionality: Supporting ropes or structures should not interfere with the entry or exit from the campsite.
+5. Ingenuity: Extra points awarded if the gateway has some form of moving part or unique mechanism.
+"
+82,Staff Lunch,0,2,12:30,House,800,0,182,,Hotdogs / Cheese sandwiches,TRUE,
+83,STA 6: Pinhole,55,2,13:30,Barn,106,10,183,,"For this STA, the patrol has been tasked with constructing a pinhole camera. 
+
+Handin - 1
+Quality of construction: must not fall apart - 3 (bad, mediocre, good)
+Functionality: is it possible to focus an image - 3 (no, blurry, sharp)
+Decoration: -3 (low, medium, high effort)
+",FALSE,"For this STA, the patrol has been tasked with constructing a pinhole camera. 
+
+Handin - 1
+Quality of construction: must not fall apart - 3 (bad, mediocre, good)
+Functionality: is it possible to focus an image - 3 (no, blurry, sharp)
+Decoration: -3 (low, medium, high effort)
+"
+84,STA 8: Academy Award,56,2,13:30,Barn,106,15,184,,"Scouts are to sculpt an Oscar statuette using polymer clay. Consider the following criteria when awarding marks:
+
+1. The figure should be no less than 5cm tall. -2
+2. The statuette should be free-standing. -2
+3. Evaluate the quality of the build. -4
+4. Evaluate the decoration and finishing touches. -4
+5. Evaluate accuracy to original -2
+6. Hand-in -1
+",TRUE,"Scouts are to sculpt an Oscar statuette using polymer clay. Consider the following criteria when awarding marks:
+
+1. The figure should be no less than 5cm tall. -2
+2. The statuette should be free-standing. -2
+3. Evaluate the quality of the build. -4
+4. Evaluate the decoration and finishing touches. -4
+5. Evaluate accuracy to original -2
+6. Hand-in -1
+"
+85,Tuckshop Arrival,0,2,14:00,River Bank,902,0,185,,"1st Claremont will arrive and set up the Tuckshop underneath the trees by the river bank. Assist them as far as possible. They have been given permission to park there, and to use the electricity at the outlet box",TRUE,
+86,Rubbish Hand-In,57,2,14:30,Kitchen,102,0,186,,Patrols are to deposit waste strictly at the kitchen area. Any recyclable materials must be retained by the patrols and taken home with them.,TRUE,Patrols are to deposit waste strictly at the kitchen area. Any recyclable materials must be retained by the patrols and taken home with them.
+87,Final Site Inspection,58,2,14:30,Campsites,124,5,187,,"Inspect each patrol's campsite for the final site inspection. Consider the following criteria:
+
+1. Cleanliness of the site: Is there any litter or waste left behind?
+2. Equipment: Has all the equipment been properly packed away?
+3. Fire safety: If a fire was made, has it been properly extinguished and the site returned to its natural state?
+4. Impact on nature: Ensure that the natural environment has not been harmed or altered.",TRUE,"Inspect each patrol's campsite for the final site inspection. Consider the following criteria:
+
+1. Cleanliness of the site: Is there any litter or waste left behind?
+2. Equipment: Has all the equipment been properly packed away?
+3. Fire safety: If a fire was made, has it been properly extinguished and the site returned to its natural state?
+4. Impact on nature: Ensure that the natural environment has not been harmed or altered."
+88,Print Mark Check,0,2,14:30,House,809,0,188,,"Admin to ensure all marks are printed, without showing the final position",TRUE,
+89,Parents Arrival,0,2,15:00,Various,806,0,189,,"Various teams ready for arrival of parents, and for assisting with Traffic and unloading. Forrest teams to pick up at TOP parking lot to pick trailers. Terrace teams to pick up trailers at Terrace parking. Assist the flow of traffic as far as possible",TRUE,
+90,Patrol Leader Mark Check,59,2,15:30,Front Lawn,809,0,190,,"Patrol leaders to check their marks in private, report any errors to chief judge and admin
+FINAL SCORES AND RESULTS TO BE POSTED IN THE BARN DIRECTLY BEFORE FINAL PARADE, so that Scouts can see their results immediately after",TRUE,"Patrol leaders to check their marks in private, report any errors to chief judge and admin
+FINAL SCORES AND RESULTS TO BE POSTED IN THE BARN DIRECTLY BEFORE FINAL PARADE, so that Scouts can see their results immediately after"
+91,Media Crew (Final Parade),0,2,15:45,Main Field,803,0,191,,"The final parade is a grand spectacle, and your media crew should be ready to capture every emotion-filled moment. Begin with wide shots to show the scale and grandeur of the event — 47 teams, over 50 staff, and 200+ spectators. The anticipation in the air should be palpable.
+
+Zoom in on teams, catching the eagerness and tension in their eyes as they await the results. The staff, lined up neatly, represent the culmination of the event's organization, so get sweeping shots of them, highlighting their professionalism and dedication.
+
+When the winning patrols salute the chief judge, be ready for close-ups. The salute, an emblem of respect and honor, is a key moment. The joy, pride, and perhaps even surprise on the winners' faces need to be captured in high resolution.
+
+The presentation of the Gordon Shield is the climax. Frame the shot to have the chief judge and the winning team's leader in focus, with the gleaming Gordon Shield taking center stage. Capture the exact moment the shield is handed over — that's the shot of the day.
+
+Don't forget the spectators. Their cheers, claps, and perhaps even tears, are integral to the narrative. Their reactions to the announcements provide a rich backdrop to the main event.
+
+Lastly, as the parade concludes, capture the teams' interactions — the congratulations, the group hugs, the high-fives. This event is as much about camaraderie as competition, and your footage should reflect that spirit.",TRUE,
+92,Final Parade,60,2,16:00,Main Field,800,0,192,,"Congratulate all scouts for completing the compeition, despite the elements and challenges they faced
+I hope that you have all learned something over this weekend, that you will take back to your Troops
+A word from Regional Commissioner
+Thank the staff for their dedication 
+Thank core team specifically for their hard work and months of planning
+Announce winners from 15th
+Top five PLs come up for certificate
+Winning patrol comes to recieve shield handed by RC
+Congratulate everyone once again, if you want to see your results, they are posted on the notice board in the barn
+I wish to see you at the next event
+Winning patrol flag down
+",TRUE,"Congratulate all scouts for completing the compeition, despite the elements and challenges they faced
+I hope that you have all learned something over this weekend, that you will take back to your Troops
+A word from Regional Commissioner
+Thank the staff for their dedication 
+Thank core team specifically for their hard work and months of planning
+Announce winners from 15th
+Top five PLs come up for certificate
+Winning patrol comes to recieve shield handed by RC
+Congratulate everyone once again, if you want to see your results, they are posted on the notice board in the barn
+I wish to see you at the next event
+Winning patrol flag down
+"
+93,Judge Debrief,0,2,16:30,House,800,0,193,,"Thank all staff for their amazing support
+I hope that everyone has made at least one new connection and has learned something to take home with them
+Thank you to every person on the core team who contributed in some way to the success of the competition
+I hope to see you at events in the future
+Please assist with pack up, so that we can all go home",TRUE,
+94,Pack Up,0,2,16:45,Various,800,0,194,,"Make sure all personal kit, hawequas equipment, competition is packed up. Collect all lost property to be returned to HQ post-competition
+Sweep floors, clean surfaces, leave area the same as when we arrived",TRUE,
+95,End,0,2,17:30,Hawequas,800,0,195,,Everyone goes home and enjoys life,TRUE,
+96,hayi,0,2,18:00,Various,810,0,196,,hayi,TRUE,

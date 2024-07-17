@@ -1,0 +1,58 @@
+[
+
+  {
+    "id": 801,
+    "name":  "Medical",
+    "staff_ids": [9, 10]
+  },
+
+  {
+    "id": 802,
+    "name": "Catering",
+    "staff_ids": [6, 7, 8]
+
+  },
+
+  {
+    "id": 803,
+    "name": "Media Team",
+    "staff_ids": [12, 13, 14]
+  },
+
+  {
+    "id": 805,
+    "name": "Saturday Parking Team",
+    "staff_ids": [16, 18, 19, 20, 22, 39, 42, 53, 32, 43, 27, 24, 28, 47, 48]
+  },
+
+  {
+    "id": 806,
+    "name": "Sunday Parking Team",
+    "staff_ids": [16, 18, 19, 20, 22, 39, 42, 53, 32, 43, 27, 24, 28, 47, 48, 21]
+  },
+
+  {
+    "id": 807,
+    "name": "Registration Team",
+    "staff_ids": [4, 23, 34, 9, 37, 41, 40, 49, 38]
+  },
+
+  {
+    "id": 808,
+    "name": "Uniform Inspection Team",
+    "staff_ids": [30, 36, 45, 46, 54, 50, 52, 33]
+  },
+
+
+  {
+    "id": 809,
+    "name": "Mark Check Team",
+    "staff_ids": [1, 4, 11]
+  },
+
+  {
+    "id": 810,
+    "name": "Core",
+    "staff_ids": [1, 2, 3, 4, 5, 6]
+  }
+]

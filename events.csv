@@ -1,0 +1,97 @@
+UID,Event ID,Test ID,Event,Type,Day,Start Time,Duration,End Time,Staff Required,Location,For Scouts,Mark
+101,1,1,Entry on Time,Admin,0,00:00,0,00:00,100,Various,TRUE,5
+102,2,0,Core Staff Arrive,Programme,0,18:00,0,18:00,100,Hawequas,FALSE,0
+103,3,0,General Staff Arrive,Programme,1,09:30,30,10:00,800,Hawequas,FALSE,0
+104,4,0,Staff Briefing,Programme,1,10:00,30,10:30,800,House,FALSE,0
+105,5,0,Scout Arrival,Logistics,1,10:45,150,13:15,805,Various,FALSE,0
+106,6,2,Registration,Admin,1,11:00,120,13:00,807,Barn,TRUE,10
+107,7,3,Uniform Inspection,Inspection,1,11:00,120,13:00,808,Front Lawn,TRUE,5
+108,8,0,Consent Form Check,Medical,1,11:00,120,13:00,801,Barn,FALSE,0
+109,9,0,Lunch Prep,Catering,1,12:00,90,13:30,802,House,FALSE,0
+110,10,0,Media Crew (Opening Parade),Media,1,13:00,45,13:45,803,Main Field,FALSE,0
+111,11,4,Opening Parade,Programme,1,13:30,15,13:45,800,Main Field,TRUE,0
+112,12,0,Staff Lunch,Catering,1,13:45,15,14:00,800,House,FALSE,0
+113,13,5,Patrol Leader Briefing 1,Programme,1,13:45,15,14:00,901,Front Lawn,TRUE,0
+114,14,0,"Fun Memes, Trivia and Quotes (Staff)",Programme,1,14:00,60,15:00,810,House,FALSE,0
+115,15,0,Media Crew (Hawquas General and Fillers),Media,1,14:00,30,14:30,803,Hawequas,FALSE,0
+116,16,6,Clouds Identification,Backwoods,1,14:00,60,15:00,106,Chapel,TRUE,5
+117,17,7,Water Purification,Backwoods,1,14:00,60,15:00,106,Dam,TRUE,10
+118,18,8,Compass Rose,Mapping,1,14:00,60,15:00,106,Barn,TRUE,10
+119,19,9,Magnetic Declination,Mapping,1,14:30,60,15:30,106,L2,TRUE,10
+120,20,10,Spanish Windlass,Pioneering,1,14:30,60,15:30,108,Campfire,TRUE,10
+121,21,0,Media Crew (First Aid),Media,1,14:45,45,15:30,803,Main Field,FALSE,0
+122,22,11,Ground to Air Signals,Backwoods,1,15:00,60,16:00,108,Lower Field,TRUE,10
+123,23,12,First Aid: Carry and Fracture,First Aid,1,15:00,60,16:00,110,Main Field,TRUE,10
+124,24,13,Lego Set,Misc,1,15:30,60,16:30,110,Barn,TRUE,10
+125,25,14,Snake Identification,Backwoods,1,15:30,60,16:30,106,Chapel,TRUE,10
+126,26,0,Media Crew (Pellet Guns),Media,1,15:45,45,16:30,803,L4,FALSE,0
+127,27,15,Fire Starting,Backwoods,1,16:00,60,17:00,108,Campfire,TRUE,5
+128,28,16,Pellet Guns,Misc,1,16:00,60,17:00,110,L4,TRUE,5
+129,29,17,Scout Laws,Misc,1,16:30,60,17:30,106,Lower Field,TRUE,5
+130,30,18,First Aid: Wounds and Bleeding,First Aid,1,16:30,60,17:30,110,Main Field,TRUE,10
+131,31,0,Dinner Prep,Catering,1,16:30,150,19:00,802,House,FALSE,0
+132,32,0,Media Crew (Scout Promise),Media,1,16:45,30,17:15,803,Front Lawn,FALSE,0
+133,33,19,Scout Promise,Misc,1,17:00,60,18:00,106,Front Lawn,TRUE,5
+134,34,20,Whippings,Pioneering,1,17:00,60,18:00,106,Chapel,TRUE,10
+135,35,21,Triangulation,Mapping,1,17:00,60,18:00,110,L3,TRUE,10
+136,36,22,STA 1: Dinner Invitation,STA,1,17:30,30,18:00,106,Barn,TRUE,10
+137,37,0,Media Crew (General House and Staff),Media,1,17:30,30,18:00,803,House,FALSE,0
+138,38,0,Staff Night Briefing,Programme,1,18:15,15,18:30,800,House,FALSE,0
+139,39,23,Dinner,Meal,1,19:00,30,19:30,148,Campsites,TRUE,40
+140,40,0,Staff Dinner,Catering,1,19:30,30,20:00,800,House,FALSE,0
+141,41,24,Night Bases Parade,Programme,1,20:15,15,20:30,901,Main Field,TRUE,0
+142,42,0,Media Crew (Jump the Fence),Media,1,20:15,30,20:45,803,Main Field,FALSE,0
+143,43,25,Semaphor Flags,Misc,1,20:30,120,22:30,108,Front Lawn,TRUE,15
+144,44,26,Jump the Fence,Pioneering,1,20:30,120,22:30,108,Main Field,TRUE,15
+145,45,27,Night Base Orienteering,Mapping,1,20:30,120,22:30,108,Lower Field,TRUE,15
+146,46,28,ESM: Water Drowning,First Aid,1,20:30,120,22:30,108,Dam,TRUE,15
+147,47,0,Media Crew (ESM),Media,1,21:00,30,21:30,803,Dam,FALSE,0
+148,48,29,Night Bases Closing,Programme,1,22:30,15,22:45,901,Main Field,TRUE,0
+149,49,0,Staff Bedtime Briefing,Programme,1,22:45,15,23:00,800,House,FALSE,0
+150,50,30,STA 2: Code,STA,1,23:00,30,23:30,106,Barn,TRUE,10
+151,51,31,STA 3: Script,STA,1,23:00,30,23:30,106,Barn,TRUE,10
+152,52,32,Rubbish Hand-In,Logistics,1,23:00,30,23:30,102,Kitchen,TRUE,0
+153,53,33,Patrol Leader Briefing 2,Programme,1,23:00,15,23:15,901,Front Lawn,TRUE,0
+154,54,34,Lights Out,Programme,2,00:00,360,06:00,800,Various,TRUE,0
+155,55,0,Breakfast Prep,Catering,2,06:00,30,06:30,802,House,FALSE,0
+156,56,0,Staff Breakfast,Catering,2,06:30,45,07:15,800,House,FALSE,0
+157,57,0,Staff Morning Briefing,Programme,2,07:15,30,07:45,800,House,FALSE,0
+158,58,35,Inspection: Uniform and Hygeine,Inspection,2,08:00,60,09:00,110,Campsites,TRUE,10
+159,59,36,Inspection: Patrol Kits,Inspection,2,08:00,60,09:00,110,Campsites,TRUE,10
+160,60,37,Inspection: Tent,Inspection,2,08:00,60,09:00,110,Campsites,TRUE,10
+161,61,38,Inspection: Theme Elements in Campsite,Inspection,2,08:00,60,09:00,108,Campsites,TRUE,5
+162,62,0,Media Crew (Campsites General),Media,2,08:00,60,09:00,803,Campsites,FALSE,0
+163,63,39,First Aid: Burns,First Aid,2,09:00,60,10:00,106,Front Lawn,TRUE,5
+164,64,40,First Aid: Shock Treatment,First Aid,2,09:00,60,10:00,106,Chapel,TRUE,10
+165,65,0,Media Crew (Acting Script),Media,2,09:15,75,10:30,803,Main Field,FALSE,0
+166,66,41,Acting Script,Misc,2,09:30,60,10:30,106,Main Field,TRUE,10
+167,67,42,STA 7: Trivia,STA,2,09:30,30,10:00,106,Barn,TRUE,10
+168,68,43,Six Basic Knots,Pioneering,2,10:00,45,10:45,106,Dam,TRUE,10
+169,69,44,Advanced Knots,Pioneering,2,10:00,45,10:45,106,Campfire,TRUE,10
+170,70,45,STA 4: Clapper,STA,2,10:00,45,10:45,106,Barn,TRUE,10
+171,71,46,STA 5: Chair,STA,2,10:00,45,10:45,106,Barn,TRUE,10
+172,72,47,Patrol Leader Briefing 3,Programme,2,10:30,15,10:45,901,Front Lawn,TRUE,0
+173,73,0,Lunch Prep,Catering,2,10:30,120,12:30,802,House,FALSE,0
+174,74,0,Media Crew (Final Inspection),Media,2,10:45,105,12:30,803,Campsites,FALSE,0
+175,75,48,Inspection: Site,Inspection,2,11:00,90,12:30,104,Campsites,TRUE,10
+176,76,49,Inspection: Table,Inspection,2,11:00,90,12:30,106,Campsites,TRUE,15
+177,77,50,Inspection: Extra Gadgets,Inspection,2,11:00,90,12:30,106,Campsites,TRUE,10
+178,78,51,Inspection: Dresser,Inspection,2,11:00,90,12:30,106,Campsites,TRUE,10
+179,79,52,Inspection: Notice Board,Inspection,2,11:00,90,12:30,106,Campsites,TRUE,10
+180,80,53,Inspection: Flag,Inspection,2,11:00,90,12:30,106,Campsites,TRUE,10
+181,81,54,Inspection: Gateway,Inspection,2,11:00,90,12:30,106,Campsites,TRUE,10
+182,82,0,Staff Lunch,Catering,2,12:30,60,13:30,800,House,FALSE,0
+183,83,55,STA 6: Pinhole,STA,2,13:30,30,14:00,106,Barn,TRUE,10
+184,84,56,STA 8: Academy Award,STA,2,13:30,30,14:00,106,Barn,TRUE,15
+185,85,0,Tuckshop Arrival,Logistics,2,14:00,60,15:00,902,River Bank,FALSE,0
+186,86,57,Rubbish Hand-In,Logistics,2,14:30,45,15:15,102,Kitchen,TRUE,0
+187,87,58,Final Site Inspection,Inspection,2,14:30,45,15:15,124,Campsites,TRUE,5
+188,88,0,Print Mark Check,Programme,2,14:30,45,15:15,809,House,FALSE,0
+189,89,0,Parents Arrival,Logistics,2,15:00,90,16:30,806,Various,FALSE,0
+190,90,59,Patrol Leader Mark Check,Programme,2,15:30,15,15:45,809,Front Lawn,TRUE,0
+191,91,0,Media Crew (Final Parade),Media,2,15:45,45,16:30,803,Main Field,FALSE,0
+192,92,60,Final Parade,Programme,2,16:00,30,16:30,800,Main Field,TRUE,0
+193,93,0,Judge Debrief,Programme,2,16:30,15,16:45,800,House,FALSE,0
+194,94,0,Pack Up,Logistics,2,16:45,45,17:30,800,Various,FALSE,0
+195,95,0,End,Programme,2,17:30,30,18:00,800,Hawequas,FALSE,0
+196,96,0,hayi,Programme,2,18:00,180,21:00,810,Various,FALSE,0

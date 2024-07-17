@@ -1,0 +1,163 @@
+Document-Allocation ID,Event,Test ID,Day,Start Time,Location,Staff Required,Document-Event ID,UID,Document,Quantity,Size,Quality,Colour,Double-Sided,Laminated,Created,Printed
+1,Core Staff Arrive,0,0,18:00,Hawequas,100,1,102,Hawequas Map,2,A1,High,TRUE,FALSE,TRUE,TRUE,TRUE
+2,Staff Briefing,0,1,10:00,House,800,1,104,Programme,1,A4,Low,FALSE,FALSE,FALSE,TRUE,FALSE
+3,Staff Briefing,0,1,10:00,House,800,2,104,Personal Itinerary,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+4,Scout Arrival,0,1,10:45,Various,805,1,105,Hawequas Map,12,A4,High,TRUE,FALSE,TRUE,TRUE,TRUE
+5,Registration,2,1,11:00,Barn,807,1,106,"02-""Registration""",4,A4,Low,FALSE,FALSE,FALSE,TRUE,FALSE
+6,Registration,2,1,11:00,Barn,807,2,106,"02-""Consent Forms""",4,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+7,Registration,2,1,11:00,Barn,807,3,106,02-Marksheet,9,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+8,Registration,2,1,11:00,Barn,807,4,106,02-Instructions,9,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+9,Registration,2,1,11:00,Barn,807,5,106,02-Consent forms,20,A4,Low,FALSE,FALSE,FALSE,TRUE,FALSE
+10,Registration,2,1,11:00,Barn,807,6,106,02-Team register,5,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+11,Uniform Inspection,3,1,11:00,Front Lawn,808,1,107,03-Marksheet,9,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+12,Uniform Inspection,3,1,11:00,Front Lawn,808,2,107,03-Instructions,9,A4,Low,FALSE,FALSE,FALSE,TRUE,FALSE
+13,Consent Form Check,0,1,11:00,Barn,801,1,108,108-Instructions,5,A4,Low,FALSE,FALSE,FALSE,TRUE,FALSE
+14,Opening Parade,4,1,13:30,Main Field,800,1,111,04-Marksheet,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+15,Opening Parade,4,1,13:30,Main Field,800,2,111,04-Instructions,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+16,Patrol Leader Briefing 1,5,1,13:45,Front Lawn,901,1,113,05-Marksheet,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+17,Patrol Leader Briefing 1,5,1,13:45,Front Lawn,901,2,113,05-Instructions,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+18,Patrol Leader Briefing 1,5,1,13:45,Front Lawn,901,3,113,05-PL-Day-1,50,A4,Normal,TRUE,FALSE,FALSE,FALSE,FALSE
+19,Patrol Leader Briefing 1,5,1,13:45,Front Lawn,901,4,113,05-STA-1,50,A4,Normal,TRUE,FALSE,FALSE,FALSE,FALSE
+20,Patrol Leader Briefing 1,5,1,13:45,Front Lawn,901,5,113,05-STA-2,50,A4,Normal,TRUE,FALSE,FALSE,FALSE,FALSE
+21,Patrol Leader Briefing 1,5,1,13:45,Front Lawn,901,6,113,05-STA-3,50,A4,Normal,TRUE,FALSE,FALSE,FALSE,FALSE
+22,Patrol Leader Briefing 1,5,1,13:45,Front Lawn,901,7,113,05-STA-4,50,A4,Normal,TRUE,FALSE,FALSE,FALSE,FALSE
+23,Patrol Leader Briefing 1,5,1,13:45,Front Lawn,901,8,113,05-STA-5,50,A4,Normal,TRUE,FALSE,FALSE,FALSE,FALSE
+24,Patrol Leader Briefing 1,5,1,13:45,Front Lawn,901,9,113,05-STA-6,50,A4,Normal,TRUE,FALSE,FALSE,FALSE,FALSE
+25,Patrol Leader Briefing 1,5,1,13:45,Front Lawn,901,10,113,05-STA-7,50,A4,Normal,TRUE,FALSE,FALSE,FALSE,FALSE
+26,Patrol Leader Briefing 1,5,1,13:45,Front Lawn,901,11,113,05-STA-8,50,A4,Normal,TRUE,FALSE,FALSE,FALSE,FALSE
+27,Clouds Identification,6,1,14:00,Chapel,106,1,116,06-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,TRUE,FALSE
+28,Clouds Identification,6,1,14:00,Chapel,106,2,116,06-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+29,Clouds Identification,6,1,14:00,Chapel,106,3,116,06-Clouds,7,A4,Normal,TRUE,FALSE,TRUE,TRUE,TRUE
+30,Clouds Identification,6,1,14:00,Chapel,106,4,116,06-Clouds-Answers,7,A4,Low,FALSE,FALSE,FALSE,TRUE,TRUE
+31,Water Purification,7,1,14:00,Dam,106,1,117,07-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+32,Water Purification,7,1,14:00,Dam,106,2,117,07-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+33,Compass Rose,8,1,14:00,Barn,106,1,118,08-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+34,Compass Rose,8,1,14:00,Barn,106,2,118,08-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+35,Magnetic Declination,9,1,14:30,L2,106,1,119,09-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+36,Magnetic Declination,9,1,14:30,L2,106,2,119,09-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+37,Spanish Windlass,10,1,14:30,Campfire,108,1,120,10-Marksheet,9,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+38,Spanish Windlass,10,1,14:30,Campfire,108,2,120,10-Instructions,9,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+39,Ground to Air Signals,11,1,15:00,Lower Field,108,1,122,11-Marksheet,9,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+40,Ground to Air Signals,11,1,15:00,Lower Field,108,2,122,11-Instructions,9,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+41,First Aid: Carry and Fracture,12,1,15:00,Main Field,110,1,123,12-Marksheet,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+42,First Aid: Carry and Fracture,12,1,15:00,Main Field,110,2,123,12-Instructions,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+43,Lego Set,13,1,15:30,Barn,110,1,124,13-Marksheet,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+44,Lego Set,13,1,15:30,Barn,110,2,124,13-Instructions,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+45,Snake Identification,14,1,15:30,Chapel,106,1,125,14-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+46,Snake Identification,14,1,15:30,Chapel,106,2,125,14-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+47,Snake Identification,14,1,15:30,Chapel,106,3,125,14-SnakeImages,7,A4,Normal,TRUE,FALSE,TRUE,FALSE,FALSE
+48,Snake Identification,14,1,15:30,Chapel,106,4,125,14-SnakeAnswers,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+49,Fire Starting,15,1,16:00,Campfire,108,1,127,15-Marksheet,9,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+50,Fire Starting,15,1,16:00,Campfire,108,2,127,15-Instructions,9,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+51,Pellet Guns,16,1,16:00,L4,110,1,128,16-Marksheet,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+52,Pellet Guns,16,1,16:00,L4,110,2,128,16-Instructions,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+53,Pellet Guns,16,1,16:00,L4,110,3,128,16-Target,50,A3,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+54,Scout Laws,17,1,16:30,Lower Field,106,1,129,17-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+55,Scout Laws,17,1,16:30,Lower Field,106,2,129,17-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+56,First Aid: Wounds and Bleeding,18,1,16:30,Main Field,110,1,130,18-Marksheet,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+57,First Aid: Wounds and Bleeding,18,1,16:30,Main Field,110,2,130,18-Instructions,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+58,Scout Promise,19,1,17:00,Front Lawn,106,1,133,19-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+59,Scout Promise,19,1,17:00,Front Lawn,106,2,133,19-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+60,Whippings,20,1,17:00,Chapel,108,1,134,20-Marksheet,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+61,Whippings,20,1,17:00,Chapel,108,2,134,20-Instructions,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+62,Triangulation,21,1,17:00,L3,110,1,135,21-Marksheet,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+63,Triangulation,21,1,17:00,L3,110,2,135,21-Instructions,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+64,Triangulation,21,1,17:00,L3,110,3,135,21-TopoMap,50,A4,Normal,TRUE,FALSE,FALSE,FALSE,FALSE
+65,STA 1: Dinner Invitation,22,1,17:30,Barn,106,1,136,22-Marksheet,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+66,STA 1: Dinner Invitation,22,1,17:30,Barn,106,2,136,22-Instructions,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+67,Dinner,23,1,19:00,Campsites,148,1,139,23-Marksheet,25,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+68,Dinner,23,1,19:00,Campsites,148,2,139,23-Instructions,25,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+69,Night Bases Parade,24,1,20:15,Main Field,901,1,141,24-Marksheet,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+70,Night Bases Parade,24,1,20:15,Main Field,901,2,141,24-Instructions,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+71,Semaphor Flags,25,1,20:30,Front Lawn,108,1,143,25-Marksheet,9,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+72,Semaphor Flags,25,1,20:30,Front Lawn,108,2,143,25-Instructions,9,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+73,Semaphor Flags,25,1,20:30,Front Lawn,108,3,143,25-Semaphore-Hints,100,A5,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+74,Jump the Fence,26,1,20:30,Main Field,108,1,144,26-Marksheet,9,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+75,Jump the Fence,26,1,20:30,Main Field,108,2,144,26-Instructions,9,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+76,Night Base Orienteering,27,1,20:30,Lower Field,108,1,145,27-Marksheet,9,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+77,Night Base Orienteering,27,1,20:30,Lower Field,108,2,145,27-Instructions,9,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+78,Night Base Orienteering,27,1,20:30,Lower Field,108,3,145,27-Equipment-1,1,A4,Normal,TRUE,FALSE,TRUE,FALSE,FALSE
+79,Night Base Orienteering,27,1,20:30,Lower Field,108,4,145,27-Equipment-2,1,A4,Normal,TRUE,FALSE,TRUE,FALSE,FALSE
+80,Night Base Orienteering,27,1,20:30,Lower Field,108,5,145,27-Equipment-3,1,A4,Normal,TRUE,FALSE,TRUE,FALSE,FALSE
+81,Night Base Orienteering,27,1,20:30,Lower Field,108,6,145,27-Equipment-4,1,A4,Normal,TRUE,FALSE,TRUE,FALSE,FALSE
+82,Night Base Orienteering,27,1,20:30,Lower Field,108,7,145,27-Equipment-5,1,A4,Normal,TRUE,FALSE,TRUE,FALSE,FALSE
+83,Night Base Orienteering,27,1,20:30,Lower Field,108,8,145,27-Equipment-6,1,A4,Normal,TRUE,FALSE,TRUE,FALSE,FALSE
+84,Night Base Orienteering,27,1,20:30,Lower Field,108,9,145,27-Equipment-7,1,A4,Normal,TRUE,FALSE,TRUE,FALSE,FALSE
+85,Night Base Orienteering,27,1,20:30,Lower Field,108,10,145,27-Equipment-8,1,A4,Normal,TRUE,FALSE,TRUE,FALSE,FALSE
+86,Night Base Orienteering,27,1,20:30,Lower Field,108,11,145,27-Equipment-9,1,A4,Normal,TRUE,FALSE,TRUE,FALSE,FALSE
+87,Night Base Orienteering,27,1,20:30,Lower Field,108,12,145,27-Equipment-10,1,A4,Normal,TRUE,FALSE,TRUE,FALSE,FALSE
+88,Night Base Orienteering,27,1,20:30,Lower Field,108,13,145,27-Equipment-11,1,A4,Normal,TRUE,FALSE,TRUE,FALSE,FALSE
+89,Night Base Orienteering,27,1,20:30,Lower Field,108,14,145,27-Equipment-12,1,A4,Normal,TRUE,FALSE,TRUE,FALSE,FALSE
+90,Night Base Orienteering,27,1,20:30,Lower Field,108,15,145,27-Equipment-13,1,A4,Normal,TRUE,FALSE,TRUE,FALSE,FALSE
+91,Night Base Orienteering,27,1,20:30,Lower Field,108,16,145,27-Scout-Instructions,50,A4,Normal,FALSE,FALSE,FALSE,FALSE,FALSE
+92,ESM: Water Drowning,28,1,20:30,Dam,108,1,146,28-Marksheet,9,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+93,ESM: Water Drowning,28,1,20:30,Dam,108,2,146,28-Instructions,9,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+94,Night Bases Closing,29,1,22:30,Main Field,901,1,148,29-Marksheet,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+95,Night Bases Closing,29,1,22:30,Main Field,901,2,148,29-Instructions,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+96,STA 2: Code,30,1,23:00,Barn,106,1,150,30-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+97,STA 2: Code,30,1,23:00,Barn,106,2,150,30-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+98,STA 2: Code,30,1,23:00,Barn,106,3,150,30-STA-Answers,7,A4,Normal,TRUE,FALSE,FALSE,FALSE,FALSE
+99,STA 3: Script,31,1,23:00,Barn,106,1,151,31-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+100,STA 3: Script,31,1,23:00,Barn,106,2,151,31-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+101,Rubbish Hand-In,32,1,23:00,Kitchen,102,1,152,32-Marksheet,3,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+102,Rubbish Hand-In,32,1,23:00,Kitchen,102,2,152,32-Instructions,3,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+103,Patrol Leader Briefing 2,33,1,23:00,Front Lawn,901,1,153,33-Marksheet,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+104,Patrol Leader Briefing 2,33,1,23:00,Front Lawn,901,2,153,33-Instructions,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+105,Patrol Leader Briefing 2,33,1,23:00,Front Lawn,901,3,153,33-PL-Day-1,50,A4,Normal,TRUE,FALSE,FALSE,FALSE,FALSE
+106,Lights Out,34,2,00:00,Various,800,1,154,34-Marksheet,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+107,Lights Out,34,2,00:00,Various,800,2,154,34-Instructions,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+108,Inspection: Uniform and Hygeine,35,2,08:00,Campsites,110,1,158,35-Marksheet,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+109,Inspection: Uniform and Hygeine,35,2,08:00,Campsites,110,2,158,35-Instructions,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+110,Inspection: Patrol Kits,36,2,08:00,Campsites,110,1,159,36-Marksheet,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+111,Inspection: Patrol Kits,36,2,08:00,Campsites,110,2,159,36-Instructions,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+112,Inspection: Tent,37,2,08:00,Campsites,110,1,160,37-Marksheet,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+113,Inspection: Tent,37,2,08:00,Campsites,110,2,160,37-Instructions,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+114,Inspection: Theme Elements in Campsite,38,2,08:00,Campsites,110,1,161,38-Marksheet,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+115,Inspection: Theme Elements in Campsite,38,2,08:00,Campsites,110,2,161,38-Instructions,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+116,First Aid: Burns,39,2,09:00,Front Lawn,106,1,163,39-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+117,First Aid: Burns,39,2,09:00,Front Lawn,106,2,163,39-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+118,First Aid: Shock Treatment,40,2,09:00,Chapel,106,1,164,40-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+119,First Aid: Shock Treatment,40,2,09:00,Chapel,106,2,164,40-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+120,Acting Script,41,2,09:30,Main Field,106,1,166,41-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+121,Acting Script,41,2,09:30,Main Field,106,2,166,41-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+122,STA 7: Trivia,42,2,09:30,Barn,106,1,167,42-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+123,STA 7: Trivia,42,2,09:30,Barn,106,2,167,42-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+124,STA 7: Trivia,42,2,09:30,Barn,106,3,167,42-STA-Answers,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+125,Six Basic Knots,43,2,10:00,Dam,106,1,168,43-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+126,Six Basic Knots,43,2,10:00,Dam,106,2,168,43-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+127,Advanced Knots,44,2,10:00,Campfire,106,1,169,44-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+128,Advanced Knots,44,2,10:00,Campfire,106,2,169,44-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+129,STA 4: Clapper,45,2,10:00,Barn,106,1,170,45-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+130,STA 4: Clapper,45,2,10:00,Barn,106,2,170,45-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+131,STA 5: Chair,46,2,10:00,Barn,106,1,171,46-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+132,STA 5: Chair,46,2,10:00,Barn,106,2,171,46-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+133,Patrol Leader Briefing 3,47,2,10:30,Front Lawn,901,1,172,47-Marksheet,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+134,Patrol Leader Briefing 3,47,2,10:30,Front Lawn,901,2,172,47-Instructions,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+135,Inspection: Site,48,2,11:00,Campsites,106,1,175,48-Marksheet,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+136,Inspection: Site,48,2,11:00,Campsites,106,2,175,48-Instructions,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+137,Inspection: Table,49,2,11:00,Campsites,106,1,176,49-Marksheet,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+138,Inspection: Table,49,2,11:00,Campsites,106,2,176,49-Instructions,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+139,Inspection: Extra Gadgets,50,2,11:00,Campsites,106,1,177,50-Marksheet,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+140,Inspection: Extra Gadgets,50,2,11:00,Campsites,106,2,177,50-Instructions,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+141,Inspection: Dresser,51,2,11:00,Campsites,106,1,178,51-Marksheet,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+142,Inspection: Dresser,51,2,11:00,Campsites,106,2,178,51-Instructions,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+143,Inspection: Notice Board,52,2,11:00,Campsites,106,1,179,52-Marksheet,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+144,Inspection: Notice Board,52,2,11:00,Campsites,106,2,179,52-Instructions,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+145,Inspection: Flag,53,2,11:00,Campsites,106,1,180,53-Marksheet,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+146,Inspection: Flag,53,2,11:00,Campsites,106,2,180,53-Instructions,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+147,Inspection: Gateway,54,2,11:00,Campsites,106,1,181,54-Marksheet,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+148,Inspection: Gateway,54,2,11:00,Campsites,106,2,181,54-Instructions,11,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+149,STA 6: Pinhole,55,2,13:30,Barn,106,1,183,55-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+150,STA 6: Pinhole,55,2,13:30,Barn,106,2,183,55-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+151,STA 8: Academy Award,56,2,13:30,Barn,106,1,184,56-Marksheet,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+152,STA 8: Academy Award,56,2,13:30,Barn,106,2,184,56-Instructions,7,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+153,Rubbish Hand-In,57,2,14:30,Kitchen,102,1,186,57-Marksheet,3,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+154,Rubbish Hand-In,57,2,14:30,Kitchen,102,2,186,57-Instructions,3,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+155,Final Site Inspection,58,2,14:30,Campsites,124,1,187,58-Marksheet,13,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+156,Final Site Inspection,58,2,14:30,Campsites,124,2,187,58-Instructions,13,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+157,Parents Arrival,0,2,15:00,Various,806,1,189,Hawequas Map,12,A4,High,TRUE,FALSE,TRUE,FALSE,FALSE
+158,Patrol Leader Mark Check,59,2,15:30,Front Lawn,809,1,190,59-Marksheet,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+159,Patrol Leader Mark Check,59,2,15:30,Front Lawn,809,2,190,59-Instructions,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+160,Final Parade,60,2,16:00,Main Field,800,1,192,60-Marksheet,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+161,Final Parade,60,2,16:00,Main Field,800,2,192,60-Instructions,1,A4,Low,FALSE,FALSE,FALSE,FALSE,FALSE
+,Registration,2,1,11:00,Barn,807,,106,Medical Issue Sheet,4,A4,Low,FALSE,FALSE,FALSE,TRUE,TRUE

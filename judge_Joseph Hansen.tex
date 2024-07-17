@@ -1,0 +1,1176 @@
+\documentclass[10pt, A5]{article}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[margin=0.75in]{geometry}
+
+\usepackage[acronym]{glossaries}
+
+\usepackage[final]{pdfpages}
+
+\usepackage{setspace}
+
+\usepackage{hyperref}
+
+\usepackage{xstring}
+\usepackage{filecontents}
+
+\usepackage[%
+style=authoryear-comp,%
+maxcitenames=2, %
+maxbibnames=8, %
+mergedate=compact, %
+uniquename=false, %
+giveninits=true,%
+url=false,%
+doi=false,%
+isbn=false%
+]{biblatex}
+
+
+\usepackage{xpatch}
+
+
+\usepackage{booktabs}
+
+\usepackage{amsmath}
+
+\usepackage{array}
+
+
+\usepackage{listings}
+\usepackage[breakable]{tcolorbox}
+\tcbuselibrary{listings}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{fancyvrb}
+\usepackage{calc}
+\usepackage{enumitem}
+
+\usepackage{fontawesome5}
+
+
+% \definecolor{codegray}{gray}{0.9}
+% \newcommand{\code}[1]{\colorbox{codegray}{\texttt{#1}}}
+\newcommand{\code}[1]{\texttt{#1}}
+
+%\setstretch{1.1}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\renewcommand{\headrulewidth}{0pt}
+
+\lfoot{}
+
+\rfoot{}
+
+\cfoot{\includegraphics[width=\paperwidth]{rope.png}}
+
+
+\usepackage{caption}
+\usepackage{framed}
+
+\setlength{\parindent}{0pt}
+\usepackage{xcolor}
+\usepackage{layouts}
+\usepackage[ddmmyyyy,hhmmss]{datetime}
+
+
+\hypersetup{
+	pdftitle="Troop Report",
+	pdfauthor="Daniel Le Jeune"
+}
+
+\definecolor{grey}{HTML}{969696}
+
+
+\newcommand{\newtitle}[1]{\begin{center}{\Huge\bfseries #1 }\\ \vspace{5mm}\end{center}}
+\newcommand{\newsubtitle}[1]{\begin{center}{\color{grey}\Large\bfseries #1 }\\ \vspace{5mm}\end{center}}
+
+
+
+\usepackage{fontspec}
+
+
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Verdana}
+
+\begin{document}
+
+
+
+		\newtitle{Joseph Hansen}
+	\newsubtitle{ID: 1}
+
+
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{2}
+        \section{General Staff Arrive}
+        \subsection*{09:30-10:00 | Saturday | Hawequas}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{3}
+        \section{Staff Briefing}
+        \subsection*{10:00-10:30 | Saturday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										1&Programme\\\midrule
+										1&Personal Itinerary\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{10}
+        \section{Opening Parade}
+        \subsection*{13:30-13:45 | Saturday | Main Field}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										1&04-Marksheet\\\midrule
+										1&04-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{11}
+        \section{Staff Lunch}
+        \subsection*{13:45-14:00 | Saturday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{12}
+        \section{Patrol Leader Briefing 1}
+        \subsection*{13:45-14:00 | Saturday | Front Lawn}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                \textit{None}
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										1&05-Marksheet\\\midrule
+										1&05-Instructions\\\midrule
+										50&05-PL-Day-1\\\midrule
+										50&05-STA-1\\\midrule
+										50&05-STA-2\\\midrule
+										50&05-STA-3\\\midrule
+										50&05-STA-4\\\midrule
+										50&05-STA-5\\\midrule
+										50&05-STA-6\\\midrule
+										50&05-STA-7\\\midrule
+										50&05-STA-8\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{13}
+        \section{Fun Memes, Trivia and Quotes (Staff)}
+        \subsection*{14:00-15:00 | Saturday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    
+
+        	\begin{multicols}{2}
+
+		\begin{itemize}
+									\item Andrew Venter
+									\item Daniel Le Jeune
+									\item Dylan Ribbans
+									\item Sebastian Haug
+						\end{itemize}
+
+		\vfill\null
+		\columnbreak
+
+		\begin{itemize}
+									\item Sebastian Haug
+									\item Simon Bean
+						\end{itemize}
+
+		\vfill\null
+
+		\end{multicols}
+
+    \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{37}
+        \section{Staff Night Briefing}
+        \subsection*{18:15-18:30 | Saturday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{39}
+        \section{Staff Dinner}
+        \subsection*{19:30-20:00 | Saturday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{40}
+        \section{Night Bases Parade}
+        \subsection*{20:15-20:30 | Saturday | Main Field}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                \textit{None}
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										1&24-Marksheet\\\midrule
+										1&24-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{47}
+        \section{Night Bases Closing}
+        \subsection*{22:30-22:45 | Saturday | Main Field}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                \textit{None}
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										1&29-Marksheet\\\midrule
+										1&29-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{48}
+        \section{Staff Bedtime Briefing}
+        \subsection*{22:45-23:00 | Saturday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{52}
+        \section{Patrol Leader Briefing 2}
+        \subsection*{23:00-23:15 | Saturday | Front Lawn}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                \textit{None}
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										1&33-Marksheet\\\midrule
+										1&33-Instructions\\\midrule
+										50&33-PL-Day-1\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{53}
+        \section{Lights Out}
+        \subsection*{00:00-06:00 | Sunday | Various}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										1&34-Marksheet\\\midrule
+										1&34-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{55}
+        \section{Staff Breakfast}
+        \subsection*{06:30-07:15 | Sunday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{56}
+        \section{Staff Morning Briefing}
+        \subsection*{07:15-07:45 | Sunday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{71}
+        \section{Patrol Leader Briefing 3}
+        \subsection*{10:30-10:45 | Sunday | Front Lawn}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                \textit{None}
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										1&47-Marksheet\\\midrule
+										1&47-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{81}
+        \section{Staff Lunch}
+        \subsection*{12:30-13:30 | Sunday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{87}
+        \section{Print Mark Check}
+        \subsection*{14:30-15:15 | Sunday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    
+
+        	\begin{multicols}{2}
+
+		\begin{itemize}
+									\item Andrew Venter
+									\item Nigel Forshaw
+						\end{itemize}
+
+		\vfill\null
+		\columnbreak
+
+		\begin{itemize}
+									\item Nigel Forshaw
+						\end{itemize}
+
+		\vfill\null
+
+		\end{multicols}
+
+    \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{89}
+        \section{Patrol Leader Mark Check}
+        \subsection*{15:30-15:45 | Sunday | Front Lawn}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    
+
+        	\begin{multicols}{2}
+
+		\begin{itemize}
+									\item Andrew Venter
+									\item Nigel Forshaw
+						\end{itemize}
+
+		\vfill\null
+		\columnbreak
+
+		\begin{itemize}
+									\item Nigel Forshaw
+						\end{itemize}
+
+		\vfill\null
+
+		\end{multicols}
+
+    \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+		
+	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+
+				\textbf{QTY} & \textbf{Item} \\\toprule
+												1&Pen\\\midrule
+								\end{tabular}
+
+			\end{center}
+
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										1&59-Marksheet\\\midrule
+										1&59-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{91}
+        \section{Final Parade}
+        \subsection*{16:00-16:30 | Sunday | Main Field}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\begin{center}
+			\begin{tabular}{p{2cm}p{4cm}}
+
+			\textbf{QTY} & \textbf{Doc} \\\toprule
+										1&60-Marksheet\\\midrule
+										1&60-Instructions\\\midrule
+							\end{tabular}
+			\end{center}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{92}
+        \section{Judge Debrief}
+        \subsection*{16:30-16:45 | Sunday | House}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{93}
+        \section{Pack Up}
+        \subsection*{16:45-17:30 | Sunday | Various}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{94}
+        \section{End}
+        \subsection*{17:30-18:00 | Sunday | Hawequas}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    All
+
+            \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+        \begin{framed}
+        \begin{minipage}{\textwidth}
+
+        \setcounter{section}{95}
+        \section{hayi}
+        \subsection*{18:00-21:00 | Sunday | Various}
+
+        \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+
+        \subsection*{Other Judges}
+                    
+
+        	\begin{multicols}{2}
+
+		\begin{itemize}
+									\item Andrew Venter
+									\item Daniel Le Jeune
+									\item Dylan Ribbans
+									\item Sebastian Haug
+						\end{itemize}
+
+		\vfill\null
+		\columnbreak
+
+		\begin{itemize}
+									\item Sebastian Haug
+									\item Simon Bean
+						\end{itemize}
+
+		\vfill\null
+
+		\end{multicols}
+
+    \vspace{0.25cm}
+        \hrule
+        \vspace{0.25cm}
+
+        \begin{multicols}{2}
+
+		\section*{\faWrench \: Equipment}
+
+				\textit{None}
+		
+		\vfill\null
+		\columnbreak
+
+			\section*{\faFile \: Docs}
+		 	\textit{None}
+	
+
+		\vfill\null
+
+		\end{multicols}
+\end{minipage}
+\end{framed}
+    
+
+	\clearpage
+
+	
+
+
+
+\end{document}
