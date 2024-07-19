@@ -1,55 +1,124 @@
-day	start_time	end_time	event_id	test_id	name	description	location	judges	scouts	print_staff_doc
-0	14:00	16:00	1	-1	Packing start			DL, HR, CC, JaW, TB, LS, TV		FALSE
-0	16:00	16:40	2	-1	Driving to Camp			DL, HR, CC, JaW, TB, LS, TV		FALSE
-0	16:50	18:00	3	-1	Facilities setup 			DL, HR, CC, JaW, TB, LS, TV		FALSE
-0	17:30	18:00	4	-1	Dinner prep			DL, HR, CC, JaW, TB, LS, TV		TRUE
-0	18:00	18:40	5	-1	Dinner 			DL, HR, CC, JaW, TB, LS, TV		TRUE
-0	18:40	19:20	6	-1	Final facilities			DL, HR, CC, JaW, TB, LS, TV		TRUE
-0	19:20	20:00	7	-1	Doc Organisation and base layout			DL, HR, CC, JaW, TB, LS, TV		TRUE
-0	20:00	21:00	8	-1	Final organisation			DL, HR, CC, JaW, TB, LS, TV		TRUE
-0	21:00	22:00	9	-1	Staff chill time			DL, HR, CC, JaW, TB, LS, TV		TRUE
-0	23:00	06:00	10	-1	lightsout			DL, HR, CC, JaW, TB, LS, TV		TRUE
-1	06:00	07:30	11	-1	Wake up			DL, HR, CC, JaW, TB, LS, TV		TRUE
-1	07:30	08:00	12	-1	Breakfast prep and final prep			DL, HR, CC, JaW, TB, LS, TV		TRUE
-1	08:00	08:30	13	-1	breakfast and staff arrivals			/		TRUE
-1	08:50	09:20	14	-1	Staff briefing			/		TRUE
-1	09:20	09:50	15	-1	Final organisation			/		TRUE
-1	10:00	12:00	16	-1	Traffic control					TRUE
-1	10:00	11:00	17	-1	Gates open					TRUE
-1	10:20	11:20	18	-1	Regestration			MR, JaW, PB, OH, JC		TRUE
-1	11:20	12:00	19	-1	Lunch prep			HR, OS		TRUE
-1	11:30	11:50	20	-1	Opening Parade			/		TRUE
-1	12:00	12:10	21	-1	PL's Briefing			TV	PL's	TRUE
-1	12:00	12:30	22	-1	Staff Lunch			/		TRUE
-1	12:10	13:00	23	-1	Camp Dev and lunch				/	TRUE
-1	12:40	12:50	24	-1	STA 1 Hand in			HR		TRUE
-1	13:00	13:30	25	1	Triangulation	Scouts must demonstate triangulation. They should be given the map, compass, ruler, koki and should triangulate their location. Scouts must explain to you what they are doing while they do it so you can assess their method. if base the location doesn't suit a triangulation practical they should explain it.	Somewhere			TRUE
-1	13:00	13:30	26	2	Finding north without a compass	Scout must be asked to name and demonstrate two methods to find north without a compass.	Over The rainbow			TRUE
-1	13:00	13:30	27	3	First aid abbreviations	You should give the scout the name of the abbreviations SAMPLE, DOTS, PEARL. After that the scout must name what each letter stands for, if the scout gets atleast half right they get half of the points for correctness and full points if its fully correct.	In my house			TRUE
-1	13:00	13:30	28	4	clouds	Scout must identify which cloud on the sheet is a Cirrocumulus cloud, stratus and cumulonimbus. After this they must identify the names of three photos of clouds at your choosing.	who knows			TRUE
-1	13:00	13:30	29	5	Ground to air signals	Scout should answer each of the questions on the handout by identifying what each of the physically made signs represents and constucting which sign represents the phrase.	womp womp			TRUE
-1	13:00	13:30	30	6	campsite saftey	Scout must identify a hazard created in their campsites, equipment, pioneering, Fireplace and campsite location. and they must then explain how they should correct it		DL, JaW		TRUE
-1	13:30	14:00	31	7	snake venom	Scout must name three types of snake venom (Cytotoxic, Neurotoxic, Hemotoxic and myotoxic) and must then explain what each toxin they named does.		CC		TRUE
-1	13:30	14:00	32	8	water collection	In a survival situation how can you collect and purify water? With you you have a 1x1 sheet of plastic, a can, a plastic bottle and a paper towel. The scout must name and and demonstate 3 methods of how they can use these items to collect clean water in this survival situation				TRUE
-1	13:30	14:00	33	9	6 basic knots	Scout must tie as many of the 6 basic knots as possible				TRUE
-1	13:30	14:00	34	10	First aid splinting	Scout must demonstate how to splint a broken leg, look for if it is splinted from bone to bone or joint to joint. The comfort of the splint should also be assesed, is it comfortable to the patient or would it be sore to wear.				TRUE
-1	13:30	14:00	35	11	tripod lashings	Scout must tie a correct and stable tripod lashing.				TRUE
-1	13:30	14:00	36	12	woggle plating	Scout must demonstrate how to plate a woggle				TRUE
-1	13:30	14:00	37	13	Map reading	Scout must correctly identify what each of the eight map symbols on the handouts.				TRUE
-1	13:30	14:00	38	14	troop knowledge	Scout is given 15 seconds to name as many troops as they can from the western cape. A scout should be awarded one point for every troop named. for a maximum of 15 points				TRUE
-1	13:30	14:00	39	15	axes	Scout should be asked to identify 5 parts of an axe: Back, toe, head, eye, heel				TRUE
-1	13:30	14:00	40	16	Emergency numbers	Scout must give the numbers for three emergency services				TRUE
-1	14:00	14:20	41	-1	Staff brief			/		TRUE
-1	14:20	15:20	42	17	First aid					TRUE
-1	14:20	15:20	43	18	Knotting and pioneering					TRUE
-1	14:20	15:20	44	19	carries					TRUE
-1	14:20	15:20	45	20	Mapping					TRUE
-1	14:20	15:20	46	21	Kims game					TRUE
-1	14:30	15:00	47	-1	STA 1 marking					TRUE
-2	13:40	14:00	48	-1	Mark Check					TRUE
-2	14:00	16:00	49	-1	Traffic Control					TRUE
-2	14:00	14:30	50	-1	Point Totaling					TRUE
-2	14:40	15:00	51	-1	Closing Parade					TRUE
-2	15:00	16:00	52	-1	Staff Clean up					TRUE
-2	16:00	16:30	53	-1	Stafff thanks					TRUE
-2	16:30	17:30	54	-1	Driving					TRUE
+event_id	day	start_time	end_time	old_event_id	test_id	name	location	judges	scouts	description	print_staff_doc
+1	0	14:00	16:00	1	-1	Packing start	The Hall	DL, HR, CC, JaW, TB, LS, TV			FALSE
+2	0	16:00	16:40	2	-1	Driving to Camp		DL, HR, CC, JaW, TB, LS, TV			FALSE
+3	0	16:50	18:00	3	-1	Facilities setup 	Camp	DL, HR, CC, JaW, TB, LS, TV		set up: HQ, bathrooms, signs, kitchen, campsites, flagpole, storage.	FALSE
+4	0	17:30	18:00	4	-1	Dinner prep	Kitchen	DL, HR, CC, JaW, TB, LS, TV		Cook dinner	FALSE
+5	0	18:00	18:40	5	-1	Dinner 	HQ	DL, HR, CC, JaW, TB, LS, TV		Eat dinner	FALSE
+6	0	18:40	19:20	6	-1	Final facilities		DL, HR, CC, JaW, TB, LS, TV		Finish setting up	FALSE
+7	0	19:20	20:00	7	-1	Doc Organisation and base layout	HQ	DL, HR, CC, JaW, TB, LS, TV		organise doccuments and arrange equipment for the bases.	FALSE
+8	0	20:00	21:00	8	-1	Final organisation		DL, HR, CC, JaW, TB, LS, TV			FALSE
+9	0	21:00	22:00	9	-1	Staff chill time	HQ	DL, HR, CC, JaW, TB, LS, TV			FALSE
+10	0	23:00	06:00	10	-1	lightsout		DL, HR, CC, JaW, TB, LS, TV			FALSE
+11	1	06:00	07:30	11	-1	Wake up		DL, HR, CC, JaW, TB, LS, TV			FALSE
+12	1	07:30	08:00	12	-1	Breakfast prep and final prep	Kitchen	DL, HR, CC, JaW, TB, LS, TV			FALSE
+13	1	08:00	08:30	13	-1	breakfast and staff arrivals	HQ	All			FALSE
+14	1	08:50	09:20	14	-1	Staff briefing	HQ	All			TRUE
+15	1	09:20	09:50	15	-1	Final organisation		All		Register, staff tents, name tags.	FALSE
+16	1	10:00	12:00	16	-1	Traffic control		DL, CC, CS, JaW			TRUE
+17	1	10:00	12:00	17	-1	Gates open		N/A			TRUE
+18	1	10:20	11:20	18	-1	Regestration	House	MR, JaW, PB, JC, 			TRUE
+19	1	10:20	11:20	18	63	Consent forms		PB, JoW	House	Scouts must provide fully completed consent forms for each patrol member, Check the name, location, medication, signitures and swimming.	TRUE
+20	1	10:20	11:20	18	64	Uniforms		AS, MR	House	Inspect the scouts uniforms, check that they are neatly worn, are clean, their badges are up to date and have all the correct compenents of the uniform	TRUE
+21	1	10:20	11:20	18	65	Patrol sheet		OH, SH	House	Inspect the patrols hand in sheet. Asess the design and the amount of effort they put into it. Assess the theming put into their sheet that it relatres to time travel either though time machines, another era in time, a show relating to time travel or the like. See that it is complete with the names of each patrol member, their rank and age	TRUE
+22	1	11:20	12:00	19	-1	Lunch prep	Kitchen	HR, OS			TRUE
+23	1	11:30	11:50	20	-1	Opening Parade	Parade	All			TRUE
+24	1	12:00	12:10	21	-1	PL's Briefing	Upper Field	TV	PL's		TRUE
+25	1	12:00	12:30	22	-1	Staff Lunch	HQ	All			TRUE
+26	1	12:10	13:00	23	-1	Camp Dev and lunch		/	/		TRUE
+27	1	12:40	12:50	24	56	STA 1 Hand in		HR, TB	Balcony	Scouts are to provide a designed and detailed doccument of their patrol pairs for the first set of bases. You should mark it on its design and completeness (names, ranks, patrol and duo name ) and creativity 	TRUE
+28	1	13:00	14:00	25	-1	Bases 1		"DLu,JR,OH,RS,PB,SH,AS,SG,JC,DK,HR,MR,CS,DL,AF,JoW
+"			FALSE
+29	1	13:00	13:30	25	1	Triangulation		DLu,JR	Upper Field	Scouts must demonstate triangulation. They should be given the map, compass, ruler, koki and should triangulate their location. Scouts must explain to you what they are doing while they do it so you can assess their method. if base the location doesn't suit a triangulation practical they should explain it.	TRUE
+30	1	13:00	13:30	25	2	Finding north without a compass		OH,RS	Parade	Scout must name and demonstrate two methods to find north without a compass. They can fall out and get any items but the patrol who falls in must be the patrol to complete it	TRUE
+31	1	13:00	13:30	25	3	First aid abbreviations		PB,SH	Mandala	You should give the scout the name of the abbreviations SAMPLE, DOTS, PEARL. After that the scout must name what each letter stands for, if the scout gets atleast half right they get half of the points for correctness and full points if its fully correct.	TRUE
+32	1	13:00	13:30	25	4	clouds		AS,SG	House	Scout must identify which cloud on the sheet is a Cirrocumulus cloud, stratus and cumulonimbus. After this they must identify the names of three photos of clouds at your choosing.	TRUE
+33	1	13:00	13:30	25	5	Ground to air signals		JC,DK	Lower Field	Scouter must remake the ground to air signals on the sheet on the ground for the scouts to identify. Scouts should answer each of the questions on the handout by identifying what each of the physically made signs represents and constucting The ground to air signal that represents the phrase.	TRUE
+34	1	13:00	13:30	25	6	campsite saftey		HR,MR	Campsite	Scout must identify a hazard created in their campsites, equipment, pioneering, Fireplace and campsite location. and they must then explain how they should correct it	TRUE
+35	1	13:00	13:30	25	7	snake venom		CS,DL	Cabin	Scout must name three types of snake venom (Cytotoxic, Neurotoxic, Hemotoxic and myotoxic) and must then explain what each toxin they named does.	TRUE
+36	1	13:00	13:30	25	8	water collection		AF,JoW	House	In a survival situation how can you collect and purify water? With you you have a 1x1 sheet of plastic, a can, a plastic bottle and a paper towel. The scout must name and demonstate 3 methods of how they can use these items to collect clean water in this survival situation. They should make a waterfilter to explain it but other methods that require digging should be explained, fire can be done on a gas stove, these items should be out of site when the scouts fall in.	TRUE
+37	1	13:30	14:00	25	9	6 basic knots		CS,DL	Cabin	Scout must tie as many of the 6 basic knots as possible	TRUE
+38	1	13:30	14:00	25	10	First aid splinting		AF,JoW	House	Scout must demonstate how to splint a broken leg, look for if it is splinted from bone to bone or joint to joint. The comfort of the splint should also be assesed, is it comfortable to the patient or would it be sore to wear.	TRUE
+39	1	13:30	14:00	25	11	tripod lashings		AS,SG	House	Scout must tie a correct and stable tripod lashing.	TRUE
+40	1	13:30	14:00	25	12	woggle plating		OH,RS	Parade	Scout must demonstrate how to plate a woggle	TRUE
+41	1	13:30	14:00	25	13	Map reading		PB,SH	Mandala	Scout must correctly identify what each of the eight map symbols on the handouts.	TRUE
+42	1	13:30	14:00	25	14	troop knowledge		DLu,JR	Upper Field	Scout is given 15 seconds to name as many troops as they can from the western cape. A scout should be awarded one point for every troop named. for a maximum of 15 points	TRUE
+43	1	13:30	14:00	25	15	axes		HR,MR	Campsite	Scout should be asked to identify 5 parts of an axe: Back, toe, head, eye, heel	TRUE
+44	1	13:30	14:00	25	16	Emergency numbers		JC,DK	Lower Field	Scout must give the numbers for three emergency services	TRUE
+45	1	14:00	14:20	26	-1	Staff brief	HQ	All			TRUE
+46	1	14:20	15:20	27	-1	Bases 2		DLu,RS,CS,AF,OH,JoW,PB,DL,AS,SH,MR,OS			FALSE
+47	1	14:20	15:20	27	17	First aid		DLu,RS,CS,AF	Upper Field	Scouts must demonstrate correct first aid. scenario:The P2 and P4 have been injured while hiking in the mountains when the P2 tripped onto P4, P2 has broken his leg while falling and has a really sore shoulder, the P4 has fallen and hit his head. A scout should demonstrate c-spine.	TRUE
+48	1	14:20	15:20	27	18	Knotting and pioneering		OH,JoW	Lower Field	Scouts are required to demonstrate the knots and lashings given. knots and lashing on print out. they should also explain what its used for and if they don't know how to tie them or what they are used for you should expalin it.	TRUE
+49	1	14:20	15:20	27	19	carries		PB,DL	Lower Field	Scouts must demonstrate specific emergency carries. Specific carries on hand out.	TRUE
+50	1	14:20	15:20	27	20	Mapping		AS,SH,MR,SG	Upper Field	Scouts are to explain and demonstrate certain mapping techniques and knowledge. Questions on the handout sheet	TRUE
+51	1	14:20	15:20	27	21	Kims game		JC,DK	House	Scouts are to play kim's game. the 30 items should be layed out and placed underneath a towel. The towel should be removed and the scouts should be able to look at the items for 30 seconds before being covered again. the scouts should then list as many of the items as they can remeber.  this will then be repeated a second time and they will re list, the attempt with the most items listed is scored 	TRUE
+52	1	14:20	15:20	27	22	scouting		JR,MR	House	Scouts are to be tested on their knowledge of the scout laws and the scouting movement. Questions for each patrol member on the hand out.	TRUE
+53	1	14:30	15:00	28	-1	STA 1 marking	HQ	HR			TRUE
+54	1	15:20	15:50	29	-1	Staff Brief	HQ	All			TRUE
+55	1	15:50	16:50	30	-1	Bases 3		OS,JoW,RS,SH,PB,SG,MR,AS,AF,JC,DL,DK,OH,CS,DLu,JR			FALSE
+56	1	15:50	16:50	30	23	First aid		OS,JoW,RS,SH	Lower Field	Scouts are tested on their firt aid ability. Scenario: While on a patrol camp your patrol leader fell while climbing a rock. Demonstrate the correct procedure to log role the patrol leader.The PL may explain the procedure but must be the patient. Do a stretcher carry once they are on the spine board	TRUE
+57	1	15:50	16:50	30	24	Knotting and pioneering		PB,SG,MR	Upper Field	Scouts are to demonstrate their knotting and pioneering skills. Specific knots and lashings for each patrol member on the hand out. they should explain what they are used for.	TRUE
+58	1	15:50	16:50	30	25	codes and cyphers		AS,AF	House	Scouts to be split into P3, P5 and P1,P7. the P1 and P7 are then to encode a message to the other pair. they msut attempt it without the pigspen sheet but if they dont know it the scouter can explain. the P3 and P5 are then to decode the given message.	TRUE
+59	1	15:50	16:50	30	26	Mapping		JC,DL,DK	House	Scouts are being tested on their mapping ability. The question for each patrol member is on the handout sheet.	TRUE
+60	1	15:50	16:50	30	27	Sake identification		OH,CS	Lower Field	Scouts must identify three snakes presented to them, they should just identify its name. 2 points for each snake, 1 point for partial correctness.	TRUE
+61	1	15:50	16:50	30	28	Scouting		DLu,JR	Upper Field	Scouts to be tested on their scout laws and other scouting knowledge. Questions for each patrol member on the handout	TRUE
+62	1	16:50	17:00	31	-1	PL's Briefing	HQ	TV,LS			TRUE
+63	1	17:00	19:00	32	-1	Dinner Prep	Kitchen and scouts campsites	HR, LS, JaW			TRUE
+64	1	17:20	17:50	33	29	Fire starting		PB,AS,OH,DLu	House	Scouts must use their alternative method for fire lighting to start a fire. this fire should be burning for atleast 30 seconds.	TRUE
+65	1	17:40	17:50	34	57	STA 2 Hand in		CC	Balcony	Scouts are to create a model out of recylced materials of a relic of some type though out time, mark on looks, effort and use of recycled amterial	TRUE
+66	1	18:00	18:20	35	30	Advanced knotting		CS,JC,MR,AF,DK,PB	Upper Field	Scouts to be tested on their scout laws and other scouting knowledge. Questions for each patrol member on the handout	TRUE
+67	1	18:10	18:30	36	58	STA 3 Hand in and marking		DL,DLu,LS,OS,JoW,JaW	Balcony	Scouts are to make a dinner invite to their dinner judges, should have a time, location and what to bring, judge on looks effort and themeing	TRUE
+68	1	18:20	18:40	37	31	First Aid bleeding		RS,AS	Lower Field	Scouts must name and explain the three types of bleeding, Capiliary, veneous and arterial bleeding they should then explain how to stop bleeding and then should explain how you check for blood flow.	TRUE
+69	1	18:20	18:30	38	59	STA 4 Hand in		LS, CC	Balcony	Scouts are to make a dinner invite to their dinner judges, should have a time, location and what to bring, judge on looks effort and themeing	TRUE
+70	1	18:30	18:50	39	32	Map orientation		OH,SG	Upper Field	Scouts must identify how to orientate a map. They should orientate themap of glencairn by their surroundings and should orientate the sligsby map according to a compass, remeber magnetic declination.	TRUE
+71	1	19:00	19:30	40	55	Dinner Judging		OS,RS,PB,MR,AS,DK,TV,CS,DLu,JoW,OH,JR	Campsite		TRUE
+72	1	19:30	20:00	41	-1	Staff Dinner		All			TRUE
+73	1	19:40	20:10	42	-1	STA 2 marking		LS			TRUE
+74	1	20:20	20:30	43	-1	Fall in on parade	Parade	TV,LS			TRUE
+75	1	20:30	22:00	44	-1	Night bases		RS,JoW,SG,OH,TB,SH,MR,AF,AS,DL,DLu,JC,CS,HR,DK,JaW,CC,PB,JR			FALSE
+76	1	20:30	22:00	44	33	First aid incident scene		RS,JoW,SG,OH	Night base map	Scouts must deal with a first aid scenario. Scouts should be briefed before starting the scene.They should treat it exactly like a normal first aid scene. The injuries for each staff member is in the handout. Scenario: The scouters were trying to make a bridge over the river when their lashings came lose and the bridge fell apart. The scouts heard them and came to help. Scouts shouldn't be marked down for over first aiding unless it negatively affects the patients. Scouts must make a sling, warm the patients, preform SAMPLE and preform CPR. They should then be debriefed after the scene and told how to improve.	TRUE
+77	1	20:30	22:00	44	34	Semaphore		TB,SH	Night base map	The scouts are to split into two pairs of scouts. one pair with the flags and the other without, both pairs get a semaphore sheet. One scout pair is to then send a message to the other patrol. the phrase is: What is your name. once it has been decoded the other pair should send their response	TRUE
+78	1	20:30	22:00	44	35	Pioneered structure		MR,AF,AS	Night base map	Scouts are to with their staves and ropes is make a haymakers bridge and get their whole patrol across the river.	TRUE
+79	1	20:30	22:00	44	36	Phonetic alphabet		DL,DLu	Night base map	Scouts are to be split into pairs. The pairs are then to move a distance appart. One pair is given a complete grid doccument, the other patrol gets an empty grid doccument, The pair with the completed grid is then to explain to the other patrol using the phonetic alphabet what to draw in their grid.	TRUE
+80	1	20:30	22:00	44	37	Advanced Lashings		JC,CS	Night base map	PL and APL are tested on their advanced lashing skills. Only one of the scouts has to tie the knot. if they don't know how to tie the lashings they can leave and learn them somewhere else before coming back to retry. List of lashings on the handout.	TRUE
+81	1	20:30	22:00	44	38	Finding items		HR,DK	Night base map	Scouts are to be told the list of items. They should then fall out and go and collect the items to bring back to the scouters. list of items on the hand out sheet. (Please check that is the left shoe)	TRUE
+82	1	20:30	22:00	44	39	Slack line		JaW,CC	Night base map	Scouts are to travel as far as they can on the slack line. Each scout gets one attempt. When they walk along the slack line they get a point for every meter increment that they step over. The furthest distance reached in the points that is put on the mark sheet. 	TRUE
+83	1	20:30	22:00	44	40	Trail signs		PB,JR	Night base map	Construct a nature trail with the trail signs demonstrated along it. Scouts are to be asked what each of the trail signs indicates. points awarded for each correct answer. Questions and answers on the hand out. .	TRUE
+84	1	20:40	21:10	45	-1	STA 4 Marking	HQ	LS			TRUE
+85	1	22:00	22:30	46	-1	PL's Debrief	HQ	TV			TRUE
+86	1	22:10	22:20	47	60	STA 5 Hand in		HR,TB	Balcony	Scouts are given an night base quiz STA, 1 point awarded for every two correct answers	TRUE
+87	1	22:20	22:40	48	-1	STA 5 marking	HQ	HR,TB			TRUE
+88	1	22:30	23:00	49	-1	Staff debrief	HQ	All			TRUE
+89	2	00:00	06:00	50	-1	Lights out		All			TRUE
+90	2	07:00	09:00	51	-1	Breakfast and camp dev		/			FALSE
+91	2	07:30	08:00	52	-1	Breakfast prep	Kitchen	HR,DLu			TRUE
+92	2	08:00	08:30	53	-1	Breakfast and staff briefing	HQ	All			TRUE
+93	2	09:00	10:00	54	-1	Hygiene inspection	Campsites	SH,AF,MR			FALSE
+94	2	09:00	10:00	54	45	Ceanliness		SH, HR	Campsite	Scouts to be inspected to see how they have been keeping themselves clean and tidy. You should inspect their hands for large amounts of dirt. YOu should see that their uniforms are clean and are neatly and correctly worn (no points to be deducted for missing items). You should also ask 3 of the scouts to present their toothbrushes, when they have them please ask if they have brushed their teeth, a scouts honour is to be trusted. Do not touch their tooth brush bristles.	TRUE
+95	2	09:00	10:00	54	46	equipments		AF, AS	Campsite	You are to inspect their cooking equipent. Look to see if their equipment is neatly packed away and stored well. Check to see if their equipment is dry so that it doesnt rust or cause mold. Please also check that their equipment is clean of food so as to not cause disease.	TRUE
+96	2	09:00	10:00	54	47	tents cleanliness		MR, OH	Campsite	You are to inspect the scouts tents. You should check to see that the scouts tents are neatly arranged and their clothes and other items are stored away well. You must also inspect thst the tents are clean and not filled with food and dirt.	TRUE
+97	2	10:00	11:00	55	-1	Camp Dev		/			FALSE
+98	2	10:10	10:20	56	61	STA 6 Hand in		CS, DL	Balcony	Scouts are to decode a message and deliver it to the staff.	TRUE
+99	2	10:10	10:20	57	41	Care of equipment		LS,JoW	Upper Field	Scouts are to be asked on why and how we care for equipment namely : An axe, a tent, ropes, a dutch oven and general cooking equipment. The point should be awarded when you belive they have explained to a suitable standard.	TRUE
+100	2	10:20	10:40	58	42	Cards		DL,RS	Upper Field	The patrols are to play a speed tournament. your patrol gets one point for each level you reach. the person that gets the furthest is the one that is marked.	TRUE
+101	2	10:20	10:40	59	-1	STA 6 marking	HQ	HR,TB			TRUE
+102	2	10:30	10:45	60	43	Splices		DLu,AF	House	Scouts are to arrive with their rope peices and should then demonstrate each of the splices on the handout.	TRUE
+103	2	10:30	10:40	61	62	STA 7		HR, TB	Balcony	Scouts are to design blue prints of their time machines. You should mark on creativity and effort	TRUE
+104	2	10:40	10:50	62	44	Whipings		JC,DK	House	Scouts should demonstrate a sailmakers and westcountry whipping on the ropes provided.	TRUE
+105	2	11:00	12:00	63	-1	Final inspection	Campsites	AS,PB,DLu,JoW,OH,JC,JR			FALSE
+106	2	11:00	12:00	63	48	Table		AS,DL	Campsite	You are to inspect the scouts pioneered table. You should check to see that their design is well thought through and is suitable for their campsite. You should check the stability of their table, that it is well pioneered with tight lashings and that it isn't causing a hazard in their campsite. You should check to see the comfort of their table, assure that you are able to sit at it and it isnt going to prove uncomfortable sitting at it for an extended period of time.	TRUE
+107	2	11:00	12:00	63	49	Gateway		PB,CS	Campsite	You are to inspect that the scouts have a gateway to their campsite. You should asess the design of their gateway, That it is a suitable size and the design is interesting and non hazourdoues. You should then asess the stability of the gateway and see that its is well pioneered and wont fall over and hurt anyone	TRUE
+108	2	11:00	12:00	63	50	Wash up station and bin		DLu,MR	Campsite	You are to inspect that the scouts have a wash up station and a bin in their campsite. Their wash up sytation should be well designed and suitably provide a place for them to wash up. The wash up station should also be stable and useable for washing up. The scouts should have a bin in their campsite. 2nd point should be awarded if they pioneered a stable and functioning bin.	TRUE
+109	2	11:00	12:00	63	51	Flagpole		JoW,CC	Campsite	You are to inspect the scouts flagpole. Their flag pole should be designed well to display their campflag. The flagpole should also be stable so as to no be hazourdeous to the scouts. The flagpole should also be functional with a flag that can be raised and lowered.	TRUE
+110	2	11:00	12:00	63	52	Additional gadgets		OH,RS	Campsite	You are to inspect the scouts additional gadgets. A point is to be awarded for up to three additional gadgets. Another point is to be awarded for the functionality of each of these gadgets if they are suitable for the campsite and are not proving to be hazourdoues.	TRUE
+111	2	11:00	12:00	63	53	Tents construction		JC,SH	Campsite	You are to inspect that the scouts tents are pitched correctly, Pegged into the ground and have tight guylines 	TRUE
+112	2	11:00	12:00	63	54	Layout and theming		JR,JaW	Campsite	You are to inspect the patrols campsite layout, they should explain why everything was places where it was. Their campsite should be well thought out with all of the gadgets in a suitable place that creates a good flow throughout their campsite. you should then inspect that the campsites have some themed elements to them, possibly though a notice board, a flag or anythign else the patrol has layed out.	TRUE
+113	2	12:00	12:10	64	-1	PL's Briefing	Upper Field	TV,LS			TRUE
+114	2	12:10	13:10	65	-1	Capsite Deconsturcution and lunch		All			TRUE
+115	2	13:10	13:40	66	66	Campsite inspection		JaW,AF	Campsite	Inspect the scouts campsites to see that their areas are clean of litter and left in a correct state	TRUE
+116	2	13:40	14:00	67	-1	Mark Check	Upper Field	TV, LS			TRUE
+117	2	14:00	16:00	68	-1	Traffic Control		CC, CS, JaW, OH			TRUE
+118	2	14:00	14:30	69	-1	Point Totaling	HQ	DL,TB,TV,LS			TRUE
+119	2	14:40	15:00	70	-1	Closing Parade	Parade	All			TRUE
+120	2	15:00	16:00	71	-1	Staff Clean up		All			FALSE
+121	2	16:00	16:30	72	-1	Stafff thanks	HQ	All			FALSE
+122	2	16:30	17:30	73	-1	Driving		All			FALSE

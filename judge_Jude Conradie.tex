@@ -1,0 +1,1088 @@
+\documentclass[10pt, A5]{article}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage[margin=0.75in]{geometry}
+
+\usepackage[acronym]{glossaries}
+
+\usepackage[final]{pdfpages}
+
+\usepackage{setspace}
+
+\usepackage{hyperref}
+
+\usepackage{xstring}
+\usepackage{filecontents}
+
+\usepackage[%
+style=authoryear-comp,%
+maxcitenames=2, %
+maxbibnames=8, %
+mergedate=compact, %
+uniquename=false, %
+giveninits=true,%
+url=false,%
+doi=false,%
+isbn=false%
+]{biblatex}
+
+
+\usepackage{xpatch}
+
+
+\usepackage{booktabs}
+
+\usepackage{amsmath}
+
+\usepackage{array}
+
+
+\usepackage{listings}
+\usepackage[breakable]{tcolorbox}
+\tcbuselibrary{listings}
+
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{fancyvrb}
+\usepackage{calc}
+\usepackage{enumitem}
+
+\usepackage{fontawesome5}
+
+
+% \definecolor{codegray}{gray}{0.9}
+% \newcommand{\code}[1]{\colorbox{codegray}{\texttt{#1}}}
+\newcommand{\code}[1]{\texttt{#1}}
+
+%\setstretch{1.1}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\renewcommand{\headrulewidth}{0pt}
+
+\lfoot{}
+
+\rfoot{}
+
+\cfoot{\includegraphics[width=\paperwidth]{rope.png}}
+
+
+\usepackage{caption}
+\usepackage{framed}
+
+\setlength{\parindent}{0pt}
+\usepackage{xcolor}
+\usepackage{layouts}
+\usepackage[ddmmyyyy,hhmmss]{datetime}
+
+
+\hypersetup{
+	pdftitle="Judge Handout",
+	pdfauthor="Daniel Le Jeune"
+}
+
+\definecolor{grey}{HTML}{969696}
+
+
+\newcommand{\newtitle}[1]{\begin{center}{\Huge\bfseries #1 }\\ \vspace{5mm}\end{center}}
+\newcommand{\newsubtitle}[1]{\begin{center}{\color{grey}\Large\bfseries #1 }\\ \vspace{5mm}\end{center}}
+
+
+
+\usepackage{fontspec}
+
+
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Verdana}
+
+\begin{document}
+
+
+
+		\newtitle{Jude Conradie}
+	\newsubtitle{}
+
+
+
+    
+	
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{13}
+							\section{Staff briefing}
+						
+			\subsection*{08:50-09:20 | Saturday | HQ}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							All
+
+					\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{14}
+							\section{Final organisation}
+						
+			\subsection*{09:20-09:50 | Saturday | }
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							All
+
+					\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			Register, staff tents, name tags.
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{17}
+							\section{Regestration}
+						
+			\subsection*{10:20-11:20 | Saturday | House}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							
+
+				\begin{multicols}{2}
+
+			\begin{itemize}
+											\item James Webb
+											\item Melissa Rijs
+											\item Philip Brink
+								\end{itemize}
+
+			\vfill\null
+			\columnbreak
+
+			\begin{itemize}
+											\item Philip Brink
+								\end{itemize}
+
+			\vfill\null
+
+			\end{multicols}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{22}
+							\section{Opening Parade}
+						
+			\subsection*{11:30-11:50 | Saturday | Parade}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							All
+
+					\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{24}
+							\section{Staff Lunch}
+						
+			\subsection*{12:00-12:30 | Saturday | HQ}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							All
+
+					\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{27}
+							\section{Bases 1}
+						
+			\subsection*{13:00-14:00 | Saturday | }
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							
+
+				\begin{multicols}{2}
+
+			\begin{itemize}
+											\item Aaron Filmalter
+											\item Aidan Smith
+											\item Caleb Serafin
+											\item Daniel Le Jeune
+											\item Daniel Lugt
+											\item David Knight
+											\item Holly Raine
+											\item John Roux
+											\item Jonathan Webb
+								\end{itemize}
+
+			\vfill\null
+			\columnbreak
+
+			\begin{itemize}
+											\item Jonathan Webb
+											\item Melissa Rijs
+											\item Oiver Hewson
+											\item Philip Brink
+											\item Robbie Schriber
+											\item Sebastian Haug
+											\item Susan Gammon
+								\end{itemize}
+
+			\vfill\null
+
+			\end{multicols}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{32}
+							\section{\faStar \: Base 5 \faStar \: Ground to air signals}
+						
+			\subsection*{13:00-13:30 | Saturday | }
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							
+
+				\begin{multicols}{2}
+
+			\begin{itemize}
+											\item David Knight
+								\end{itemize}
+
+			\vfill\null
+			\columnbreak
+
+			\begin{itemize}
+								\end{itemize}
+
+			\vfill\null
+
+			\end{multicols}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			Scouter must remake the ground to air signals on the sheet on the ground for the scouts to identify. Scouts should answer each of the questions on the handout by identifying what each of the physically made signs represents and constucting The ground to air signal that represents the phrase.
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{43}
+							\section{\faStar \: Base 16 \faStar \: Emergency numbers}
+						
+			\subsection*{13:30-14:00 | Saturday | }
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							
+
+				\begin{multicols}{2}
+
+			\begin{itemize}
+											\item David Knight
+								\end{itemize}
+
+			\vfill\null
+			\columnbreak
+
+			\begin{itemize}
+								\end{itemize}
+
+			\vfill\null
+
+			\end{multicols}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			Scout must give the numbers for three emergency services
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{44}
+							\section{Staff brief}
+						
+			\subsection*{14:00-14:20 | Saturday | HQ}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							All
+
+					\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{50}
+							\section{\faStar \: Base 21 \faStar \: Kims game}
+						
+			\subsection*{14:20-15:20 | Saturday | }
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							
+
+				\begin{multicols}{2}
+
+			\begin{itemize}
+											\item David Knight
+								\end{itemize}
+
+			\vfill\null
+			\columnbreak
+
+			\begin{itemize}
+								\end{itemize}
+
+			\vfill\null
+
+			\end{multicols}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			Scouts are to play kim's game. the 30 items should be layed out and placed underneath a towel. The towel should be removed and the scouts should be able to look at the items for 30 seconds before being covered again. the scouts should then list as many of the items as they can remeber.  this will then be repeated a second time and they will re list, the attempt with the most items listed is scored 
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{53}
+							\section{Staff Brief}
+						
+			\subsection*{15:20-15:50 | Saturday | HQ}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							All
+
+					\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{54}
+							\section{Bases 3}
+						
+			\subsection*{15:50-16:50 | Saturday | }
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							
+
+				\begin{multicols}{2}
+
+			\begin{itemize}
+											\item Aaron Filmalter
+											\item Aidan Smith
+											\item Caleb Serafin
+											\item Daniel Le Jeune
+											\item Daniel Lugt
+											\item David Knight
+											\item John Roux
+											\item Jonathan Webb
+											\item Melissa Rijs
+								\end{itemize}
+
+			\vfill\null
+			\columnbreak
+
+			\begin{itemize}
+											\item Melissa Rijs
+											\item Oiver Hewson
+											\item Olivia Steenkamp
+											\item Philip Brink
+											\item Robbie Schriber
+											\item Sebastian Haug
+											\item Susan Gammon
+								\end{itemize}
+
+			\vfill\null
+
+			\end{multicols}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{58}
+							\section{\faStar \: Base 26 \faStar \: Mapping}
+						
+			\subsection*{15:50-16:50 | Saturday | }
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							
+
+				\begin{multicols}{2}
+
+			\begin{itemize}
+											\item Daniel Le Jeune
+											\item David Knight
+								\end{itemize}
+
+			\vfill\null
+			\columnbreak
+
+			\begin{itemize}
+											\item David Knight
+								\end{itemize}
+
+			\vfill\null
+
+			\end{multicols}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			Scouts are being tested on their mapping ability. The question for each patrol member is on the handout sheet.
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{65}
+							\section{\faStar \: Base 30 \faStar \: Advanced knotting}
+						
+			\subsection*{18:00-18:20 | Saturday | }
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							
+
+				\begin{multicols}{2}
+
+			\begin{itemize}
+											\item Aaron Filmalter
+											\item Caleb Serafin
+											\item David Knight
+											\item Melissa Rijs
+								\end{itemize}
+
+			\vfill\null
+			\columnbreak
+
+			\begin{itemize}
+											\item Melissa Rijs
+											\item Philip Brink
+								\end{itemize}
+
+			\vfill\null
+
+			\end{multicols}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			Scouts to be tested on their scout laws and other scouting knowledge. Questions for each patrol member on the handout
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{71}
+							\section{Staff Dinner}
+						
+			\subsection*{19:30-20:00 | Saturday | }
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							All
+
+					\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{74}
+							\section{Night bases}
+						
+			\subsection*{20:30-22:00 | Saturday | }
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							All
+
+					\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{79}
+							\section{\faStar \: Base 37 \faStar \: Advanced Lashings}
+						
+			\subsection*{20:30-22:00 | Saturday | }
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							
+
+				\begin{multicols}{2}
+
+			\begin{itemize}
+											\item Caleb Serafin
+								\end{itemize}
+
+			\vfill\null
+			\columnbreak
+
+			\begin{itemize}
+								\end{itemize}
+
+			\vfill\null
+
+			\end{multicols}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			PL and APL are tested on their advanced lashing skills. Only one of the scouts has to tie the knot. if they don't know how to tie the lashings they can leave and learn them somewhere else before coming back to retry. List of lashings on the handout.
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{87}
+							\section{Staff debrief}
+						
+			\subsection*{22:30-23:00 | Saturday | HQ}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							All
+
+					\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{88}
+							\section{Lights out}
+						
+			\subsection*{00:00-06:00 | Sunday | }
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							All
+
+					\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{91}
+							\section{Breakfast and staff briefing}
+						
+			\subsection*{08:00-08:30 | Sunday | HQ}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							All
+
+					\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{103}
+							\section{\faStar \: Base 44 \faStar \: Whipings}
+						
+			\subsection*{10:40-10:50 | Sunday | }
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							
+
+				\begin{multicols}{2}
+
+			\begin{itemize}
+											\item David Knight
+								\end{itemize}
+
+			\vfill\null
+			\columnbreak
+
+			\begin{itemize}
+								\end{itemize}
+
+			\vfill\null
+
+			\end{multicols}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			Scouts should demonstrate a sailmakers and westcountry whipping on the ropes provided.
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{110}
+							\section{\faStar \: Base 53 \faStar \: Tents construction}
+						
+			\subsection*{11:00-12:00 | Sunday | }
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							
+
+				\begin{multicols}{2}
+
+			\begin{itemize}
+											\item Sebastian Haug
+								\end{itemize}
+
+			\vfill\null
+			\columnbreak
+
+			\begin{itemize}
+								\end{itemize}
+
+			\vfill\null
+
+			\end{multicols}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			You are to inspect that the scouts tents are pitched correctly, Pegged into the ground and have tight guylines 
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{113}
+							\section{Capsite Deconsturcution and lunch}
+						
+			\subsection*{12:10-13:10 | Sunday | }
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							All
+
+					\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+
+		\begin{framed}
+			\begin{minipage}{\textwidth}
+
+			\setcounter{section}{118}
+							\section{Closing Parade}
+						
+			\subsection*{14:40-15:00 | Sunday | Parade}
+
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+
+			\subsection*{Other Judges}
+							All
+
+					\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
+
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			
+			\end{minipage}
+
+
+	\end{minipage}
+	\end{framed}
+
+	
+	
+	
+
+	\clearpage
+
+
+
+
+
+
+
+\end{document}

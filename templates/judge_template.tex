@@ -110,134 +110,82 @@ isbn=false%
 	\newsubtitle{\VAR{judge.abbrv}}
 
 
-    % \BLOCK{for base in judge.printable_bases_iter()}
-    %     \section*{\VAR{base.start_time.strftime("%A %H:%M")}
-    %     -
-    %     \VAR{base.end_time.strftime("%H:%M") }
-    %     |
-    %      \VAR{base.base_name}}
-        
-    %     \BLOCK{if base.base_location != ""}
-    %         \subsection*{\VAR{base.base_location}}
-    %     \BLOCK{endif}
-    %     \BLOCK{if base.base_description != ""}
-    %         \VAR{base.base_description}
-    %     \BLOCK{endif}
-
-    %     \subsection*{Other Judges}
-    %     \BLOCK{if base.get_other_judges(judge).__len__() <= 12}
-
-    %         \begin{itemize}
-    %         \BLOCK{for judge in base.get_other_judges(judge)}
-    %             \item \VAR{judge.name}
-    %         \BLOCK{endfor}
-    %         \end{itemize}
-    %     \BLOCK{else}
-    %     All
-    %     \BLOCK{endif}
 
     \BLOCK{for base in judge.bases}
-    \begin{framed}
-        \begin{minipage}{\textwidth}
 
-        \setcounter{section}{\VAR{base.external_id-1}}
-        \section{\VAR{base.base_name}}
-        \subsection*{\VAR{base.start_time.strftime("%H:%M")}-\VAR{base.end_time.strftime("%H:%M") } | \VAR{base.start_time.strftime("%A")} | \VAR{base.base_location}}
-
-        \vspace{0.25cm}
-        \hrule
-        \vspace{0.25cm}
+	\BLOCK{if base.print_staff_doc}
 
 
-        \subsection*{Other Judges}
-        \BLOCK{if base.get_judge_code()== 800}
-            All
+		\begin{framed}
+			\begin{minipage}{\textwidth}
 
-            \BLOCK{elif base.get_other_judges(judge).__len__() > 0}
-            
+			\setcounter{section}{\VAR{base.internal_id-1}}
+			\BLOCK{if base.external_id > 0}
+				\section{\faStar \: Base \VAR{base.external_id} \faStar \: \VAR{base.base_name}}
+			\BLOCK{else}
+				\section{\VAR{base.base_name}}
+			\BLOCK{endif}
+			
+			\subsection*{\VAR{base.start_time.strftime("%H:%M")}-\VAR{base.end_time.strftime("%H:%M") } | \VAR{base.start_time.strftime("%A")} | \VAR{base.base_location}}
 
-        	\begin{multicols}{2}
-
-		\begin{itemize}
-				\BLOCK{for judge in base.get_other_judges(judge)[0:(base.judges.__len__()//2)+1]}
-					\item \VAR{judge.name}
-				\BLOCK{endfor}
-		\end{itemize}
-
-		\vfill\null
-		\columnbreak
-
-		\begin{itemize}
-				\BLOCK{for judge in base.get_other_judges(judge)[base.judges.__len__()//2:base.judges.__len__()]}
-					\item \VAR{judge.name}
-				\BLOCK{endfor}
-		\end{itemize}
-
-		\vfill\null
-
-		\end{multicols}
-
-    \BLOCK{else}
-        \textit{None}
-
-            \BLOCK{endif}
-\vspace{0.25cm}
-        \hrule
-        \vspace{0.25cm}
-
-        \begin{multicols}{2}
-
-		\section*{\faWrench \: Equipment}
-
-		\BLOCK{if base.get_equipment("Staff").__len__() > 0}
-
-	\begin{center}
-			\begin{tabular}{p{2cm}p{4cm}}
+			\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
 
 
+			\subsection*{Other Judges}
+			\BLOCK{if base.get_other_judges(judge).__len__() > 16}
+				All
 
-				\textbf{QTY} & \textbf{Item} \\\toprule
-					\BLOCK{for equip in base.get_equipment("Staff")}
-							\VAR{equip.amount | int}&\VAR{equip.name}\\\midrule
+				\BLOCK{elif base.get_other_judges(judge).__len__() > 0}
+				
+
+				\begin{multicols}{2}
+
+			\begin{itemize}
+					\BLOCK{for judge in base.get_other_judges(judge)[0:(base.judges.__len__()//2)+1]}
+						\item \VAR{judge.name}
 					\BLOCK{endfor}
-			\end{tabular}
+			\end{itemize}
 
-			\end{center}
+			\vfill\null
+			\columnbreak
+
+			\begin{itemize}
+					\BLOCK{for judge in base.get_other_judges(judge)[base.judges.__len__()//2:base.judges.__len__()]}
+						\item \VAR{judge.name}
+					\BLOCK{endfor}
+			\end{itemize}
+
+			\vfill\null
+
+			\end{multicols}
 
 		\BLOCK{else}
-		\textit{None}
-		\BLOCK{endif}
+			\textit{None}
 
-		\vfill\null
-		\columnbreak
+				\BLOCK{endif}
+	\vspace{0.25cm}
+			\hrule
+			\vspace{0.25cm}
 
-			\section*{\faFile \: Docs}
-		 \BLOCK{if base.get_documents().__len__() > 0}
-	\begin{center}
-			\begin{tabular}{p{2cm}p{4cm}}
-
-			\textbf{QTY} & \textbf{Doc} \\\toprule
-				\BLOCK{for doc in base.get_documents()}
-						\VAR{doc.amount | int}&\VAR{doc.name}\\\midrule
-				\BLOCK{endfor}
-			\end{tabular}
-			\end{center}
-	\BLOCK{elif base.get_documents().__len__() == 0}
-	\textit{None}
-	\BLOCK{endif}
+			\begin{minipage}{\textwidth}
+			\subsection*{\faListAlt \: Description}
+			\VAR{base.base_staff_description}
+			\end{minipage}
 
 
-		\vfill\null
-
-		\end{multicols}
-\end{minipage}
-\end{framed}
-    \BLOCK{endfor}
+	\end{minipage}
+	\end{framed}
+\BLOCK{endif}
+\BLOCK{endfor}
 
 
 	\clearpage
 
-	\BLOCK{endfor}
+\BLOCK{endfor}
+
+
 
 
 

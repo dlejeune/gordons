@@ -1,0 +1,75 @@
+
+    % \BLOCK{for base in judge.printable_bases_iter()}
+    %     \section*{\VAR{base.start_time.strftime("%A %H:%M")}
+    %     -
+    %     \VAR{base.end_time.strftime("%H:%M") }
+    %     |
+    %      \VAR{base.base_name}}
+        
+    %     \BLOCK{if base.base_location != ""}
+    %         \subsection*{\VAR{base.base_location}}
+    %     \BLOCK{endif}
+    %     \BLOCK{if base.base_description != ""}
+    %         \VAR{base.base_description}
+    %     \BLOCK{endif}
+
+    %     \subsection*{Other Judges}
+    %     \BLOCK{if base.get_other_judges(judge).__len__() <= 12}
+
+    %         \begin{itemize}
+    %         \BLOCK{for judge in base.get_other_judges(judge)}
+    %             \item \VAR{judge.name}
+    %         \BLOCK{endfor}
+    %         \end{itemize}
+    %     \BLOCK{else}
+    %     All
+    %     \BLOCK{endif}
+
+
+
+
+    		% 	\begin{multicols}{2}
+
+		% 	\section*{\faWrench \: Equipment}
+
+		% 	\BLOCK{if base.get_equipment("Staff").__len__() > 0}
+
+		% \begin{center}
+		% 		\begin{tabular}{p{2cm}p{4cm}}
+
+
+
+		% 			\textbf{QTY} & \textbf{Item} \\\toprule
+		% 				\BLOCK{for equip in base.get_equipment("Staff")}
+		% 						\VAR{equip.amount | int}&\VAR{equip.name}\\\midrule
+		% 				\BLOCK{endfor}
+		% 		\end{tabular}
+
+		% 		\end{center}
+
+		% 	\BLOCK{else}
+		% 	\textit{None}
+		% 	\BLOCK{endif}
+
+		% 	\vfill\null
+		% 	\columnbreak
+
+		% 		\section*{\faFile \: Docs}
+		% 	\BLOCK{if base.get_documents().__len__() > 0}
+		% \begin{center}
+		% 		\begin{tabular}{p{2cm}p{4cm}}
+
+		% 		\textbf{QTY} & \textbf{Doc} \\\toprule
+		% 			\BLOCK{for doc in base.get_documents()}
+		% 					\VAR{doc.amount | int}&\VAR{doc.name}\\\midrule
+		% 			\BLOCK{endfor}
+		% 		\end{tabular}
+		% 		\end{center}
+		% \BLOCK{elif base.get_documents().__len__() == 0}
+		% \textit{None}
+		% \BLOCK{endif}
+
+
+		% 	\vfill\null
+
+		% 	\end{multicols}

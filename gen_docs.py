@@ -67,7 +67,7 @@ def generate_judge_docs(judges):
     template = latex_jinja_env.get_template('judge_template.tex')
     latex_jinja_env.globals.update(sanitize=latex_sanitize)
 
-    specific_judges = [13, 16, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54]
+    specific_judges = [i for i in range(1, 25)]
 
     for judge in judges:
 
@@ -79,7 +79,7 @@ def generate_judge_docs(judges):
             with open(filename, "w") as fh:
                 fh.write(template.render(judges=new_judges))
 
-            subprocess.run(["xelatex", filename, "--output-directory", "tmp/"], shell=True)
+            subprocess.run(["xelatex", filename, "--output-directory", "tmp/", "-interaction=nonstopmode"], shell=True)
 
 def load_bases(file):
     with open(file) as fh:

@@ -214,7 +214,7 @@ class Judge:
                 "is_special": self.is_special,
                 "abbreviation": self.abbreviation,
                 "judge_type": self.judge_type,
-                "bases": [base.base_id for base in self.bases]}
+                "bases": [base.internal_id for base in self.bases]}
 
     def __gt__(self, other):
         return self.name > other.name
@@ -574,7 +574,7 @@ def load_full_schedule_from_json(base_file, judge_file):
     for judge in judge_json:
         gordons.add_judge(Judge(judge["judge_id"],
                             judge["name"],
-                            judge["abbrevuation"]
+                            judge["abbreviation"],
                             judge["competence"]))
 
 

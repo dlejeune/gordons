@@ -19,7 +19,7 @@ class Judges:
     
     def update_lookups(self):
         self.judge_id_lookup = {judge.judge_id: judge for judge in self.judge_array}
-        self.judge_abbrv_lookup = {judge.abbrv: judge for judge in self.judge_array}
+        self.judge_abbrv_lookup = {judge.abbreviation: judge for judge in self.judge_array}
 
     
     def get_judge_by_id(self, judge_id):
@@ -45,7 +45,13 @@ class Judges:
             judges = Judges()
 
             for row in judge_reader:
-                judge = Judge(int(row["judge_id"]), row["name"].strip(), 0, row["abbrv"].strip(), row["type"].strip())
+                judge = Judge(
+                    judge_id=int(row["judge_id"]), 
+                    name = row["name"].strip(),
+                     competence= 0, 
+                     is_special=False,
+                     abbreviation=row["abbrv"].strip(), 
+                     judge_type=row["type"].strip())
                 judges.add(judge)
 
             judges.update_lookups()
@@ -79,15 +85,17 @@ def load_ds_schedule(file, judges=None):
 
             print_base = row["print_staff_doc"].strip().lower() == "true"
 
-            new_base = Base(int(row["event_id"]),
-                           start_time,
-                           end_time,
-                           0,
-                           row["name"],
+            new_base = Base(
+                            internal_base_id=int(row["event_id"]),
+                            external_base_id=int(row["test_id"]),
+                            start_time=start_time,
+                           end_time=end_time,
+                           num_judges=0,
+                           base_staff_description=row["description"],
+                           base_name=row["name"],
                            base_location=row["location"],
                            print_staff_doc=print_base,
                            marks = 0,
-                           base_description = row["description"],
                            test_id = int(row["test_id"]) if int(row["test_id"]) > 0 else None)
             
             if judges:
@@ -95,12 +103,17 @@ def load_ds_schedule(file, judges=None):
 
                 if len(row["judges"]) > 0 and "/" not in row["judges"]:
                     for judge_abbrv in row["judges"].split(","):
-                        judge = judges.get_judge_by_abbrv(judge_abbrv.strip())
-                        if judge:
-                            this_base_judge_list.append(judge)
-                            judge.bases.append(new_base)
+                        if judge_abbrv.strip() == "All":
+                            for judge in judges:
+                                this_base_judge_list.append(judge)
+                                judge.bases.append(new_base)
                         else:
-                            print(f"No judge definition for {judge_abbrv} found in judges file. Skipping.")
+                            judge = judges.get_judge_by_abbrv(judge_abbrv.strip())
+                            if judge:
+                                this_base_judge_list.append(judge)
+                                judge.bases.append(new_base)
+                            else:
+                                print(f"No judge definition for {judge_abbrv} found in judges file. Skipping.")
                 
                     new_base.judges = this_base_judge_list                
                 
@@ -131,16 +144,20 @@ if __name__ == "__main__":
     doc_shield.judges_to_json("temp_ds_judges.json")
 
 
-    # with open("nigel_bases.csv", "w") as nfh:
-    #     for base in bases:
-    #         for judge in base.judges:
-    #             nfh.write(f"{base.test_id},{judge.judge_id}\n")
+    with open("nigel_bases.csv", "w") as nfh:
+        for base in bases:
+            for judge in base.judges:
+                if not base.test_id:
+                    print(f"Base {base.internal_id} has no test ID. Skipping.")
+                else:
+                    sanitized_base_id = str(base.test_id).rjust(2, "0")
+                    nfh.write(f"{sanitized_base_id},{judge.judge_id}\n")
 
     daniel = judges.get_judge_by_abbrv("DL")
     tabl_output = []
 
     for base in daniel.printable_bases_iter():
-        tabl_output.append([base.base_id, base.start_time, base.end_time, base.base_location, base.base_name, base.test_id])
+        tabl_output.append([base.internal_id, base.start_time, base.end_time, base.base_location, base.base_name, base.test_id])
     print(tabulate.tabulate(tabl_output, headers=["ID", "Start Time", "End Time", "Location", "Name", "Test ID"], tablefmt="pipe"))
     # table_output = []
     # for base in bases:
